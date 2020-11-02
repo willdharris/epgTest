@@ -1,5 +1,5 @@
 console.log(`EXPORTING MODULE`);
-// import { pingAPI } from "./load.js";
+ import { currToken } from "./load.js";
 
 // const apiCheck = pingAPI();
 // console.log(apiCheck);
@@ -59,7 +59,7 @@ export default class Schedule {
         body: JSON.stringify(stationData),
         headers: {
           "Content-Type": "application/json",
-          "token": JSON.stringify(jrrToken),
+          "token": JSON.stringify(currToken),
         },
         redirect: "follow",
       };
@@ -117,7 +117,7 @@ export default class Schedule {
         body: JSON.stringify(data),
         headers: {
           "Content-Type": "application/json",
-          "token": JSON.stringify(jrrToken),
+          "token": JSON.stringify(currToken),
         },
         redirect: "follow",
       };

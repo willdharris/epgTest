@@ -1,6 +1,6 @@
 import Schedule from "./schedules.js";
 
-let currToken = "05c4bf7ad886a9380ce2196d061e4915";
+export let currToken = "05c4bf7ad886a9380ce2196d061e4915";
 
 //check api status with currToken
 async function pingAPI() {  
