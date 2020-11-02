@@ -1,11 +1,12 @@
 import Schedule from "./schedules.js";
 
+
 const stuff = {
   username: "unclebillepg",
   password: "526D1A95E3B6B19651774D1F90A68C32D758858F",
 };
 let currToken = "05c4bf7ad886a9380ce2196d061e4915";
-console.log(currToken);
+// console.log(currToken);
 
 //check api status with currToken
 
@@ -27,6 +28,7 @@ async function pingAPI() {
   if (statusReturn.code === 0) {
     console.log(`Everything looks good. Keep on truckin!`)  
     // run everything
+    
     const disc = new Schedule("disc", "56905");
     const ahc = new Schedule("ahc", "18284");
     const apl = new Schedule("apl", "57394");
@@ -64,6 +66,7 @@ async function pingAPI() {
     ];
     chanArr.forEach(function (e) {
       e.getSchedule();
+      console.log(`Getting Schedules`);
     });
 
   } else if (statusReturn.code === 4003){
