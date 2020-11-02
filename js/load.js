@@ -42,7 +42,7 @@ async function pingAPI() {
     let chanArr = [
       disc,
       ahc,
-      apl,
+      apl
       // dam,
       // dfc,
       // idd,
