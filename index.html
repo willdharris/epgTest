@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>What's On&quest;</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- <script src="js/load.js"></script> -->
+    <script type="module" defer src="js/load.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b35b7c5862.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><a href="#">What&apos;s on Discovery&quest;</a></div>
+      <nav>
+        <ul class="nav__links">
+          <!-- <li><a href="#">Home</a></li> -->
+          <li><a href="#disc">Discovery</a></li>
+          <li><a href="#scripps">Scripps</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="open">
+        <div class="open-container">
+          <div class="open-text">
+            <h1 id="headline">What&apos;s on Discovery&quest;</h1>
+            <h4>
+              See what amazing shows are airing on the Discovery family of
+              networks tonight!
+            </h4>
+            <!--  -->
+            <div class="btn-row">
+              <!-- <div class="btn-disc"> 
+                            <a href="#disc" class="btn">Discovery</a>
+                        </div>
+                        <div class="btn-scripps">
+                            <a href="#scripps" class="btn">Scripps</a>
+                        <!-- </div>  -->
+
+              <a href="#disc" class="btn">Discovery</a>
+
+              <a href="#scripps" class="btn">Scripps</a>
+            </div>
+          </div>
+          <!-- <div class="open-images">
+                    <img src="resources/img/sharkweek.png" alt="Shark Week Image" id="shark">
+                    <img src="resources/img/chip_jo.png" alt="Picture of Chip and Joanna from Fixer Upper" id="chipjo">
+                </div> -->
+          <div></div>
+        </div>
+      </section>
+      <section class="disc_section">
+        <h2 id="disc">Discovery Networks</h2>
+        <div class="disc-networks">
+          <div class="blocker" onclick="hidePopup()"></div>
+          <div class="popup">
+            <div class="contents">
+              <i class="far fa-times-circle" onclick="hidePopup()"></i>
+              <h4 class="chan-title-pop" id="big--wrap--title"></h4>
+              <div
+                class="bigwrapper"
+                id="disc--popup"
+                style="display: none"
+              ></div>
+              <div
+                class="bigwrapper"
+                id="ahc--popup"
+                style="display: none"
+              ></div>
+              <div
+                class="bigwrapper"
+                id="apl--popup"
+                style="display: none"
+              ></div>
+              <div
+                class="bigwrapper"
+                id="dam--popup"
+                style="display: none"
+              ></div>
+              <div
+                class="bigwrapper"
+                id="dfc--popup"
+                style="display: none"
+              ></div>
+              <div
+                class="bigwrapper"
+                id="idd--popup"
+                style="display: none"
+              ></div>
+              <div
+                class="bigwrapper"
+                id="mtd--popup"
+                style="display: none"
+              ></div>
+              <div
+                class="bigwrapper"
+                id="own--popup"
+                style="display: none"
+              ></div>
+              <div
+                class="bigwrapper"
+                id="tlc--popup"
+                style="display: none"
+              ></div>
+              <div
+                class="bigwrapper"
+                id="des--popup"
+                style="display: none"
+              ></div>
+              <div
+                class="bigwrapper"
+                id="dsf--popup"
+                style="display: none"
+              ></div>
+              <div
+                class="bigwrapper"
+                id="hgtv--popup"
+                style="display: none"
+              ></div>
+              <div
+                class="bigwrapper"
+                id="cook--popup"
+                style="display: none"
+              ></div>
+              <div
+                class="bigwrapper"
+                id="diy--popup"
+                style="display: none"
+              ></div>
+              <div
+                class="bigwrapper"
+                id="food--popup"
+                style="display: none"
+              ></div>
+              <div
+                class="bigwrapper"
+                id="trav--popup"
+                style="display: none"
+              ></div>
+
+              <!-- <div class="cell one time">8:00pm</div> -->
+              <!-- <div class="cell two"><p class="series">Gold Rush</p><p class="episode">SF Valley</p> <p class="tmsid">EP010951270234</p></div>
+                                    <div class="cell three time">9:00pm</div>
+                                    <div class="cell four"><p class="series">Alaskan Bush People</p><p class="episode">Bear Attack</div>
+                                    <div class="cell five time">10:00pm</div>
+                                    <div class="cell six"><p class="series">Dodge Ball </p><p class="episode">Red Ball - Season 21 Ep 7</p><p class="tmsid">EP0012345678</p></div>  
+                                    <div class="cell one time">8:00pm</div>
+                                    <div class="cell two"><p class="series">Gold Rush</p><p class="episode">SF Valley</div>
+                                    <div class="cell three time">9:00pm</div>
+                                    <div class="cell four"><p class="series">Alaskan Bush People</p><p class="episode">Bear Attack</div>
+                                    <div class="cell five time">10:00pm</div>
+                                    <div class="cell six"><p class="series">Dodge Ball</p><p class="episode">Red Ball</div>   -->
+            </div>
+          </div>
+
+          <!-- <div class="cell one time">8:00pm</div>
+                                <div class="cell two"><p class="series">Gold Rush</p><p class="episode">SF Valley</div>
+                                <div class="cell three time">9:00pm</div>
+                                <div class="cell four"><p class="series">Alaskan Bush People</p><p class="episode">Bear Attack</div>
+                                <div class="cell five time">10:00pm</div>
+                                <div class="cell six"><p class="series">Dodge Ball</p><p class="episode">Red Ball</div>    -->
+          <div class="channel dsc">
+            <div class="chan-header">
+              <h3 class="chan-title">Discovery Channel</h3>
+              <i
+                class="fas fa-expand-alt"
+                id="disc--btn"
+                onclick="showPopup(this.id)"
+              ></i>
+            </div>
+            <!-- <button onclick="showPopup()">Open Popup</button>   -->
+
+            <div class="wrapper" id="disc--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+
+              <!-- <div class="cell one time">8:00pm</div>
+                                <div class="cell two"><p class="series">Gold Rush</p><p class="episode">SF Valley</div>
+                                <div class="cell three time">9:00pm</div>
+                                <div class="cell four"><p class="series">Alaskan Bush People</p><p class="episode">Bear Attack</div>
+                                <div class="cell five time">10:00pm</div>
+                                <div class="cell six"><p class="series">Dodge Ball</p><p class="episode">Red Ball</div> -->
+            </div>
+          </div>
+          <!-- <div class="time"><p>7:00pm</p></div>
+                            <div class="series"><p>Fixer Upper</p></div>
+                            <div class="episode"><p></p>Hudson House</p></div> -->
+          <div class="channel ahc">
+            <div class="chan-header">
+              <h3 class="chan-title">American Heroes</h3>
+              <i
+                class="fas fa-expand-alt"
+                id="ahc--btn"
+                onclick="showPopup(this.id)"
+              ></i>
+            </div>
+            <div class="wrapper" id="ahc--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel apl">
+            <div class="chan-header">
+              <h3 class="chan-title">Animal Planet</h3>
+              <i
+                class="fas fa-expand-alt"
+                id="apl--btn"
+                onclick="showPopup(this.id)"
+              ></i>
+            </div>
+            <div class="wrapper" id="apl--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel dam">
+            <div class="chan-header">
+              <h3 class="chan-title">Destination America</h3>
+              <i
+                class="fas fa-expand-alt"
+                id="dam--btn"
+                onclick="showPopup(this.id)"
+              ></i>
+            </div>
+            <div class="wrapper" id="dam--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel dfc">
+            <div class="chan-header">
+              <h3 class="chan-title">Discovery Family</h3>
+              <i
+                class="fas fa-expand-alt"
+                id="dfc--btn"
+                onclick="showPopup(this.id)"
+              ></i>
+            </div>
+            <div class="wrapper" id="dfc--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel idd">
+            <div class="chan-header">
+              <h3 class="chan-title">Investigation Discovery</h3>
+              <i
+                class="fas fa-expand-alt"
+                id="idd--btn"
+                onclick="showPopup(this.id)"
+              ></i>
+            </div>
+            <div class="wrapper" id="idd--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel mtd">
+            <div class="chan-header">
+              <h3 class="chan-title">MotorTrend</h3>
+              <i
+                class="fas fa-expand-alt"
+                id="mtd--btn"
+                onclick="showPopup(this.id)"
+              ></i>
+            </div>
+            <div class="wrapper" id="mtd--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel own">
+            <div class="chan-header">
+              <h3 class="chan-title">OWN</h3>
+              <i
+                class="fas fa-expand-alt"
+                id="own--btn"
+                onclick="showPopup(this.id)"
+              ></i>
+            </div>
+            <div class="wrapper" id="own--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel tlc">
+            <div class="chan-header">
+              <h3 class="chan-title">TLC</h3>
+              <i
+                class="fas fa-expand-alt"
+                id="tlc--btn"
+                onclick="showPopup(this.id)"
+              ></i>
+            </div>
+            <div class="wrapper" id="tlc--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel des">
+            <div class="chan-header">
+              <h3 class="chan-title">Discovery Espanol</h3>
+              <i
+                class="fas fa-expand-alt"
+                id="des--btn"
+                onclick="showPopup(this.id)"
+              ></i>
+            </div>
+            <div class="wrapper" id="des--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel dsf">
+            <div class="chan-header">
+              <h3 class="chan-title">Discovery Familia</h3>
+              <i
+                class="fas fa-expand-alt"
+                id="dsf--btn"
+                onclick="showPopup(this.id)"
+              ></i>
+            </div>
+            <div class="wrapper" id="dsf--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="scripps_section">
+        <h2 id="scripps">Scripps Networks</h2>
+        <div class="scripps-networks">
+          <div class="channel hgtv">
+            <div class="chan-header">
+              <h3 class="chan-title">HGTV</h3>
+              <i
+                class="fas fa-expand-alt"
+                id="hgtv--btn"
+                onclick="showPopup(this.id)"
+              ></i>
+            </div>
+            <div class="wrapper" id="hgtv--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel cook">
+            <div class="chan-header">
+              <h3 class="chan-title">Cooking Channel</h3>
+              <i
+                class="fas fa-expand-alt"
+                id="cook--btn"
+                onclick="showPopup(this.id)"
+              ></i>
+            </div>
+            <div class="wrapper" id="cook--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel diy">
+            <div class="chan-header">
+              <h3 class="chan-title">DIY Network</h3>
+              <i
+                class="fas fa-expand-alt"
+                id="diy--btn"
+                onclick="showPopup(this.id)"
+              ></i>
+            </div>
+            <div class="wrapper" id="diy--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel food">
+            <div class="chan-header">
+              <h3 class="chan-title">Food Network</h3>
+              <i
+                class="fas fa-expand-alt"
+                id="food--btn"
+                onclick="showPopup(this.id)"
+              ></i>
+            </div>
+            <div class="wrapper" id="food--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel trav">
+            <div class="chan-header">
+              <h3 class="chan-title">Travel Channel</h3>
+              <i
+                class="fas fa-expand-alt"
+                id="trav--btn"
+                onclick="showPopup(this.id)"
+              ></i>
+            </div>
+            <div class="wrapper" id="trav--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="epg-test">
+        <div class="wrapper">
+          <!-- <div class="cell time"><p></p></div>
+                <div class="cell title"><p class="series">Fixer Upper</p><p class="episode">Hudson House</div>                
+                <div class="cell time">9:00pm</div>
+                <div class="cell date"><p class="date">Tue, 09/15/2020</p><p</div>
+                <div class="cell title"><p class="series">Home Town</p><p class="episode">Mississippi Dream</div>
+                <div class="cell time">10:00pm</div>
+                <div class="cell title"><p class="series">Good Bones</p><p class="episode">Eye Sore No More</div>
+                <div class="cell time">10:00pm</div>
+                <div class="cell title"><p class="series">Good Bones</p><p class="episode">Eye Sore No More</div>
+                <div class="cell time">10:00pm</div>
+                <div class="cell title"><p class="series">Good Bones</p><p class="episode">Eye Sore No More</div> -->
+        </div>
+      </section>
+
+      <section class="ending" id="the--end">
+        <div>
+          <!-- <div class="loader">
+                    <svg>
+                        <use href ="resources/css/img/loading.svg#icon-cw" ></use> 
+                    </svg> 
+                </div> -->
+        </div>
+      </section>
+
+      <!-- <table data-table-list id="epg_table" class="epg_table">
+                <caption></caption>
+                    <thead>
+                    <tr>
+                        <!-- <th>Species</th>
+                        <th>Diameter Meters</th>
+                        <th>Diameter Feet</th>
+                        <th>Tree Name</th> 
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td rowspan="2">7:00pm</td>
+                        <td colspan="3">Fixer Upper</td>
+                        <td colspan="3">Hudson House</td>
+                    </tr>
+                    <tr>
+                        <td>8:00pm</td>
+                        <td>10.64</td>
+                        <td>34.9</td>
+                        <td>Sunland Baobab</td>
+                    </tr>
+                    <tr>
+                        <td>9:00pm</td>
+                        <td>8.9</td>
+                        <td>29.2</td>
+                        <td>Jupiter</td>
+                    </tr>
+                    <tr>
+                        <td>10:00pm</td>
+                        <td>8.85</td>
+                        <td>29.0</td>
+                        <td>General Grant</td>
+                    </tr>
+                    </tbody>
+                    <!-- <tfoot>
+                    <tr>
+                        <td>Average Diameter</td>
+                        <td>10.0</td>
+                        <td>32.8</td>
+                    </tr>
+                    </tfoot>
+            </table> -->
+    </main>
+
+    <script src="js/bigGrid.js"></script>
+  </body>
+</html>
