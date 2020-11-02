@@ -14,6 +14,7 @@ export default class Schedule {
 
   /** GET SCHEDULE */
   async getSchedule() {
+    console.log(`in the schedules script now`);
     try {
       /** DATES ***/
       //TODAY//
