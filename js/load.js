@@ -1,15 +1,8 @@
 import Schedule from "./schedules.js";
 
-
-const stuff = {
-  username: "unclebillepg",
-  password: "526D1A95E3B6B19651774D1F90A68C32D758858F",
-};
 let currToken = "05c4bf7ad886a9380ce2196d061e4915";
-// console.log(currToken);
 
 //check api status with currToken
-
 async function pingAPI() {  
   const getInfo = {
     method: "GET",        
@@ -65,7 +58,7 @@ async function pingAPI() {
       // trav,
     ];
     chanArr.forEach(function (e) {
-      e.getSchedule();
+      e.Schedule.getSchedule();
       console.log(`Getting Schedules`);
     });
 
