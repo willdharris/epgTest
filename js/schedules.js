@@ -49,7 +49,7 @@ export default class Schedule {
       const stationData = [
         {
           stationID: `${this.stationID}`,
-          date: [today, tomorrow, todayPlusTwo],
+          date: [today, tomorrow, todayPlusTwo, todayPlusThree],
         },
       ];
       // let token = 'abcde12345'
