@@ -27,9 +27,9 @@ async function pingAPI() {
   if (statusReturn.code === 0) {
     console.log(`Everything looks good. Keep on truckin!`)  
     // run everything
-    // const disc = new Schedule("disc", "56905");
-    // const ahc = new Schedule("ahc", "18284");
-    // const apl = new Schedule("apl", "57394");
+    const disc = new Schedule("disc", "56905");
+    const ahc = new Schedule("ahc", "18284");
+    const apl = new Schedule("apl", "57394");
     // const dam = new Schedule("dam", "60468");
     // const dfc = new Schedule("dfc", "16618");
     // const idd = new Schedule("idd", "16615");
@@ -44,27 +44,27 @@ async function pingAPI() {
     // const food = new Schedule("food", "50747");
     // const trav = new Schedule("trav", "59303");
 
-    // let chanArr = [
-    //   disc,
-    //   ahc,
-    //   apl,
-    //   dam,
-    //   dfc,
-    //   idd,
-    //   mtd,
-    //   own,
-    //   tlc,
-    //   des,
-    //   dsf,
-    //   hgtv,
-    //   cook,
-    //   diy,
-    //   food,
-    //   trav,
-    // ];
-    // chanArr.forEach(function (e) {
-    //   e.getSchedule();
-    // });
+    let chanArr = [
+      disc,
+      ahc,
+      apl,
+      // dam,
+      // dfc,
+      // idd,
+      // mtd,
+      // own,
+      // tlc,
+      // des,
+      // dsf,
+      // hgtv,
+      // cook,
+      // diy,
+      // food,
+      // trav,
+    ];
+    chanArr.forEach(function (e) {
+      e.getSchedule();
+    });
 
   } else if (statusReturn.code === 4003){
     console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
