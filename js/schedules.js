@@ -59,7 +59,7 @@ export default class Schedule {
         body: JSON.stringify(stationData),
         headers: {
           "Content-Type": "application/json",
-          "token": JSON.stringify(currToken),
+          "token": currToken,
         },
         redirect: "follow",
       };
@@ -117,7 +117,7 @@ export default class Schedule {
         body: JSON.stringify(data),
         headers: {
           "Content-Type": "application/json",
-          "token": JSON.stringify(currToken),
+          "token": currToken,
         },
         redirect: "follow",
       };
