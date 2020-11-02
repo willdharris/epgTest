@@ -1,4 +1,4 @@
-// console.log(`EXPORTING MODULE`);
+console.log(`EXPORTING MODULE`);
 // import { pingAPI } from "./load.js";
 
 // const apiCheck = pingAPI();

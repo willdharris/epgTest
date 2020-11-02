@@ -58,7 +58,7 @@ async function pingAPI() {
       // trav,
     ];
     chanArr.forEach(function (e) {
-      e.Schedule.getSchedule();
+      e.getSchedule();
       console.log(`Getting Schedules`);
     });
 
