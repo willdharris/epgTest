@@ -4,8 +4,7 @@ import { getTok } from "./tok.js";
 export let currToken = "05c4bf7ad886a9380ce2196d061e4915";
 
 //check api status with currToken
-async function pingAPI(tolkien) {  
-  
+async function pingAPI(token) {  
   try {
   const getInfo = {
     method: "GET",        
@@ -69,17 +68,17 @@ async function pingAPI(tolkien) {
     console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
     await getTok();
     // currToken = getTok.taken;
-    console.log(getTok.taken);
+    console.log(getTok);
 // get new token    
   } else {
     console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
 // server error try again later
   }
 } catch {
-  alert(`We're having trouble connecting to the schedules server. Please try again later`);
+  alert(`We're having trouble connecting to the schedules server. Please try again later.`);
 }
 } 
-pingAPI(currToken);
+pingAPI(token);
 
 
 // async function getTok() {
