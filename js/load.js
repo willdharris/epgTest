@@ -68,7 +68,7 @@ async function pingAPI(token) {
     console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
     await getTok();
     // currToken = getTok.taken;
-    console.log(getTok);
+    console.log(taken);
 // get new token    
   } else {
     console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
