@@ -76,7 +76,7 @@ async function pingAPI(tolkien) {
 // server error try again later
   }
 } catch {
-  console.log(`We're having trouble connecting to the schedules server. Please try again later`);
+  alert(`We're having trouble connecting to the schedules server. Please try again later`);
 }
 } 
 pingAPI(currToken);
