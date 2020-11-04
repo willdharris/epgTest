@@ -1,5 +1,5 @@
 import Schedule from "./schedules.js";
-import { getTok } from "./tok.js";
+import { getTok , taken } from "./tok.js";
 
 export let currToken = "05c4bf7ad886a9380ce2196d061e4915";
 
@@ -68,7 +68,7 @@ async function pingAPI(token) {
     console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
     await getTok();
     // currToken = getTok.taken;
-    console.log(taken);
+    console.log(getTok.taken);
 // get new token    
   } else {
     console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
