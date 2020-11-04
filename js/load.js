@@ -5,6 +5,8 @@ export let currToken = "05c4bf7ad886a9380ce2196d061e4915";
 
 //check api status with currToken
 async function pingAPI(tolkien) {  
+  
+  try {
   const getInfo = {
     method: "GET",        
     headers: {
@@ -73,6 +75,8 @@ async function pingAPI(tolkien) {
     console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
 // server error try again later
   }
+} catch {
+  console.log(`We're having trouble connecting to the schedules server. Please try again later`);
 }
 pingAPI(currToken);
 
