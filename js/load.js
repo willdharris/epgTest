@@ -78,7 +78,7 @@ async function pingAPI(token) {
   alert(`We're having trouble connecting to the schedules server. Please try again later.`);
 }
 } 
-pingAPI(token);
+pingAPI(currToken);
 
 
 // async function getTok() {
