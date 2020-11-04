@@ -65,8 +65,9 @@ async function pingAPI() {
 
   } else if (statusReturn.code === 4003 || 4006){
     console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
-    getTok();
-    
+    await getTok();
+    currToken = getTok.taken;
+    pingAPI();
 // get new token    
   } else {
     console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
