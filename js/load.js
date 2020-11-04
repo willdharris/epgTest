@@ -4,7 +4,7 @@ import { getTok } from "./tok.js";
 export let currToken = "05c4bf7ad886a9380ce2196d061e4915";
 
 //check api status with currToken
-async function pingAPI() {  
+async function pingAPI(tolkien) {  
   const getInfo = {
     method: "GET",        
     headers: {
@@ -66,15 +66,15 @@ async function pingAPI() {
   } else if (statusReturn.code === 4003 || 4006){
     console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
     await getTok();
-    currToken = getTok.taken;
-    pingAPI();
+    // currToken = getTok.taken;
+    pingAPI(getTok.taken);
 // get new token    
   } else {
     console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
 // server error try again later
   }
 }
-pingAPI();
+pingAPI(currToken);
 
 
 // async function getTok() {
