@@ -1,4 +1,5 @@
 import Schedule from "./schedules.js";
+import { getTok } from "./tok.js";
 
 export let currToken = "05c4bf7ad886a9380ce2196d061e4915";
 
@@ -62,8 +63,10 @@ async function pingAPI() {
       console.log(`Getting Schedules`);
     });
 
-  } else if (statusReturn.code === 4003){
+  } else if (statusReturn.code === 4003 || 4006){
     console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
+    getTok();
+    
 // get new token    
   } else {
     console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
