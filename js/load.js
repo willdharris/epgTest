@@ -1,5 +1,5 @@
 // import Schedule from "./schedules.js";
-import { getTok } from "./tok.js";
+import * as Tolkien from "./tok.js";
 export { currToken };  
 //check api status with currToken
 async function pingAPI() {    
@@ -22,12 +22,13 @@ async function pingAPI() {
      
       if (statusReturn.code === 4003 || 4006) {
         console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
-        await getTok();
-        currToken = getTok.taken;     
+        await Tolkien.getTok();
+        console.log(Tolkien.taken);
+        currToken = Tolkien.taken;     
       
       } else {
         currToken = currToken;      
-        
+        console.log(currToken);
       }
       
     } catch {
