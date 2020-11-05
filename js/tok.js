@@ -20,4 +20,4 @@ async function getTok() {
   return taken;
 }
 
-export { getTok , taken };
+export { getTok };
