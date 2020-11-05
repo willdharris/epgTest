@@ -26,14 +26,16 @@ async function pingAPI() {
         currToken = taken;   
       
       } else {
-        currToken = currToken;
+        currToken = currToken;        
       }
+      export const currToken;
     } catch {
     alert(`We're having trouble connecting to the schedules server. Please try again later.`);
     }
   }; 
 pingAPI();
-export { currToken };
+
+
 
 
 // async function getTok() {
