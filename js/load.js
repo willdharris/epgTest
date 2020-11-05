@@ -23,8 +23,8 @@ async function pingAPI() {
       if (statusReturn.code === 4003 || 4006) {
         console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
         await Tolkien.getTok();
-        console.log(Tolkien.taken);
-        currToken = Tolkien.taken;     
+        console.log(Tolkien);
+        currToken = Tolkien;     
       
       } else {
         currToken = currToken;      
