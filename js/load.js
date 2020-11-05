@@ -1,9 +1,9 @@
 // import Schedule from "./schedules.js";
 import { getTok } from "./tok.js";
-
+export { currToken };  
 //check api status with currToken
 async function pingAPI() {    
-    try {
+    try {  
       let currToken = "3ce4cae259b51e46185bf7e812254f8f";
       console.log(currToken);
       const getInfo = {
@@ -19,19 +19,21 @@ async function pingAPI() {
         );
       const statusReturn = await statusCheck.json();
       console.log(statusReturn);
-
+     
       if (statusReturn.code === 4003 || 4006) {
         console.log(`We're having trouble retrieving schedules right now. Please try again later. Error: ${statusReturn.code} - ${statusReturn.message}`);
         await getTok();
-        currToken = taken;   
+        currToken = getTok.taken;     
       
       } else {
-        currToken = currToken;        
+        currToken = currToken;      
+        
       }
-      export const currToken;
+      
     } catch {
     alert(`We're having trouble connecting to the schedules server. Please try again later.`);
     }
+    
   }; 
 pingAPI();
 

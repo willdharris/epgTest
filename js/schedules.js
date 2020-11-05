@@ -1,6 +1,6 @@
 console.log(`EXPORTING MODULE`);
 import { currToken } from "./load.js";
-
+console.log(currToken);
 // const apiCheck = pingAPI();
 // console.log(apiCheck);
 // const jrrToken = getTok();
