@@ -1,6 +1,6 @@
 // import Schedule from "./schedules.js";
 import * as Tolkien from "./tok.js";
-export { currToken };  
+// export { currToken };  
 //check api status with currToken
 async function pingAPI() {    
     try {  
