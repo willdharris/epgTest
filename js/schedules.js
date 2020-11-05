@@ -1,5 +1,5 @@
 console.log(`EXPORTING MODULE`);
- import { currToken } from "./load.js";
+import { currToken } from "./load.js";
 
 // const apiCheck = pingAPI();
 // console.log(apiCheck);
