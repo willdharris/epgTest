@@ -1,5 +1,5 @@
-import Schedule from "schedules";
-import * as channels from "./channels.js";
+// import Schedule from "./schedules.js";
+// import * as channels from "./channels.js";
 export const getTok = async function () {
   try {
   const stuff = {
