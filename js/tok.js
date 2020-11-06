@@ -15,7 +15,7 @@ export const getTok = async function () {
     getIT
   );
   const jsonTok = await newTok.json();
-  export const taken = await jsonTok.token;
+  const taken = await jsonTok.token;
   // const strToken = JSON.stringify(token);
   console.log(taken);
   return taken;
