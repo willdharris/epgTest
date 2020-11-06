@@ -1,4 +1,5 @@
-
+import Schedule from "schedules";
+import * as channels from "./channels.js";
 export const getTok = async function () {
   try {
   const stuff = {
@@ -23,4 +24,11 @@ export const getTok = async function () {
   console.log(`We're having trouble connecting to the schedules server. Please try again later.`);
 }
 }
+await getTok();
+
+// channels.chanArr.forEach(function (e) {
+//      e.getSchedule();
+// });
+
+
 
