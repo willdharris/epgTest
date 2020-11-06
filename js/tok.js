@@ -1,6 +1,6 @@
 // import Schedule from "./schedules.js";
 // import * as channels from "./channels.js";
-export const getTok = async function () {
+export async function getTok () {
   try {
   const stuff = {
     username: "unclebillepg",
