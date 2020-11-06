@@ -24,7 +24,7 @@ export const getTok = async function () {
   console.log(`We're having trouble connecting to the schedules server. Please try again later.`);
 }
 }
-getTok();
+
 
 // channels.chanArr.forEach(function (e) {
 //      e.getSchedule();

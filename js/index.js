@@ -1,6 +1,8 @@
+import { getTok } from "./tok.js";
 // import Schedule from "./schedules.js";
-// console.log(`IMPORT MODULE`);
 // import { getSchedule } from "schedules";
+let currToken = getTok();
+console.log(`CurrToken = ${currToken}`);
 
 const disc = new Schedule("disc", "56905");
 const ahc = new Schedule("ahc", "18284");
@@ -37,6 +39,7 @@ let chanArr = [
   food,
   trav,
 ];
+console.log(chanArr);
 // chanArr.forEach(function (e) {
 //   e.getSchedule();
 // });
