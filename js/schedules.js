@@ -1,8 +1,10 @@
 console.log(`SCHEDULES MODULE`);
 import { getTok } from "./tok.js";
-const currToken = async function () {
+const currToken = (async function () {
   await getTok();
-};
+})();
+
+
 
 export default class Schedule {
   constructor(channel, stationID) {
