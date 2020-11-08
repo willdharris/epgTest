@@ -3,7 +3,7 @@ import { getTok } from "./tok.js";
 const currToken = (async function () {
   await getTok();
 })();
-
+console.log(currToken);
 
 
 export default class Schedule {
