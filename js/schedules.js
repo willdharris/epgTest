@@ -1,12 +1,12 @@
 console.log(`SCHEDULES MODULE`);
 import { getTok } from "./tok.js";
-getTok.then(music => {
-  console.log(music);
-}, console.error);
-// const currToken = (async function () {
-//   await getTok();
-// })();
-// console.log(currToken);
+// getTok.then(music => {
+//   console.log(music);
+// }, console.error);
+const currToken = (async function () {
+  await getTok();
+})();
+console.log(currToken);
 
 
 export default class Schedule {

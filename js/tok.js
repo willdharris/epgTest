@@ -19,7 +19,7 @@ export async function getTok () {
   const jsonTok = await newTok.json();
   const taken = await jsonTok.token;
   // const strToken = JSON.stringify(token);
-  // console.log(taken);
+  console.log(taken);
   // return taken;
 } catch {
   console.log(`We're having trouble connecting to the schedules server. Please try again later.`);
