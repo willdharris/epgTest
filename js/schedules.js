@@ -4,7 +4,7 @@ import { getTok } from "./tok.js";
 // console.log(apiCheck);
 // const jrrToken = getTok();
 // console.log(jrrToken);
-let currToken = await getTok();
+let currToken = getTok();
 export default class Schedule {
   constructor(channel, stationID) {
     this.channel = channel;
