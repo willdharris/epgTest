@@ -1,13 +1,6 @@
 // import Schedule from "./schedules.js";
 import { user, password } from "./creds.js";
 
-import urls from './urls'
-import getData from './get-data'
-
-export default getTok().then((responses) =>
-    responses.map(JSON.parse).map(magic)
-);
-
 export async function getTok () {
   try {
   const stuff = {
