@@ -25,7 +25,8 @@ export async function getTok () {
 }
 }
 getTok();
-console.log(taken);
+// test
+await console.log(taken);
 
 // channels.chanArr.forEach(function (e) {
 //      e.getSchedule();
