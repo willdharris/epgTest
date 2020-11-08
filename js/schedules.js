@@ -1,5 +1,5 @@
 console.log(`SCHEDULES MODULE`);
-import { getTok } from "./tok.js";
+import { getTok } from "./tok2.js";
 const currToken = (async function () {
   await getTok();
 })();
