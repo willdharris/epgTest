@@ -1,6 +1,6 @@
 console.log(`SCHEDULES MODULE`);
-import tokPromise from "./tok.js";
-tokPromise.then(music => {
+import { getTok } from "./tok.js";
+getTok.then(music => {
   console.log(music);
 }, console.error);
 // const currToken = (async function () {
