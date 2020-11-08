@@ -1,10 +1,10 @@
 // import Schedule from "./schedules.js";
-// import * as channels from "./channels.js";
+import { user, password } from "./creds.js";
 export async function getTok () {
   try {
   const stuff = {
-    username: "unclebillepg",
-    password: "526D1A95E3B6B19651774D1F90A68C32D758858F",
+    username: user,
+    password: password,
   };
 
   const getIT = {
@@ -26,7 +26,7 @@ export async function getTok () {
 }
 getTok();
 // test
-await console.log(taken);
+
 
 // channels.chanArr.forEach(function (e) {
 //      e.getSchedule();
