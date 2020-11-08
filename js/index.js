@@ -1,12 +1,13 @@
-import { getTok } from "./tok.js";
-// import Schedule from "./schedules.js";
-// import { getSchedule } from "schedules";
-let currToken = await getTok();
-console.log(`CurrToken = ${currToken}`);
+console.log(`Index Module`);
 
-// const disc = new Schedule("disc", "56905");
-// const ahc = new Schedule("ahc", "18284");
-// const apl = new Schedule("apl", "57394");
+import Schedule from "./schedules.js";
+// import { getSchedule } from "schedules";
+
+
+
+const disc = new Schedule("disc", "56905");
+const ahc = new Schedule("ahc", "18284");
+const apl = new Schedule("apl", "57394");
 // const dam = new Schedule("dam", "60468");
 // const dfc = new Schedule("dfc", "16618");
 // const idd = new Schedule("idd", "16615");
@@ -25,21 +26,21 @@ let chanArr = [
   disc,
   ahc,
   apl,
-  dam,
-  dfc,
-  idd,
-  mtd,
-  own,
-  tlc,
-  des,
-  dsf,
-  hgtv,
-  cook,
-  diy,
-  food,
-  trav,
+  // dam,
+  // dfc,
+  // idd,
+  // mtd,
+  // own,
+  // tlc,
+  // des,
+  // dsf,
+  // hgtv,
+  // cook,
+  // diy,
+  // food,
+  // trav,
 ];
 console.log(chanArr);
-// chanArr.forEach(function (e) {
-//   e.getSchedule();
-// });
+chanArr.forEach(function (e) {
+  e.getSchedule();
+});

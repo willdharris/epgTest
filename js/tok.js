@@ -24,7 +24,7 @@ export async function getTok () {
   console.log(`We're having trouble connecting to the schedules server. Please try again later.`);
 }
 }
-getTok();
+
 // test
 
 
