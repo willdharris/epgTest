@@ -1,5 +1,5 @@
 // import Schedule from "./schedules.js";
-import { user, password } from "./creds.js";
+// import { user, password } from "./creds.js";
 
 
 // export default getTok().then((responses) =>
