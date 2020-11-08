@@ -1,10 +1,6 @@
 console.log(`SCHEDULES MODULE`);
 import { getTok } from "./tok.js";
-// const apiCheck = pingAPI();
-// console.log(apiCheck);
-// const jrrToken = getTok();
-// console.log(jrrToken);
-let currToken = getTok();
+const currToken = await getTok();
 export default class Schedule {
   constructor(channel, stationID) {
     this.channel = channel;
