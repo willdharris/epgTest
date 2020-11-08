@@ -1,7 +1,7 @@
 // import Schedule from "./schedules.js";
 import { user, password } from "./creds.js";
 
-export default async function getTok () {
+export async function getTok () {
   try {
   const stuff = {
     username: user,
