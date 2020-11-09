@@ -1,7 +1,7 @@
 // import Schedule from "./schedules.js";
 import { user, password } from "./creds.js";
 
-export async function getTok () {
+export function getTok () {
   try {
   const stuff = {
     username: user,
@@ -12,12 +12,12 @@ export async function getTok () {
     method: "POST",
     body: JSON.stringify(stuff),
   };
-  const newTok = await fetch(
+  const newTok = fetch(
     "https://cors-anywhere.herokuapp.com/https://json.schedulesdirect.org/20141201/token",
     getIT
   );
-  const jsonTok = await newTok.json();
-  const taken = await jsonTok.token;
+  const jsonTok = newTok.json();
+  const taken =  jsonTok.token;
   // const strToken = JSON.stringify(token);
   console.log(taken);
   // return taken;

@@ -3,9 +3,7 @@ import { getTok } from "./tok.js";
 // getTok.then(music => {
 //   console.log(music);
 // }, console.error);
-const currToken = (async function () {
-  await getTok();
-})();
+const currToken =  getTok();
 console.log(currToken);
 
 
