@@ -1,12 +1,16 @@
 console.log(`SCHEDULES MODULE`);
-import tokPromise from "./inter.js";
-// getTok.then(music => {
-//   console.log(music);
-// }, console.error);
-const currToken = tokPromise.then(function(data){
-  console.log(data.token);
-  return data.token;
-});
+import getTok from "./tok.js";
+
+void (async function(){
+  console.log(getTok);
+  console.log(await getTok);
+  console.log(await getTok);
+})();
+
+// const currToken = tokPromise.then(function(data){
+//   console.log(data.token);
+//   return data.token;
+// });
 // console.log(currToken);
 
 
