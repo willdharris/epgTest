@@ -12,7 +12,7 @@ let currToken = getTok.then(result => {
 // const currToken = void (async function(){
 //   await getTok;
 // })();
-// console.log(await currToken);
+console.log(currToken);
 
 
 
