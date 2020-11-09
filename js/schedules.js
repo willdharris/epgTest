@@ -3,7 +3,10 @@ import { getTokProm } from "./tok.js";
 // getTok.then(music => {
 //   console.log(music);
 // }, console.error);
-const currToken =  getTokProm();
+const currToken = getTokProm.then(function(data){
+  console.log(data.token);
+  return data.token;
+});
 console.log(currToken);
 
 

@@ -58,8 +58,6 @@ export const getTokProm = function() {
     getIT).then(function(response) {
       console.log(response); 
       return response.json();   
-    }).then(function(data){
-      console.log(data.token);
-      return data.token;
     });
+
   };
