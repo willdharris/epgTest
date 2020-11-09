@@ -1,12 +1,10 @@
 console.log(`SCHEDULES MODULE`);
 import getTok from "./tok.js";
 
-void (async function(){
-  console.log(getTok);
-  console.log(await getTok);
-  console.log(await getTok);
+const currToken = void (async function(){
+  await getTok;
 })();
-
+console.log(currToken);
 // const currToken = tokPromise.then(function(data){
 //   console.log(data.token);
 //   return data.token;
