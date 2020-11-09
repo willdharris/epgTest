@@ -20,7 +20,7 @@ async function getTok() {
   const taken = await jsonTok.token;
   // const strToken = JSON.stringify(token);
   console.log(taken);
-  // return taken;
+  return taken;
 } catch {
   console.log(`We're having trouble connecting to the schedules server. Please try again later.`);
 }
