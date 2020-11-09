@@ -1,9 +1,9 @@
 console.log(`SCHEDULES MODULE`);
-import { getTok } from "./tok.js";
+import { getTokProm } from "./tok.js";
 // getTok.then(music => {
 //   console.log(music);
 // }, console.error);
-const currToken =  getTok();
+const currToken =  getTokProm();
 console.log(currToken);
 
 

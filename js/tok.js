@@ -52,7 +52,7 @@ const getIT = {
 // });
 // console.log(request);
 
-const getTokProm = function() {
+export const getTokProm = function() {
   fetch(
     "https://cors-anywhere.herokuapp.com/https://json.schedulesdirect.org/20141201/token",
     getIT).then(function(response) {
@@ -63,4 +63,3 @@ const getTokProm = function() {
       return data.token;
     });
   };
-  getTokProm();
