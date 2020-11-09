@@ -52,12 +52,22 @@ const getIT = {
 // });
 // console.log(request);
 
-export const getTokProm = function() {
-  fetch(
-    "https://cors-anywhere.herokuapp.com/https://json.schedulesdirect.org/20141201/token",
-    getIT).then(function(response) {
-      console.log(response); 
-      return response.json();   
-    });
 
-  };
+// FULL PROMISE
+
+// export const getTokProm = function() {
+//   fetch(
+//     "https://cors-anywhere.herokuapp.com/https://json.schedulesdirect.org/20141201/token",
+//     getIT).then(function(response) {
+//       console.log(response); 
+//       return response.json();   
+//     });
+
+//   };
+
+
+  export const getTokProm = function() {
+    fetch(
+      "https://cors-anywhere.herokuapp.com/https://json.schedulesdirect.org/20141201/token",
+      getIT)  
+    };

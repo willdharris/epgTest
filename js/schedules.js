@@ -1,13 +1,13 @@
 console.log(`SCHEDULES MODULE`);
-import { getTokProm } from "./tok.js";
+import tokPromise from "./inter.js";
 // getTok.then(music => {
 //   console.log(music);
 // }, console.error);
-const currToken = getTokProm.then(function(data){
+const currToken = tokPromise.then(function(data){
   console.log(data.token);
   return data.token;
 });
-console.log(currToken);
+// console.log(currToken);
 
 
 export default class Schedule {
