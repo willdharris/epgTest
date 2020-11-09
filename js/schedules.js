@@ -76,7 +76,7 @@ export default class Schedule {
         body: JSON.stringify(stationData),
         headers: {
           "Content-Type": "application/json",
-          "token": currToken,
+          "token": await currToken,
         },
         redirect: "follow",
       };
@@ -134,7 +134,7 @@ export default class Schedule {
         body: JSON.stringify(data),
         headers: {
           "Content-Type": "application/json",
-          "token": currToken,
+          "token": await currToken,
         },
         redirect: "follow",
       };
@@ -236,9 +236,9 @@ export default class Schedule {
   }
 }
 //** CHANNELS ***/
-// const disc = new Schedule("disc", "56905");
-// const ahc = new Schedule("ahc", "18284");
-// const apl = new Schedule("apl", "57394");
+const disc = new Schedule("disc", "56905");
+const ahc = new Schedule("ahc", "18284");
+const apl = new Schedule("apl", "57394");
 // const dam = new Schedule("dam", "60468");
 // const dfc = new Schedule("dfc", "16618");
 // const idd = new Schedule("idd", "16615");
@@ -253,10 +253,10 @@ export default class Schedule {
 // const food = new Schedule("food", "50747");
 // const trav = new Schedule("trav", "59303");
 
-// let chanArr = [
-//   disc,
-//   ahc,
-//   apl,
+let chanArr = [
+  disc,
+  ahc,
+  apl,
 //   dam,
 //   dfc,
 //   idd,
@@ -270,10 +270,10 @@ export default class Schedule {
 //   diy,
 //   food,
 //   trav,
-// ];
-// chanArr.forEach(function (e) {
-//   e.getSchedule();
-// });
+];
+chanArr.forEach(function (e) {
+  e.getSchedule();
+});
 
 // discoveryChannel.getSchedule();
 // tlc.getSchedule()
