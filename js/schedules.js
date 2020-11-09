@@ -4,7 +4,7 @@ import getTok from "./tok.js";
 const currToken = void (async function(){
   await getTok;
 })();
-console.log(currToken);
+console.log(await currToken);
 // const currToken = tokPromise.then(function(data){
 //   console.log(data.token);
 //   return data.token;
