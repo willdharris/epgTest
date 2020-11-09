@@ -43,8 +43,20 @@ const getIT = {
   body: JSON.stringify(stuff),
 };
 
-const request = fetch(
-  "https://cors-anywhere.herokuapp.com/https://json.schedulesdirect.org/20141201/token",
-  getIT
-);
-console.log(request);
+// const request = fetch(
+//   "https://cors-anywhere.herokuapp.com/https://json.schedulesdirect.org/20141201/token",
+//   getIT
+// ).then(function(response){
+//   console.log(response);
+//   return response.json();
+// });
+// console.log(request);
+
+const getTokProm = function() {
+  fetch(
+    "https://cors-anywhere.herokuapp.com/https://json.schedulesdirect.org/20141201/token",
+    getIT).then(function(response) {
+      console.log(response);    
+    }  
+  )};
+  getTokProm();
