@@ -1,18 +1,12 @@
 console.log(`SCHEDULES MODULE`);
 import getTok from "./tok.js";
-let currToken = getTok.then(result => {
-  // got final result
-  console.log(result);
-}).catch(err => {
-  // got error
-  console.log(err);
-});
+
 
 
 // const currToken = void (async function(){
 //   await getTok;
 // })();
-console.log(currToken);
+
 
 
 
@@ -235,6 +229,11 @@ export default class Schedule {
     }
   }
 }
+
+
+
+
+
 //** CHANNELS ***/
 const disc = new Schedule("disc", "56905");
 const ahc = new Schedule("ahc", "18284");
@@ -271,9 +270,24 @@ let chanArr = [
 //   food,
 //   trav,
 ];
-chanArr.forEach(function (e) {
-  e.getSchedule();
+
+
+
+let currToken = getTok.then(result => {
+  // got final result  
+  currToken = result;
+  chanArr.forEach(function (e) {
+    e.getSchedule();
+  });
+  console.log(currToken);
+}).catch(err => {
+  // got error
+  console.log(err);
 });
+
+
+
+
 
 // discoveryChannel.getSchedule();
 // tlc.getSchedule()
