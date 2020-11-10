@@ -1,6 +1,6 @@
 console.log(`SCHEDULES MODULE`);
 import getTok from "./tok.js";
-import * as Networks from "./channels";
+import * as Networks from "./channels.js";
 
 export default class Schedule {
   constructor(channel, stationID) {
