@@ -241,7 +241,7 @@ export default class Schedule {
 //   diy,
 //   food,
 //   trav,
-];
+// ];
 
 
 
