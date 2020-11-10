@@ -1,21 +1,6 @@
 console.log(`SCHEDULES MODULE`);
 import getTok from "./tok.js";
-
-
-
-// const currToken = void (async function(){
-//   await getTok;
-// })();
-
-
-
-
-// const currToken = tokPromise.then(function(data){
-//   console.log(data.token);
-//   return data.token;
-// });
-// console.log(currToken);
-
+import * as Networks from "./channels";
 
 export default class Schedule {
   constructor(channel, stationID) {
@@ -75,18 +60,6 @@ export default class Schedule {
         redirect: "follow",
       };
 
-      /*** Loader ***/
-
-      // let loader = `<div class="spinner">
-      // <div class="bounce1"></div>
-      // <div class="bounce2"></div>
-      // <div class="bounce3"></div>
-      // </div>`;
-      // window.onload = function() {
-      //     what();
-      //     function what() {
-      //         document.getElementById(`food--epg`).innerHTML = loader;
-      //     };
 
       const resSched = await fetch(
         "https://cors-anywhere.herokuapp.com/https://json.schedulesdirect.org/20141201/schedules",
@@ -99,7 +72,7 @@ export default class Schedule {
       const plusTwoArr = await stationSchedule[2].programs;
       const plusThreeArr = await stationSchedule[3].programs;
 
-      // console.log(`${this.channel} newARR`, todayArr);
+
       const fullArr = todayArr.concat(tmwArr, plusTwoArr, plusThreeArr);
       console.log(`${this.channel} fullArr`, fullArr);
       const todaySchedule = await fullArr.map(function (elem) {
@@ -173,6 +146,7 @@ export default class Schedule {
         }
       });
       console.log(this.channel, todaySchedule);
+
       /*** LOADER ***/
       let loading = document.querySelector(`#${this.channel}--epg .spinner`);
       loading.style.visibility = "hidden";
@@ -219,9 +193,7 @@ export default class Schedule {
           (document.getElementById(`${this.channel}--epg`).scrollTop =
             topPos + 18)
       );
-      // const bigPrimetime = document.getElementById(`big--${this.channel}--${checkDate}--07:00 PM`);
-      // const bigTopPos = bigPrimetime.offsetTop;
-      // todaySchedule.forEach((elmnt) => document.getElementById(`${this.channel}--popup`).scrollTop = bigTopPos);
+
     } catch (error) {
       if (error instanceof SyntaxError) {
       console.log(`We're having trouble retrieving schedules. Please try again later`, error);
@@ -235,9 +207,9 @@ export default class Schedule {
 
 
 //** CHANNELS ***/
-const disc = new Schedule("disc", "56905");
-const ahc = new Schedule("ahc", "18284");
-const apl = new Schedule("apl", "57394");
+// const disc = new Schedule("disc", "56905");
+// const ahc = new Schedule("ahc", "18284");
+// const apl = new Schedule("apl", "57394");
 // const dam = new Schedule("dam", "60468");
 // const dfc = new Schedule("dfc", "16618");
 // const idd = new Schedule("idd", "16615");
@@ -252,10 +224,10 @@ const apl = new Schedule("apl", "57394");
 // const food = new Schedule("food", "50747");
 // const trav = new Schedule("trav", "59303");
 
-let chanArr = [
-  disc,
-  ahc,
-  apl,
+// let chanArr = [
+//   disc,
+//   ahc,
+//   apl,
 //   dam,
 //   dfc,
 //   idd,
@@ -276,7 +248,7 @@ let chanArr = [
 let currToken = getTok.then(result => {
   // got final result  
   currToken = result;
-  chanArr.forEach(function (e) {
+  Networks.chanArr.forEach(function (e) {
     e.getSchedule();
   });
   console.log(currToken);

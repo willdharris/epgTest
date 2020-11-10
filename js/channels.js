@@ -34,6 +34,3 @@ export const chanArr = [
   food,
   trav,
 ];
-// chanArr.forEach(function (e) {
-//   e.getSchedule();
-// });
