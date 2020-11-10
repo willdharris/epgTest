@@ -1,6 +1,4 @@
-console.log(`SCHEDULES MODULE`);
 import getTok from "./tok.js";
-// import * as Networks from "./channels.js";
 
 export default class Schedule {
   constructor(channel, stationID) {
@@ -16,40 +14,42 @@ export default class Schedule {
       //TODAY//
       const curDate = new Date().toISOString();
       let today = curDate.substring(0, 10);
-      console.log(today);
+      // console.log(today);
       //YESTERDAY//
       const yesterDate = new Date(curDate);
       yesterDate.setDate(yesterDate.getDate() - 1);
       let yesterday = yesterDate.toISOString();
       yesterday = yesterday.substring(0, 10);
-      console.log(yesterday);
+      // console.log(yesterday);
       //TOMORROW//
       const tomDate = new Date(curDate);
       tomDate.setDate(tomDate.getDate() + 1);
       let tomorrow = tomDate.toISOString();
       tomorrow = tomorrow.substring(0, 10);
-      console.log(tomorrow);
+      // console.log(tomorrow);
 
       const plusTwoDate = new Date(curDate);
       plusTwoDate.setDate(plusTwoDate.getDate() + 2);
       let todayPlusTwo = plusTwoDate.toISOString();
       todayPlusTwo = todayPlusTwo.substring(0, 10);
-      console.log(todayPlusTwo);
+      // console.log(todayPlusTwo);
 
       const plusThreeDate = new Date(curDate);
       plusThreeDate.setDate(plusThreeDate.getDate() + 3);
       let todayPlusThree = plusThreeDate.toISOString();
       todayPlusThree = todayPlusThree.substring(0, 10);
-      console.log(todayPlusThree);
+      // console.log(todayPlusThree);
 
+      //Station Data and Date to send to API
       const stationData = [
         {
           stationID: `${this.stationID}`,
           date: [today, tomorrow, todayPlusTwo, todayPlusThree],
         },
       ];
-      // let token = 'abcde12345'
-      console.log(`${this.channel} Station Data`, stationData);
+      //  console.log(`${this.channel} Station Data`, stationData);
+
+      //options to include with API fetch
       const scheduleOptions = {
         method: "POST",
         body: JSON.stringify(stationData),
@@ -60,21 +60,23 @@ export default class Schedule {
         redirect: "follow",
       };
 
-
+      //Schedule fetch
       const resSched = await fetch(
         "https://cors-anywhere.herokuapp.com/https://json.schedulesdirect.org/20141201/schedules",
         scheduleOptions
       );
       const stationSchedule = await resSched.json();
-      console.log(`${this.channel} station schedule`, stationSchedule);
+      // console.log(`${this.channel} station schedule`, stationSchedule);
       const todayArr = await stationSchedule[0].programs;
       const tmwArr = await stationSchedule[1].programs;
       const plusTwoArr = await stationSchedule[2].programs;
       const plusThreeArr = await stationSchedule[3].programs;
 
-
+      //Combine each day to one array
       const fullArr = todayArr.concat(tmwArr, plusTwoArr, plusThreeArr);
-      console.log(`${this.channel} fullArr`, fullArr);
+      // console.log(`${this.channel} fullArr`, fullArr);
+
+      //Get program IDs and map to air times
       const todaySchedule = await fullArr.map(function (elem) {
         return {
           id: elem.programID,
@@ -92,6 +94,7 @@ export default class Schedule {
       });
 
       /*** GET TITLES ***/
+      // Get program IDs and pass to new fetch to get Title info (Series, Ep, Season, Ep Num)
       let todayIDs = await todaySchedule.map(function (id) {
         return id["id"];
       });
@@ -111,7 +114,9 @@ export default class Schedule {
       );
 
       const jsonData = await res.json();
-      console.log(`${this.channel} jsondata`, jsonData);
+      // console.log(`${this.channel} jsondata`, jsonData);
+
+      //Map Title to digestable array
       const todayTitles = jsonData.map(function (elem) {
         return {
           id: elem.programID,
@@ -134,6 +139,8 @@ export default class Schedule {
       console.log(`${this.channel}`, todayTitles);
 
       /*** MATCH IDS ***/
+
+      //Combine Schedules (ID, Times) with Corresponding Titles based on same ID
       Object.keys(todaySchedule).forEach((key) => {
         let existtodayTitles = todayTitles.find(
           ({ id }) => todaySchedule[key].id === id
@@ -148,10 +155,11 @@ export default class Schedule {
       console.log(this.channel, todaySchedule);
 
       /*** LOADER ***/
+
+      //Hide loader once schedules are ready
       let loading = document.querySelector(`#${this.channel}--epg .spinner`);
-      loading.style.visibility = "hidden";
-      // let expander = document.querySelector(`.fas`);
-      // expander.style.visibility = "visible";
+      loading.style.visibility = "hidden";      
+      
 
       /*** RENDER SCHEDULE ***/
 
@@ -181,7 +189,7 @@ export default class Schedule {
                         <p class="episode">${todaySchedule[i].episode}</p><p class="tmsid">${todaySchedule[i].ssn} ${todaySchedule[i].epNum} - ${todaySchedule[i].id}</p></div> `;
         popSched.insertAdjacentHTML("beforeend", detailMarkup);
       }
-      console.log(`popup schedule`, popSched);
+      // console.log(`popup schedule`, popSched);
 
       const primetime = document.getElementById(
         `${this.channel}--${checkDate}--07:00 PM`
