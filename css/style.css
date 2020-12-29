@@ -574,4 +574,7 @@ h2:after {
 }
 .info {
   color: #555;
+  margin-top: 1rem;
+  align-items: center;
+  text-align: center;
 }
