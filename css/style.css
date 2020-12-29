@@ -574,18 +574,13 @@ h2:after {
 }
 .info {
   color: #555;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   text-transform: none;
 }
 .about-networks {
   border: 3px solid #fa7777;
-  /* flex-wrap: wrap; */
-  /* min-height: 80vh;     */
-  /* justify-content: center;
   margin-left: 10vw;
   margin-right: 10vw;
   padding: 0.2em;
-  margin-bottom: 10vh; */
+  margin-bottom: 10vh;
 }
