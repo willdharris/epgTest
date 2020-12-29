@@ -572,11 +572,15 @@ h2:after {
   text-align: center;
   text-transform: none;
 }
-a.info {
+.info a {
+  color: #58b19f;
+  transition: all 0.3s ease 0s;
+}
+.info a:visited {
   color: #58b19f;
 }
-a.info:visited {
-  text-decoration: none;
+.info a:hover {
+  color: #555;
 }
 .about-networks {
   /* border: 3px solid #fa7777; */
