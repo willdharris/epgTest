@@ -563,19 +563,20 @@ h2:after {
   font-weight: 700;
 }
 
-.about {
-  /* border: #ff54f1 solid 5px; */
-}
 #about {
   color: #555;
 }
-.ending {
-  /* border: springgreen solid 5px; */
-}
+
 .info {
   color: #555;
   text-align: center;
   text-transform: none;
+}
+a.info {
+  color: #58b19f;
+}
+a.info:visited {
+  text-decoration: none;
 }
 .about-networks {
   /* border: 3px solid #fa7777; */
