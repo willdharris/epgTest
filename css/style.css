@@ -566,6 +566,9 @@ h2:after {
 .epg-test {
   border: #ff54f1 solid 5px;
 }
+#about {
+  color: sandybrown;
+}
 .ending {
   border: springgreen solid 5px;
 }
