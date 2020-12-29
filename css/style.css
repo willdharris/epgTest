@@ -563,12 +563,15 @@ h2:after {
   font-weight: 700;
 }
 
-.epg-test {
+.about {
   border: #ff54f1 solid 5px;
 }
 #about {
-  color: sandybrown;
+  color: #555;
 }
 .ending {
   border: springgreen solid 5px;
+}
+.info {
+  color: #555;
 }
