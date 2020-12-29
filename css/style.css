@@ -564,13 +564,13 @@ h2:after {
 }
 
 .about {
-  border: #ff54f1 solid 5px;
+  /* border: #ff54f1 solid 5px; */
 }
 #about {
   color: #555;
 }
 .ending {
-  border: springgreen solid 5px;
+  /* border: springgreen solid 5px; */
 }
 .info {
   color: #555;
@@ -578,7 +578,7 @@ h2:after {
   text-transform: none;
 }
 .about-networks {
-  border: 3px solid #fa7777;
+  /* border: 3px solid #fa7777; */
   margin-left: 10vw;
   margin-right: 10vw;
   padding: 0.2em;
@@ -590,5 +590,6 @@ footer {
   color: #fff;
   text-align: center;
   text-transform: none;
+  padding: 0.2em;
   margin: auto;
 }
