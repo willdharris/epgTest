@@ -608,9 +608,10 @@ input[type="email"],
 select,
 textarea {
   width: 60%;
-  padding: 0.2em;
+  padding: 0.5em;
   border-radius: 3px;
   border: 1px solid #ccc;
+  align-items: center;
 }
 textarea {
   height: 100px;
