@@ -55,7 +55,7 @@ export default class Schedule {
         body: JSON.stringify(stationData),
         headers: {
           "Content-Type": "application/json",
-          "token": await currToken,
+          token: await currToken,
         },
         redirect: "follow",
       };
@@ -104,7 +104,7 @@ export default class Schedule {
         body: JSON.stringify(data),
         headers: {
           "Content-Type": "application/json",
-          "token": await currToken,
+          token: await currToken,
         },
         redirect: "follow",
       };
@@ -158,8 +158,7 @@ export default class Schedule {
 
       //Hide loader once schedules are ready
       let loading = document.querySelector(`#${this.channel}--epg .spinner`);
-      loading.style.visibility = "hidden";      
-      
+      loading.style.visibility = "hidden";
 
       /*** RENDER SCHEDULE ***/
 
@@ -201,10 +200,12 @@ export default class Schedule {
           (document.getElementById(`${this.channel}--epg`).scrollTop =
             topPos + 18)
       );
-
     } catch (error) {
       if (error instanceof SyntaxError) {
-      console.log(`We're having trouble retrieving schedules. Please try again later`, error);
+        alert(
+          `We're having trouble retrieving schedules. Please try again later`,
+          error
+        );
       }
     }
   }
@@ -247,23 +248,19 @@ let chanArr = [
   trav,
 ];
 
-
-
-let currToken = getTok.then(result => {
-  // got final result  
-  currToken = result;
-  chanArr.forEach(function (e) {
-    e.getSchedule();
+let currToken = getTok
+  .then((result) => {
+    // got final result
+    currToken = result;
+    chanArr.forEach(function (e) {
+      e.getSchedule();
+    });
+    console.log(currToken);
+  })
+  .catch((err) => {
+    // got error
+    console.log(err);
   });
-  console.log(currToken);
-}).catch(err => {
-  // got error
-  console.log(err);
-});
-
-
-
-
 
 // discoveryChannel.getSchedule();
 // tlc.getSchedule()
