@@ -162,7 +162,8 @@ header {
     transition: all 0.2s;
 } */
 
-a.btn {
+a.btn,
+input[type="submit"] {
   display: flex;
   max-width: 200px;
   padding: 0.7rem 1.8rem;
@@ -175,7 +176,8 @@ a.btn {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 30px;
   transition: all 0.2s;
 }
-a.btn:hover {
+a.btn:hover,
+input[type="submit"]:hover {
   background-color: #4e9f8f;
 }
 
@@ -605,23 +607,26 @@ input[type="text"],
 input[type="email"],
 select,
 textarea {
-  width: 100%;
-  padding: 7px;
+  width: 60%;
+  padding: 0.2em;
   border-radius: 3px;
   border: 1px solid #ccc;
 }
 textarea {
   height: 100px;
 }
-input[type="checkbox"] {
-  margin: 10px 5px 10px 0;
-}
 *:focus {
   outline: none;
 }
 
+label {
+  color: #555;
+}
+
+/* FOOTER */
+
 footer {
-  background-color: rgba(55, 55, 55, 0.7);
+  background-color: rgba(55, 55, 55, 0.9);
   color: #fff;
   text-align: center;
   text-transform: none;
