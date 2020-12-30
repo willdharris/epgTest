@@ -597,7 +597,7 @@ h2:after {
 .contact {
   background-color: #dadada;
   margin-top: 10vh;
-  margin-bottom: 10vh;
+  padding-bottom: 10vh;
 }
 .contact-form {
   width: 60%;
