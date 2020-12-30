@@ -597,13 +597,13 @@ h2:after {
 .contact {
   background-color: #dadada;
   margin-top: 10vh;
-  padding-bottom: 1vh;
+  margin-bottom: 10vh;
 }
 .contact-form {
   width: 60%;
   margin: 0 auto;
 }
-input[type="text"],
+/* input[type="text"],
 input[type="email"],
 select,
 textarea {
@@ -622,7 +622,7 @@ textarea {
 
 label {
   color: #555;
-}
+} */
 
 /* FOOTER */
 
