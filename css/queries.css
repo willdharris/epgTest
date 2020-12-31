@@ -1,12 +1,48 @@
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1440px) {
   .channel {
-    width: 70%;
+    width: 40%;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1080px) {
   /* For mobile phones: */
   .channel {
     width: 90%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .btn-row {
+    display: block;
+    justify-content: center;
+    margin-top: 2rem;
+    grid-gap: 2rem;
+    max-width: 600px;
+    align-items: center;
+    text-align: center;
+  }
+  .btn {
+    margin-bottom: 1.5rem;
+    max-width: 300px;
+  }
+  nav {
+    display: none;
+  }
+  .logo {
+    display: flex;
+    cursor: pointer;
+    margin: auto;
+  }
+  #headline {
+    display: none;
+  }
+  .open {
+    height: 60vh;
+  }
+  /* .open-container {
+    height: 80%;
+  } */
+  .open-text {
+    margin-top: 1rem;
   }
 }

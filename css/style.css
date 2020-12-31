@@ -16,6 +16,7 @@ body {
   font-size: 20px;
   text-rendering: optimizeLegibility;
   scroll-behavior: smooth;
+  background-color: #555;
 }
 
 body.blur {
@@ -40,10 +41,12 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 10px 5%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px;
   background-color: #fff;
   position: sticky;
   top: 0;
   z-index: 100;
+  /* border: #58b19f solid 5px; */
 }
 .logo {
   display: flex;
@@ -80,8 +83,9 @@ header {
 /*** OPEN ***/
 .open {
   display: flex;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   justify-content: center;
+  border: solid rgb(160, 185, 221) 2px;
   /* background-color: royalblue; */
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
     url("img/lake-min.png");
@@ -144,8 +148,6 @@ header {
   max-width: 400px;
   align-items: center;
   text-align: center;
-
-  /* justify-items: start; */
 }
 
 /* .btn-disc,
@@ -239,34 +241,29 @@ h2:after {
 }
 
 /*** CHANNELS ***/
-.disc-networks {
-  display: flex;
-  /* background-color: #ffbda0; */
-  /* border: 3px solid #c377fa;     */
-  text-transform: uppercase;
-  flex-wrap: wrap;
-  /* height: 80vh;       */
-  justify-content: center;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  padding: 0.2em;
+.disc_section,
+.about {
+  background-color: #fff;
+  padding: 1.5rem 0;
+  border: 3px solid #faf177;
 }
+
 .scripps_section {
   background-color: #dadada;
-  margin-top: 10vh;
-  /* padding-top: 5vh; */
-  padding-bottom: 1vh;
+  /* margin-top: 10vh; */
+  padding: 1.5rem 0;
 }
+.disc-networks,
 .scripps-networks {
   display: flex;
   /* background-color: #f9f1b9; */
-  /* border: 3px solid #fa7777;  */
+  border: 3px solid #fa7777;
   text-transform: uppercase;
   flex-wrap: wrap;
   /* min-height: 80vh;     */
   justify-content: center;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   padding: 0.2em;
   margin-bottom: 10vh;
 }
@@ -589,16 +586,22 @@ h2:after {
   margin-left: 10vw;
   margin-right: 10vw;
   padding: 0.2em;
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
+  border: 3px solid #a0fa77;
 }
 
 /* CONTACT SECTION */
 .contact {
   background-color: #dadada;
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
+  border: 3px solid #7784fa;
 }
 .contact-networks {
   border: 3px solid #fa7777;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 0.2em;
+  margin-bottom: 10vh;
 }
 /* .contact-form {
   width: 60%;
@@ -626,12 +629,15 @@ label {
 } */
 
 /* FOOTER */
-
+.ending {
+  /* background-color: rgba(55, 55, 55, 0.9); */
+  /* margin: 5vh; */
+  border: 3px solid #fa77d3;
+}
 footer {
-  background-color: rgba(55, 55, 55, 0.9);
   color: #fff;
   text-align: center;
   text-transform: none;
-  padding: 0.2em;
-  margin: auto;
+  padding: 0.7rem;
+  font-size: 80%;
 }
