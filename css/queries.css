@@ -50,8 +50,7 @@
   .open-text {
     margin-top: 2rem;
   }
-  .cell p,
-  .bigCell p {
+  .bigwrapper {
     font-size: 75%;
     color: pink;
   }
