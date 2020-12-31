@@ -50,8 +50,8 @@
   .open-text {
     margin-top: 2rem;
   }
-  p.cell,
-  p.bigCell {
+  .time,
+  .title {
     font-size: 75%;
     color: salmon;
   }
