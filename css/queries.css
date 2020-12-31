@@ -46,4 +46,13 @@
   .open-text {
     margin-top: 2rem;
   }
+  h4:after {
+    display: block;
+    height: 2px;
+    background-color: rgb(255, 255, 255, 0.5);
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
 }

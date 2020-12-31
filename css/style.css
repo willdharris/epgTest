@@ -585,22 +585,22 @@ h2:after {
   margin-left: 10vw;
   margin-right: 10vw;
   padding: 0.2em;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
   /* border: 3px solid #a0fa77; */
 }
 
 /* CONTACT SECTION */
 .contact {
   background-color: #dadada;
+  padding-bottom: 10vh;
   /* margin-top: 10vh; */
-  /* border: 3px solid #7784fa; */
 }
 .contact-networks {
   /* border: 3px solid #fa7777; */
   margin-left: 10vw;
   margin-right: 10vw;
   padding: 0.2em;
-  margin-bottom: 10vh;
+  /* margin-bottom: 10vh; */
 }
 /* .contact-form {
   width: 60%;
@@ -628,11 +628,11 @@ label {
 } */
 
 /* FOOTER */
-.ending {
+/* .ending {
   /* background-color: rgba(55, 55, 55, 0.9); */
-  /* margin: 5vh; */
-  /* border: 3px solid #fa77d3; */
-}
+/* margin: 5vh; */
+/* border: 3px solid #fa77d3; */
+
 footer {
   color: #fff;
   text-align: center;
