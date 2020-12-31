@@ -85,25 +85,29 @@ header {
   display: flex;
   /* margin-bottom: 2rem; */
   justify-content: center;
-  /* border: solid rgb(160, 185, 221) 2px; */
+  /* border: solid rgb(221, 160, 218) 5px; */
   /* background-color: royalblue; */
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
     url("img/lake-min.png");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 90vh;
   background-attachment: fixed;
+  /* height: 100%; */
+  position: relative;
 }
 .open-container {
   display: flex;
   justify-content: center;
-  align-content: flex-start;
+  align-content: center;
   color: #fff;
   margin-left: 10vw;
   margin-right: 10vw;
   margin-top: 5vh;
   flex-wrap: wrap;
-  /* border: solid rgb(160, 185, 221) 2px; */
+  /* border: solid rgb(167, 221, 160) 5px; */
+  height: 80%;
+  position: relative;
   /* height: 80vh;       */
 
   padding: 0.2em;
@@ -111,6 +115,7 @@ header {
 .open-text {
   display: flex;
   align-items: center;
+  /* justify-content: center; */
   flex-direction: column;
   flex-wrap: wrap;
   /* justify-content: center; */
@@ -118,7 +123,8 @@ header {
   /* border: solid plum 2px; */
   padding: 1em;
   /* align-items: left; */
-  margin-top: 10rem;
+  /* margin-top: 1rem; */
+  margin: auto;
   /* margin: 10rem; */
   max-width: 80vw;
 }
@@ -295,6 +301,7 @@ h2:after {
   right: 0;
   content: " ";
   background: rgba(0, 0, 0, 0.5);
+  height: 100%;
 
   /* cursor: pointer; */
 }
@@ -592,14 +599,15 @@ h2:after {
 /* CONTACT SECTION */
 .contact {
   background-color: #dadada;
-  padding-bottom: 10vh;
+  padding: 1.5rem 0;
   /* margin-top: 10vh; */
 }
-.contact-networks {
+.contact-body {
   /* border: 3px solid #fa7777; */
   margin-left: 10vw;
   margin-right: 10vw;
   padding: 0.2em;
+  margin-bottom: 5vh;
   /* margin-bottom: 10vh; */
 }
 /* .contact-form {
