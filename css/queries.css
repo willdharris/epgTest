@@ -50,11 +50,11 @@
   .open-text {
     margin-top: 2rem;
   }
-  /* .date,
-  .cell p {
-    font-size: 50%;
-    color: salmon;
-  } */
+  .bigwrapper {
+    margin: 2rem 0.7rem;
+    padding-bottom: 0.5rem;
+  }
+
   @media only screen and (max-width: 380px) {
     /* For mobile phones: */
     .logo {
