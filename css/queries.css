@@ -50,13 +50,13 @@
   .open-text {
     margin-top: 2rem;
   }
-  /* h4:after {
-    display: block;
-    height: 2px;
-    background-color: rgb(255, 255, 255, 0.7);
-    content: " ";
-    width: 200px;
-    margin: 0 auto;
-    margin-top: 70px;
-  } */
+  @media only screen and (max-width: 380px) {
+    /* For mobile phones: */
+    .logo {
+      font-size: 1.5rem;
+    }
+    .chan-title-pop {
+      font-size: 75%;
+    }
+  }
 }
