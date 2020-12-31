@@ -53,6 +53,7 @@
   .cell p,
   .bigCell p {
     font-size: 75%;
+    color: pink;
   }
   @media only screen and (max-width: 380px) {
     /* For mobile phones: */
