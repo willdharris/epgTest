@@ -50,11 +50,8 @@
   .open-text {
     margin-top: 2rem;
   }
-  .time,
-  .date,
-  .episode,
-  .tmsid,
-  .series {
+  p.cell,
+  p.bigCell {
     font-size: 75%;
     color: salmon;
   }
