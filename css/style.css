@@ -85,7 +85,7 @@ header {
   display: flex;
   /* margin-bottom: 2rem; */
   justify-content: center;
-  border: solid rgb(160, 185, 221) 2px;
+  /* border: solid rgb(160, 185, 221) 2px; */
   /* background-color: royalblue; */
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
     url("img/lake-min.png");
@@ -164,8 +164,7 @@ header {
     transition: all 0.2s;
 } */
 
-a.btn,
-input[type="submit"] {
+a.btn {
   display: flex;
   max-width: 200px;
   padding: 0.7rem 1.8rem;
@@ -188,7 +187,7 @@ input[type="submit"]:hover {
   flex-direction: column;
   align-content: start;
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.7)); */
-  border: solid rgb(30, 33, 255) 2px;
+  /* border: solid rgb(30, 33, 255) 2px; */
   max-height: 80vh;
   /* align-self: center; */
   /* padding: 4rem; */
@@ -245,7 +244,7 @@ h2:after {
 .about {
   background-color: #fff;
   padding: 1.5rem 0;
-  border: 3px solid #faf177;
+  /* border: 3px solid #faf177; */
 }
 
 .scripps_section {
@@ -257,7 +256,7 @@ h2:after {
 .scripps-networks {
   display: flex;
   /* background-color: #f9f1b9; */
-  border: 3px solid #fa7777;
+  /* border: 3px solid #fa7777; */
   text-transform: uppercase;
   flex-wrap: wrap;
   /* min-height: 80vh;     */
@@ -587,17 +586,17 @@ h2:after {
   margin-right: 10vw;
   padding: 0.2em;
   margin-bottom: 10vh;
-  border: 3px solid #a0fa77;
+  /* border: 3px solid #a0fa77; */
 }
 
 /* CONTACT SECTION */
 .contact {
   background-color: #dadada;
   /* margin-top: 10vh; */
-  border: 3px solid #7784fa;
+  /* border: 3px solid #7784fa; */
 }
 .contact-networks {
-  border: 3px solid #fa7777;
+  /* border: 3px solid #fa7777; */
   margin-left: 10vw;
   margin-right: 10vw;
   padding: 0.2em;
@@ -632,7 +631,7 @@ label {
 .ending {
   /* background-color: rgba(55, 55, 55, 0.9); */
   /* margin: 5vh; */
-  border: 3px solid #fa77d3;
+  /* border: 3px solid #fa77d3; */
 }
 footer {
   color: #fff;

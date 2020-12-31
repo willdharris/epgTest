@@ -15,7 +15,7 @@
   .btn-row {
     display: block;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
     grid-gap: 2rem;
     max-width: 600px;
     align-items: center;
@@ -37,12 +37,13 @@
     display: none;
   }
   .open {
-    height: 60vh;
+    height: 90vh;
+    background-attachment: scroll;
   }
   /* .open-container {
     height: 80%;
   } */
   .open-text {
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 }
