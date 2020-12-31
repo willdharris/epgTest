@@ -585,9 +585,7 @@ h2:after {
 .info a:hover {
   color: #555;
 }
-.about-networks,
-.contact-networks {
-  /* border: 3px solid #fa7777; */
+.about-networks {
   margin-left: 10vw;
   margin-right: 10vw;
   padding: 0.2em;
@@ -598,6 +596,9 @@ h2:after {
 .contact {
   background-color: #dadada;
   margin-top: 10vh;
+}
+.contact-networks {
+  border: 3px solid #fa7777;
 }
 /* .contact-form {
   width: 60%;
