@@ -50,9 +50,13 @@
   .open-text {
     margin-top: 2rem;
   }
-  .bigwrapper {
+  .time,
+  .date,
+  .episode,
+  .tmsid,
+  .series {
     font-size: 75%;
-    color: pink;
+    color: salmon;
   }
   @media only screen and (max-width: 380px) {
     /* For mobile phones: */
