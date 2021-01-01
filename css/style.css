@@ -287,7 +287,7 @@ h2:after {
   /* position: absolute; */
   color: #58b19f;
   /* margin-top: 2rem; */
-  height: 80vh;
+  height: 82vh;
   width: 80vw;
   z-index: 1001;
   /* transition: all 1s ease; */
@@ -314,7 +314,7 @@ h2:after {
   position: absolute;
   color: #58b19f;
   /* margin-top: 2rem; */
-  height: 85vh;
+  height: 80vh;
   width: 80vw;
   justify-content: center;
   /* border: 2px solid rgb(21, 223, 75);
