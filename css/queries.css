@@ -53,6 +53,7 @@
 
   .popup .contents {
     width: 90vw;
+    height: 90vh;
   }
   .popup .contents p {
     font-size: 70%;
@@ -65,6 +66,12 @@
     }
     .chan-title-pop {
       font-size: 75%;
+    }
+  }
+  @media only screen and (max-height: 380px) {
+    .popup .contents {
+      width: 90vw;
+      height: 90vh;
     }
   }
 }
