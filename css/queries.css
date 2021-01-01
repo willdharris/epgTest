@@ -53,6 +53,7 @@
 
   .popup .contents {
     width: 90vw;
+    font-size: 50%;
   }
 
   @media only screen and (max-width: 380px) {
