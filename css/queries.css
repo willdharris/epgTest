@@ -74,4 +74,7 @@
     width: 92vw;
     height: 85vh;
   }
+  .bigwrapper {
+    height: 80%;
+  }
 }
