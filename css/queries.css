@@ -50,13 +50,9 @@
   .open-text {
     margin-top: 2rem;
   }
-  .bigwrapper {
-    margin: 2rem 0.7rem;
-    padding-bottom: 0.5rem;
-  }
-  .cell {
-    font-size: 30%;
-    color: green;
+
+  .popup .contents {
+    width: 90vw;
   }
 
   @media only screen and (max-width: 380px) {
