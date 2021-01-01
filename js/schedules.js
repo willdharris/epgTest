@@ -203,9 +203,10 @@ export default class Schedule {
     } catch (error) {
       if (error instanceof SyntaxError) {
         alert(
-          `We're having trouble retrieving schedules. Please try again later`,
+          `We're having trouble retrieving schedules. Please try again later.`,
           error
         );
+        return;
       }
     }
   }
