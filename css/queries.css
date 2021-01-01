@@ -56,6 +56,9 @@
     height: 83vh;
     margin-top: 3vh;
   }
+  .popup .contents p {
+    font-size: 75%;
+  }
 }
 @media only screen and (max-width: 380px) {
   /* For mobile phones: */
@@ -64,9 +67,6 @@
   }
   .chan-title-pop {
     font-size: 75%;
-  }
-  .popup .contents p {
-    font-size: 70%;
   }
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
