@@ -12,7 +12,6 @@ function showPopup(clicked_id) {
   noScroll.classList.add("noScroll");
   blocker.classList.add("open");
   popup.classList.add("open");
-  console.log(`"${chanPop}"`);
   document.getElementById(`${chanPop}`).style.display = "grid";
   if (chanPop === `disc--popup`) {
     document.getElementById("big--wrap--title").innerHTML = `Discovery Channel`;
@@ -159,7 +158,7 @@ function hidePopup() {
   const noScroll = document.getElementsByTagName("body")[0];
   noScroll.classList.remove("noScroll");
   const clearBigWrap = document.getElementsByClassName("bigwrapper");
-  console.log(clearBigWrap);
+
   for (var i = 0; i < clearBigWrap.length; i++) {
     clearBigWrap[i].style.display = "none";
   }

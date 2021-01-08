@@ -12,8 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/queries.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <!-- <script src="js/load.js"></script> -->
-    <script type="module" defer src="js/schedules.js"></script>
+    <!-- <script type="module" defer src="js/index.js"></script> -->
     <script
       src="https://kit.fontawesome.com/b35b7c5862.js"
       crossorigin="anonymous"
@@ -24,7 +23,6 @@
       <div class="logo"><a href="#">Discovery EPG</a></div>
       <nav>
         <ul class="nav__links">
-          <!-- <li><a href="#">Home</a></li> -->
           <li><a href="#disc">Discovery</a></li>
           <li><a href="#scripps">Scripps</a></li>
           <li><a href="#about">About</a></li>
@@ -41,24 +39,11 @@
               See what shows are airing on the Discovery family of
               networks!
             </h4>
-            <!--  -->
             <div class="btn-row">
-              <!-- <div class="btn-disc"> 
-                            <a href="#disc" class="btn">Discovery</a>
-                        </div>
-                        <div class="btn-scripps">
-                            <a href="#scripps" class="btn">Scripps</a>
-                        <!-- </div>  -->
-
               <a href="#disc" class="btn">Discovery</a>
-
               <a href="#scripps" class="btn">Scripps</a>
             </div>
           </div>
-          <!-- <div class="open-images">
-                    <img src="resources/img/sharkweek.png" alt="Shark Week Image" id="shark">
-                    <img src="resources/img/chip_jo.png" alt="Picture of Chip and Joanna from Fixer Upper" id="chipjo">
-                </div> -->
           <div></div>
         </div>
       </section>
@@ -150,28 +135,9 @@
                 id="trav--popup"
                 style="display: none"
               ></div>
-
-              <!-- <div class="cell one time">8:00pm</div> -->
-              <!-- <div class="cell two"><p class="series">Gold Rush</p><p class="episode">SF Valley</p> <p class="tmsid">EP010951270234</p></div>
-                                    <div class="cell three time">9:00pm</div>
-                                    <div class="cell four"><p class="series">Alaskan Bush People</p><p class="episode">Bear Attack</div>
-                                    <div class="cell five time">10:00pm</div>
-                                    <div class="cell six"><p class="series">Dodge Ball </p><p class="episode">Red Ball - Season 21 Ep 7</p><p class="tmsid">EP0012345678</p></div>  
-                                    <div class="cell one time">8:00pm</div>
-                                    <div class="cell two"><p class="series">Gold Rush</p><p class="episode">SF Valley</div>
-                                    <div class="cell three time">9:00pm</div>
-                                    <div class="cell four"><p class="series">Alaskan Bush People</p><p class="episode">Bear Attack</div>
-                                    <div class="cell five time">10:00pm</div>
-                                    <div class="cell six"><p class="series">Dodge Ball</p><p class="episode">Red Ball</div>   -->
             </div>
           </div>
 
-          <!-- <div class="cell one time">8:00pm</div>
-                                <div class="cell two"><p class="series">Gold Rush</p><p class="episode">SF Valley</div>
-                                <div class="cell three time">9:00pm</div>
-                                <div class="cell four"><p class="series">Alaskan Bush People</p><p class="episode">Bear Attack</div>
-                                <div class="cell five time">10:00pm</div>
-                                <div class="cell six"><p class="series">Dodge Ball</p><p class="episode">Red Ball</div>    -->
           <div class="channel dsc">
             <div class="chan-header">
               <h3 class="chan-title">Discovery Channel</h3>
@@ -181,26 +147,14 @@
                 onclick="showPopup(this.id)"
               ></i>
             </div>
-            <!-- <button onclick="showPopup()">Open Popup</button>   -->
-
             <div class="wrapper" id="disc--epg">
               <div class="spinner">
                 <div class="bounce1"></div>
                 <div class="bounce2"></div>
                 <div class="bounce3"></div>
               </div>
-
-              <!-- <div class="cell one time">8:00pm</div>
-                                <div class="cell two"><p class="series">Gold Rush</p><p class="episode">SF Valley</div>
-                                <div class="cell three time">9:00pm</div>
-                                <div class="cell four"><p class="series">Alaskan Bush People</p><p class="episode">Bear Attack</div>
-                                <div class="cell five time">10:00pm</div>
-                                <div class="cell six"><p class="series">Dodge Ball</p><p class="episode">Red Ball</div> -->
             </div>
           </div>
-          <!-- <div class="time"><p>7:00pm</p></div>
-                            <div class="series"><p>Fixer Upper</p></div>
-                            <div class="episode"><p></p>Hudson House</p></div> -->
           <div class="channel ahc">
             <div class="chan-header">
               <h3 class="chan-title">American Heroes</h3>
@@ -479,35 +433,6 @@
         <h2 id="contact">Contact</h2>
           <div class="contact-body">
             <p class="info">To comment or report any issues with this application, please reach out to <a target="_blank" href="mailto:willharrismedia@gmail.com?subject=Discovery%20EPG">Will Harris.</p>
-            <!-- <form method="post" action="mailto:will3harris@gmail.com" class="contact-form">
-              <div class="row">
-                  <div class="col span-1-of-3">
-                      <label for="name">Name</label>
-                  </div>
-                  <div class="col span-2-of-3">
-                      <input type="text" name="name" id="name" placeholder="Your name" required>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col span-1-of-3">
-                      <label for="email">Email</label>
-                  </div>
-                  <div class="col span-2-of-3">
-                      <input type="email" name="email" id="email" placeholder="Your email" required>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col span-1-of-3">
-                      <label for="message">Comments</label>
-                  </div>
-                  <div class="col span-2-of-3">
-                      <textarea name="message" placeholder="Schedules are not loading"></textarea>
-                  </div>
-              </div>
-              <div class="btn-row">                 
-                <input type="submit" value="Send it!">
-              </div>                  
-          </form> -->
           </div> 
       </section>
 
@@ -516,52 +441,7 @@
           <footer>&copy; 2021 Will Harris Media</footer>
         </div>
       </section>
-
-      <!-- <table data-table-list id="epg_table" class="epg_table">
-                <caption></caption>
-                    <thead>
-                    <tr>
-                        <!-- <th>Species</th>
-                        <th>Diameter Meters</th>
-                        <th>Diameter Feet</th>
-                        <th>Tree Name</th> 
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td rowspan="2">7:00pm</td>
-                        <td colspan="3">Fixer Upper</td>
-                        <td colspan="3">Hudson House</td>
-                    </tr>
-                    <tr>
-                        <td>8:00pm</td>
-                        <td>10.64</td>
-                        <td>34.9</td>
-                        <td>Sunland Baobab</td>
-                    </tr>
-                    <tr>
-                        <td>9:00pm</td>
-                        <td>8.9</td>
-                        <td>29.2</td>
-                        <td>Jupiter</td>
-                    </tr>
-                    <tr>
-                        <td>10:00pm</td>
-                        <td>8.85</td>
-                        <td>29.0</td>
-                        <td>General Grant</td>
-                    </tr>
-                    </tbody>
-                    <!-- <tfoot>
-                    <tr>
-                        <td>Average Diameter</td>
-                        <td>10.0</td>
-                        <td>32.8</td>
-                    </tr>
-                    </tfoot>
-            </table> -->
     </main>
-
     <script src="js/bigGrid.js"></script>
   </body>
 </html>
