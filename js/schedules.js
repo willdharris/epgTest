@@ -256,10 +256,12 @@ let currToken = getTok
   .then((result) => {
     // got final result
     currToken = result;
+    console.log(currToken);
     chanArr.forEach(function (e) {
       e.getSchedule();
+      console.log(currToken);
     });
-    console.log(currToken);
+    // console.log(currToken);
   })
   .catch((err) => {
     // got error
