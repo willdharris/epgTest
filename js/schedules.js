@@ -1,5 +1,5 @@
 import getTok from "./tok.js";
-
+console.log(`in the schedules script now`);
 export default class Schedule {
   constructor(channel, stationID) {
     this.channel = channel;
@@ -8,7 +8,6 @@ export default class Schedule {
 
   /** GET SCHEDULE */
   async getSchedule() {
-    console.log(`in the schedules script now`);
     try {
       /** DATES ***/
       //TODAY//
@@ -201,16 +200,16 @@ export default class Schedule {
             topPos + 18)
       );
     } catch (error) {
-      if (error instanceof SyntaxError) {
-        console.log(
-          `We're having trouble retrieving ${this.channel} schedules. Please try again later.`,
-          error
-        );
-        console.log(
-          `We're having trouble connecting to schedules server. Please try again later.`
-        );
-        return;
-      }
+      // if (error instanceof SyntaxError) {
+      //   console.log(
+      //     `We're having trouble retrieving ${this.channel} schedules. Please try again later.`,
+      //     error
+      //   );
+      //   return;
+      console.log(
+        `We're having trouble retrieving ${this.channel} schedules. Please try again later.`,
+        error
+      );
     }
   }
 }
@@ -257,10 +256,13 @@ let currToken = getTok
     // got final result
     currToken = result;
     console.log(currToken);
-    chanArr.forEach(function (e) {
-      e.getSchedule();
-      console.log(currToken);
-    });
+    if (currToken !== undefined) {
+      chanArr.forEach(function (e) {
+        e.getSchedule();
+      });
+    } else {
+      console.log(`Unable to get token. Please try again later`);
+    }
     // console.log(currToken);
   })
   .catch((err) => {
