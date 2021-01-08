@@ -259,7 +259,7 @@ let currToken = getTok
     chanArr.forEach(function (e) {
       e.getSchedule();
     });
-    console.log(`ONWARD`);
+    console.log(currToken);
   })
   .catch((err) => {
     // got error
