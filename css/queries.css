@@ -59,6 +59,9 @@
   .popup .contents p {
     font-size: 70%;
   }
+  h2 {
+    font-size: 1.8rem;
+  }
 }
 @media only screen and (max-width: 380px) {
   /* For mobile phones: */

@@ -202,9 +202,12 @@ export default class Schedule {
       );
     } catch (error) {
       if (error instanceof SyntaxError) {
-        alert(
-          `We're having trouble retrieving schedules. Please try again later.`,
+        console.log(
+          `We're having trouble retrieving ${this.channel} schedules. Please try again later.`,
           error
+        );
+        console.log(
+          `We're having trouble connecting to schedules server. Please try again later.`
         );
         return;
       }

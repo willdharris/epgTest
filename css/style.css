@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
-/* @import url("https://fonts.googleapis.com/css2?family=Damion&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
 
 * {
@@ -55,8 +54,10 @@ header {
   margin-right: auto;
   font-size: 2rem;
   color: #58b19f;
-  text-shadow: 1px 1px 0px #000000, 2px 2px 0px #555, 3px 3px 0px #fff,
-    4px 4px 0px #555, 5px 5px 0px #000, 6px 6px 0px #000000;
+  /* font-weight: 700; */
+  text-shadow: 1px 1px 0px #000000, 2px 2px 0px #555,
+    3px 3px 0px rgb(243, 243, 243), 4px 4px 0px #555, 5px 5px 0px #000,
+    6px 6px 0px #0000;
   /*  7px 7px 0px #c11a2b,
     8px 8px 0px #c11a2b,
     9px 9px 0px #c11a2b;*/
@@ -64,6 +65,7 @@ header {
 .logo a {
   font-family: "Kalam", cursive;
   color: #58b19f;
+  /* font-weight: 700; */
 }
 .nav__links {
   list-style: none;
