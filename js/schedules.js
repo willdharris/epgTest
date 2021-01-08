@@ -200,15 +200,8 @@ export default class Schedule {
             topPos + 18)
       );
     } catch (error) {
-      // if (error instanceof SyntaxError) {
-      //   console.log(
-      //     `We're having trouble retrieving ${this.channel} schedules. Please try again later.`,
-      //     error
-      //   );
-      //   return;
       console.log(
-        `We're having trouble retrieving ${this.channel} schedules. Please try again later.`,
-        error
+        `We're having trouble retrieving schedules. If some or all schedules fail to load, please try again later.`
       );
     }
   }
@@ -261,13 +254,12 @@ let currToken = getTok
         e.getSchedule();
       });
     } else {
-      console.log(`Unable to get token. Please try again later`);
+      alert(`Unable to retrieve schedules. Please try again later.`);
     }
     // console.log(currToken);
   })
   .catch((err) => {
     // got error
-    err = `Failed to get token`;
     console.log(err);
   });
 
