@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Damion&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Damion&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
 
 * {
   margin: 0;
@@ -61,7 +62,7 @@ header {
     9px 9px 0px #c11a2b;*/
 }
 .logo a {
-  font-family: "Damion", cursive;
+  font-family: "Kalam", cursive;
   color: #58b19f;
 }
 .nav__links {
