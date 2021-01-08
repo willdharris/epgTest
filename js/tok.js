@@ -18,8 +18,6 @@ async function getTok() {
     const jsonTok = await newTok.json();
     const taken = await jsonTok.token;
     return taken;
-  } catch {
-    console.log(`Cannot get token. Please try again later.`);
-  }
+  } catch {}
 }
 export default getTok();

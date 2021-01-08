@@ -247,11 +247,3 @@ let currToken = getTok
   .catch((err) => {
     console.log(err);
   });
-
-// discoveryChannel.getSchedule();
-// tlc.getSchedule()
-// function collapseSched() {
-//     var element = document.getElementById("disc--expanded");
-//     element.classList.remove("expanded");
-//   }
-//   collapseSched();
