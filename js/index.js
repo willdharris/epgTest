@@ -188,9 +188,13 @@ export default class Schedule {
             topPos + 18)
       );
     } catch (error) {
-      alert(
-        `We're having trouble retrieving some schedules. If schedules fail to load, please try again later.`
-      );
+      let alerted = localStorage.getItem("alerted") || "";
+      if (alerted != "yes") {
+        alert(
+          `We're having trouble retrieving schedules. If schedules fail to load, please try again later.`
+        );
+        localStorage.setItem("alerted", "yes");
+      }
     }
   }
 }
