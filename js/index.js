@@ -188,8 +188,8 @@ export default class Schedule {
             topPos + 18)
       );
     } catch (error) {
-      console.log(
-        `We're having trouble retrieving schedules. If schedules fail to load, please try again later.`
+      alert(
+        `We're having trouble retrieving some schedules. If schedules fail to load, please try again later.`
       );
     }
   }
