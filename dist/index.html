@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Discovery EPG</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.13beb3ff.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.e31ac702.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.f10e3287.png">
+    <link rel="stylesheet" type="text/css" href="/style.967ba849.css">
+    <link rel="stylesheet" type="text/css" href="/queries.67bf7e5e.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+    <!-- <script type="module" defer src="js/index.js"></script> -->
+    <script defer="" src="/js.d818e0ef.js"></script>
+    <!-- <script defer src="src/js/bigGrid.js"></script> -->
+    <script src="https://kit.fontawesome.com/b35b7c5862.js" crossorigin="anonymous"></script>
+  <script src="/style.967ba849.js"></script><script src="/queries.67bf7e5e.js"></script></head>
+  <body>
+    <header>
+      <div class="logo"><a href="#">Discovery EPG</a></div>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#disc">Discovery</a></li>
+          <li><a href="#scripps">Scripps</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="open">
+        <div class="open-container">
+          <div class="open-text">
+            <h1 id="headline">What&apos;s on Discovery&quest;</h1>
+            <h4>
+              See what shows are airing on the Discovery family of
+              networks!
+            </h4>
+            <div class="btn-row">
+              <a href="#disc" class="btn">Discovery</a>
+              <a href="#scripps" class="btn">Scripps</a>
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </section>
+      <section class="disc_section">
+        <h2 id="disc">Discovery Networks</h2>
+        <div class="disc-networks">
+          <div class="blocker" onclick="hidePopup()"></div>
+          <div class="popup">
+            <div class="contents">
+              <i class="far fa-times-circle" onclick="hidePopup()"></i>
+              <h4 class="chan-title-pop" id="big--wrap--title"></h4>
+              <div class="bigwrapper" id="disc--popup" style="display: none"></div>
+              <div class="bigwrapper" id="ahc--popup" style="display: none"></div>
+              <div class="bigwrapper" id="apl--popup" style="display: none"></div>
+              <div class="bigwrapper" id="dam--popup" style="display: none"></div>
+              <div class="bigwrapper" id="dfc--popup" style="display: none"></div>
+              <div class="bigwrapper" id="idd--popup" style="display: none"></div>
+              <div class="bigwrapper" id="mtd--popup" style="display: none"></div>
+              <div class="bigwrapper" id="own--popup" style="display: none"></div>
+              <div class="bigwrapper" id="tlc--popup" style="display: none"></div>
+              <div class="bigwrapper" id="des--popup" style="display: none"></div>
+              <div class="bigwrapper" id="dsf--popup" style="display: none"></div>
+              <div class="bigwrapper" id="hgtv--popup" style="display: none"></div>
+              <div class="bigwrapper" id="cook--popup" style="display: none"></div>
+              <div class="bigwrapper" id="diy--popup" style="display: none"></div>
+              <div class="bigwrapper" id="food--popup" style="display: none"></div>
+              <div class="bigwrapper" id="trav--popup" style="display: none"></div>
+            </div>
+          </div>
+
+          <div class="channel dsc">
+            <div class="chan-header">
+              <h3 class="chan-title">Discovery Channel</h3>
+              <i class="fas fa-expand-alt" id="disc--btn" onclick="showPopup(this.id)"></i>
+            </div>
+            <div class="wrapper" id="disc--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel ahc">
+            <div class="chan-header">
+              <h3 class="chan-title">American Heroes</h3>
+              <i class="fas fa-expand-alt" id="ahc--btn" onclick="showPopup(this.id)"></i>
+            </div>
+            <div class="wrapper" id="ahc--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel apl">
+            <div class="chan-header">
+              <h3 class="chan-title">Animal Planet</h3>
+              <i class="fas fa-expand-alt" id="apl--btn" onclick="showPopup(this.id)"></i>
+            </div>
+            <div class="wrapper" id="apl--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel dam">
+            <div class="chan-header">
+              <h3 class="chan-title">Destination America</h3>
+              <i class="fas fa-expand-alt" id="dam--btn" onclick="showPopup(this.id)"></i>
+            </div>
+            <div class="wrapper" id="dam--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel dfc">
+            <div class="chan-header">
+              <h3 class="chan-title">Discovery Family</h3>
+              <i class="fas fa-expand-alt" id="dfc--btn" onclick="showPopup(this.id)"></i>
+            </div>
+            <div class="wrapper" id="dfc--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel idd">
+            <div class="chan-header">
+              <h3 class="chan-title">Investigation Discovery</h3>
+              <i class="fas fa-expand-alt" id="idd--btn" onclick="showPopup(this.id)"></i>
+            </div>
+            <div class="wrapper" id="idd--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel mtd">
+            <div class="chan-header">
+              <h3 class="chan-title">MotorTrend</h3>
+              <i class="fas fa-expand-alt" id="mtd--btn" onclick="showPopup(this.id)"></i>
+            </div>
+            <div class="wrapper" id="mtd--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel own">
+            <div class="chan-header">
+              <h3 class="chan-title">OWN</h3>
+              <i class="fas fa-expand-alt" id="own--btn" onclick="showPopup(this.id)"></i>
+            </div>
+            <div class="wrapper" id="own--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel tlc">
+            <div class="chan-header">
+              <h3 class="chan-title">TLC</h3>
+              <i class="fas fa-expand-alt" id="tlc--btn" onclick="showPopup(this.id)"></i>
+            </div>
+            <div class="wrapper" id="tlc--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel des">
+            <div class="chan-header">
+              <h3 class="chan-title">Discovery Espanol</h3>
+              <i class="fas fa-expand-alt" id="des--btn" onclick="showPopup(this.id)"></i>
+            </div>
+            <div class="wrapper" id="des--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel dsf">
+            <div class="chan-header">
+              <h3 class="chan-title">Discovery Familia</h3>
+              <i class="fas fa-expand-alt" id="dsf--btn" onclick="showPopup(this.id)"></i>
+            </div>
+            <div class="wrapper" id="dsf--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="scripps_section">
+        <h2 id="scripps">Scripps Networks</h2>
+        <div class="scripps-networks">
+          <div class="channel hgtv">
+            <div class="chan-header">
+              <h3 class="chan-title">HGTV</h3>
+              <i class="fas fa-expand-alt" id="hgtv--btn" onclick="showPopup(this.id)"></i>
+            </div>
+            <div class="wrapper" id="hgtv--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel cook">
+            <div class="chan-header">
+              <h3 class="chan-title">Cooking Channel</h3>
+              <i class="fas fa-expand-alt" id="cook--btn" onclick="showPopup(this.id)"></i>
+            </div>
+            <div class="wrapper" id="cook--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel diy">
+            <div class="chan-header">
+              <h3 class="chan-title">DIY Network</h3>
+              <i class="fas fa-expand-alt" id="diy--btn" onclick="showPopup(this.id)"></i>
+            </div>
+            <div class="wrapper" id="diy--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel food">
+            <div class="chan-header">
+              <h3 class="chan-title">Food Network</h3>
+              <i class="fas fa-expand-alt" id="food--btn" onclick="showPopup(this.id)"></i>
+            </div>
+            <div class="wrapper" id="food--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+          <div class="channel trav">
+            <div class="chan-header">
+              <h3 class="chan-title">Travel Channel</h3>
+              <i class="fas fa-expand-alt" id="trav--btn" onclick="showPopup(this.id)"></i>
+            </div>
+            <div class="wrapper" id="trav--epg">
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <h2 id="about">About</h2>
+          <div class="about-networks">
+            <p class="info">Schedules are sourced from <a target="_blank" href="https://www.schedulesdirect.org/">Schedules Direct</a>. <br> 
+            Data updates occur seven days a week with a minimum of two data refreshes per day. <br>
+            Listings are provided from 7:00pm ET yesterday to 7:00pm ET three days ahead.
+            </p>
+          </div> 
+        
+      </section>
+      
+      <section class="contact">
+        <h2 id="contact">Contact</h2>
+          <div class="contact-body">
+            <p class="info">To comment or report any issues with this application, please reach out to <a target="_blank" href="mailto:willharrismedia@gmail.com?subject=Discovery%20EPG">Will Harris.</a></p>
+          </div> 
+      </section>
+
+      <section class="ending" id="the--end">
+        <div>
+          <footer>&copy; 2021 Will Harris Media</footer>
+        </div>
+      </section>
+    </main>
+    <script src="/bigGrid.418a1a03.js"></script>
+  </body>
+</html>
