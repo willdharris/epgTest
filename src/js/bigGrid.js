@@ -1,4 +1,4 @@
-export const checkDate = new Date().toLocaleDateString(undefined, {
+const checkDate = new Date().toLocaleDateString(undefined, {
   weekday: "short",
   day: "2-digit",
   month: "2-digit",
