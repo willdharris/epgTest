@@ -118,18 +118,11 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"src/js/bigGrid.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.checkDate = void 0;
 var checkDate = new Date().toLocaleDateString(undefined, {
   weekday: "short",
   day: "2-digit",
   month: "2-digit"
 });
-exports.checkDate = checkDate;
 
 window.showPopup = function showPopup(clicked_id) {
   var popup = document.querySelector(".popup");
