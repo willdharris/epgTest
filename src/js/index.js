@@ -179,11 +179,13 @@ export default class Schedule {
                         <p class="episode">${todaySchedule[i].episode}</p><p class="tmsid">${todaySchedule[i].ssn} ${todaySchedule[i].epNum} - ${todaySchedule[i].id}</p></div> `;
         popSched.insertAdjacentHTML("beforeend", detailMarkup);
       }
-      const primetime = document.getElementById(
+      let primetime = document.getElementById(
         `${this.channel}--${checkDate}--07:00 PM`
       );
       // Make grids align to 7:00PM of current day (8:00PM visually)
-      const topPos = primetime.offsetTop;
+      let topPos = primetime.offsetTop;
+      console.log(primetime, topPos);
+
       todaySchedule.forEach(
         (el) =>
           (document.getElementById(`${this.channel}--epg`).scrollTop =
@@ -253,3 +255,7 @@ let currToken = getTok
   .catch((err) => {
     console.log(err);
   });
+
+// Polyfilling async functions
+import "core-js";
+import "regenerator-runtime/runtime";

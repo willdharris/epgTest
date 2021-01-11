@@ -1,10 +1,10 @@
-const checkDate = new Date().toLocaleDateString(undefined, {
+export const checkDate = new Date().toLocaleDateString(undefined, {
   weekday: "short",
   day: "2-digit",
   month: "2-digit",
 });
 
-function showPopup(clicked_id) {
+window.showPopup = function showPopup(clicked_id) {
   const popup = document.querySelector(`.popup`);
   const blocker = document.querySelector(`.blocker`);
   const chanPop = clicked_id.replace(`btn`, "popup");
@@ -148,9 +148,9 @@ function showPopup(clicked_id) {
   } else {
     document.getElementById("big--wrap--title").innerHTML = ``;
   }
-}
+};
 
-function hidePopup() {
+window.hidePopup = function hidePopup() {
   const popup = document.querySelector(`.popup`);
   popup.classList.remove("open");
   const blocker = document.querySelector(`.blocker`);
@@ -162,4 +162,4 @@ function hidePopup() {
   for (var i = 0; i < clearBigWrap.length; i++) {
     clearBigWrap[i].style.display = "none";
   }
-}
+};
