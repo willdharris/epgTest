@@ -1,4 +1,4 @@
-import getTok from "./tok.js";
+import { getTok, waitForElm } from "./tok.js";
 // if (module.hot) {
 //   module.hot.accept();
 // }
@@ -171,41 +171,44 @@ export default class Schedule {
         grid.insertAdjacentHTML("beforeend", markup);
       }
       const popSched = document.getElementById(`${this.channel}--popup`);
-      async function getMarkup() {
-        for (var i = 0; i < todaySchedule.length; i++) {
-          const detailMarkup = `
+      for (var i = 0; i < todaySchedule.length; i++) {
+        const detailMarkup = `
                         <div class="cell time"><p>${todaySchedule[i].time}</p>
                         <p class="date" id="big--${this.channel}--${todaySchedule[i].day}--${todaySchedule[i].time}">${todaySchedule[i].day}</p></div>
                         <div class="bigCell title"><p class="series">${todaySchedule[i].series}</p>
                         <p class="episode">${todaySchedule[i].episode}</p><p class="tmsid">${todaySchedule[i].ssn} ${todaySchedule[i].epNum} - ${todaySchedule[i].id}</p></div> `;
-          popSched.insertAdjacentHTML("beforeend", detailMarkup);
-        }
+        popSched.insertAdjacentHTML("beforeend", detailMarkup);
       }
+
       // Make grids align to 7:00PM of current day (8:00PM visually)
-      async function getPrime() {
-        await getMarkup();
-        let primetime = document.getElementById(
-          `${this.channel}--${checkDate}--07:00 PM`
-        );
-        let topPos = primetime.offsetTop;
-        console.log(primetime, topPos);
+      // async function getPrime() {
+      //   await getMarkup();
+      //   let primetime = document.getElementById(
+      //     `${this.channel}--${checkDate}--07:00 PM`
+      //   );
+      //   let topPos = primetime.offsetTop;
+      //   console.log(primetime, topPos);
 
-        todaySchedule.forEach(
-          (document.getElementById(`${this.channel}--epg`).scrollTop =
-            topPos + 18)
-        );
-      }
-      getPrime();
-      // let primetime = document.getElementById(
-      //   `${this.channel}--${checkDate}--07:00 PM`
-      // );
-      // let topPos = primetime.offsetTop;
-      // console.log(primetime, topPos);
+      //   todaySchedule.forEach(
+      //     (document.getElementById(`${this.channel}--epg`).scrollTop =
+      //       topPos + 18)
+      //   );
+      // }
+      // getPrime();
+      const getPrime = await waitForElm(
+        `${this.channel}--${checkDate}--07:00 PM`
+      );
+      console.log(getPrime);
+      let primetime = document.getElementById(
+        `${this.channel}--${checkDate}--07:00 PM`
+      );
+      let topPos = primetime.offsetTop;
+      console.log(primetime, topPos);
 
-      // todaySchedule.forEach(
-      //   (document.getElementById(`${this.channel}--epg`).scrollTop =
-      //     topPos + 18)
-      // );
+      todaySchedule.forEach(
+        (document.getElementById(`${this.channel}--epg`).scrollTop =
+          topPos + 18)
+      );
     } catch (error) {
       let alerted = localStorage.getItem("alerted") || "";
       if (alerted != "yes") {
