@@ -1,4 +1,5 @@
-import { getTok, waitForElm } from "./tok.js";
+import getTok from "./tok.js";
+import waitForElm from "./waitForElm.js";
 // if (module.hot) {
 //   module.hot.accept();
 // }
