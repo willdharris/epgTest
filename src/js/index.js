@@ -211,18 +211,18 @@ export default class Schedule {
       //     console.log(el);
       //   }
       // );
-      let primetime;
-      let topPos;
-      primetime = document.getElementById(
-        `${this.channel}--${checkDate}--07:00 PM` || `Loading...`
-      );
-      topPos = primetime.offsetTop;
-      console.log(primetime, topPos);
+      // let primetime;
+      // let topPos;
+      // primetime = document.getElementById(
+      //   `${this.channel}--${checkDate}--07:00 PM` || `Loading...`
+      // );
+      // topPos = primetime.offsetTop;
+      // console.log(primetime, topPos);
 
-      todaySchedule.forEach(
-        (document.getElementById(`${this.channel}--epg`).scrollTop =
-          topPos + 18)
-      );
+      // todaySchedule.forEach(
+      //   (document.getElementById(`${this.channel}--epg`).scrollTop =
+      //     topPos + 18)
+      // );
     } catch (error) {
       let alerted = localStorage.getItem("alerted") || "";
       if (alerted != "yes") {
@@ -291,3 +291,14 @@ let currToken = getTok
 // Polyfilling async functions
 // import "core-js";
 // import "regenerator-runtime/runtime";
+let primetime;
+let topPos;
+primetime = document.getElementById(
+  `${this.channel}--${checkDate}--07:00 PM` || `Loading...`
+);
+topPos = primetime.offsetTop;
+console.log(primetime, topPos);
+
+todaySchedule.forEach(
+  (document.getElementById(`${this.channel}--epg`).scrollTop = topPos + 18)
+);
