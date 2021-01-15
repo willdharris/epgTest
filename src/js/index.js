@@ -280,6 +280,18 @@ let currToken = getTok
       chanArr.forEach(function (e) {
         e.getSchedule();
       });
+      let primetime;
+      let topPos;
+      primetime = document.getElementById(
+        `${this.channel}--${checkDate}--07:00 PM` || `Loading...`
+      );
+      topPos = primetime.offsetTop;
+      console.log(primetime, topPos);
+
+      todaySchedule.forEach(
+        (document.getElementById(`${this.channel}--epg`).scrollTop =
+          topPos + 18)
+      );
     } else {
       alert(`Unable to retrieve schedules. Please try again later.`);
     }
@@ -291,14 +303,3 @@ let currToken = getTok
 // Polyfilling async functions
 // import "core-js";
 // import "regenerator-runtime/runtime";
-let primetime;
-let topPos;
-primetime = document.getElementById(
-  `${this.channel}--${checkDate}--07:00 PM` || `Loading...`
-);
-topPos = primetime.offsetTop;
-console.log(primetime, topPos);
-
-todaySchedule.forEach(
-  (document.getElementById(`${this.channel}--epg`).scrollTop = topPos + 18)
-);
