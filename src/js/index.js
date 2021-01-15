@@ -1,7 +1,7 @@
 import getTok from "./tok.js";
-if (module.hot) {
-  module.hot.accept();
-}
+// if (module.hot) {
+//   module.hot.accept();
+// }
 export default class Schedule {
   constructor(channel, stationID) {
     this.channel = channel;
