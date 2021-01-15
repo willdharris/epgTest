@@ -116,6 +116,8 @@ window.showPopup = function showPopup(clicked_id) {
     bigTopPos = bigprimetime.offsetTop;
     document.getElementById(`trav--popup`).scrollTop = bigTopPos + 46;
   } else {
+    bigprimetime = `Loading...`;
+    bigTopPos = bigprimetime.offsetTop;
     document.getElementById("big--wrap--title").innerHTML = ``;
   }
 };
