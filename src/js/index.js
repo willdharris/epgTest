@@ -196,13 +196,23 @@ export default class Schedule {
       //   );
       // }
       // getPrime();
-      const getPrime = await waitForElm(
-        `${this.channel}--${checkDate}--07:00 PM`
+      const waitUntilElementExists = (selector, callback) => {
+        const el = document.querySelector(selector);
+        if (el) {
+          return callback(el);
+        }
+        setTimeout(() => waitUntilElementExists(selector, callback), 500);
+      };
+      waitUntilElementExists(
+        `${this.channel}--${checkDate}--07:00 PM`,
+        (el) => {
+          el = primetime;
+          console.log(el);
+        }
       );
-      console.log(getPrime);
-      let primetime = document.getElementById(
-        `${this.channel}--${checkDate}--07:00 PM`
-      );
+      // let primetime = document.getElementById(
+      //   `${this.channel}--${checkDate}--07:00 PM`
+      // );
       let topPos = primetime.offsetTop;
       console.log(primetime, topPos);
 
