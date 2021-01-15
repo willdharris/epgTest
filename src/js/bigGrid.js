@@ -18,7 +18,9 @@ window.showPopup = function showPopup(clicked_id) {
   if (chanPop === `disc--popup`) {
     document.getElementById("big--wrap--title").innerHTML = `Discovery Channel`;
     // document.getElementById(`big--disc--${checkDate}--07:00 PM`).scrollIntoView();
-    bigprimetime = document.getElementById(`big--disc--${checkDate}--07:00 PM`);
+    bigprimetime =
+      document.getElementById(`big--disc--${checkDate}--07:00 PM`) ||
+      `Loading...`;
     bigTopPos = bigprimetime.offsetTop;
     document.getElementById(`disc--popup`).scrollTop = bigTopPos + 46;
   } else if (chanPop === `ahc--popup`) {
