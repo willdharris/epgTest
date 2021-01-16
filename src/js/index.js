@@ -7,6 +7,7 @@ export default class Schedule {
   constructor(channel, stationID) {
     this.channel = channel;
     this.stationID = stationID;
+    this.primetime = primetime;
   }
 
   /** GET SCHEDULE */
@@ -211,18 +212,16 @@ export default class Schedule {
       //     console.log(el);
       //   }
       // );
-      // let primetime;
-      // let topPos;
-      // primetime = document.getElementById(
-      //   `${this.channel}--${checkDate}--07:00 PM` || `Loading...`
-      // );
-      // topPos = primetime.offsetTop;
-      // console.log(primetime, topPos);
+      primetime = document.getElementById(
+        `${this.channel}--${checkDate}--07:00 PM` || `Loading...`
+      );
+      topPos = primetime.offsetTop;
+      console.log(primetime, topPos);
 
-      // todaySchedule.forEach(
-      //   (document.getElementById(`${this.channel}--epg`).scrollTop =
-      //     topPos + 18)
-      // );
+      todaySchedule.forEach(
+        (document.getElementById(`${this.channel}--epg`).scrollTop =
+          topPos + 18)
+      );
     } catch (error) {
       let alerted = localStorage.getItem("alerted") || "";
       if (alerted != "yes") {
@@ -280,18 +279,6 @@ let currToken = getTok
       chanArr.forEach(function (e) {
         e.getSchedule();
       });
-      let primetime;
-      let topPos;
-      primetime = document.getElementById(
-        `${this.channel}--${checkDate}--07:00 PM` || `Loading...`
-      );
-      topPos = primetime.offsetTop;
-      console.log(primetime, topPos);
-
-      todaySchedule.forEach(
-        (document.getElementById(`${this.channel}--epg`).scrollTop =
-          topPos + 18)
-      );
     } else {
       alert(`Unable to retrieve schedules. Please try again later.`);
     }
