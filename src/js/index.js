@@ -7,7 +7,6 @@ export default class Schedule {
   constructor(channel, stationID) {
     this.channel = channel;
     this.stationID = stationID;
-    this.primetime = primetime;
   }
 
   /** GET SCHEDULE */
@@ -162,15 +161,16 @@ export default class Schedule {
         day: "2-digit",
         month: "2-digit",
       });
-
-      for (var i = 0; i < todaySchedule.length; i++) {
-        const markup = `  
+      async function runLoop() {
+        for (var i = 0; i < todaySchedule.length; i++) {
+          const markup = `  
                         <div class="cell time"><p>${todaySchedule[i].time}</p>
                         <p class="date" id="${this.channel}--${todaySchedule[i].day}--${todaySchedule[i].time}">${todaySchedule[i].day}</p></div>
                         <div class="cell title"><p class="series">${todaySchedule[i].series}</p>
                         <p class="episode">${todaySchedule[i].episode}</p></div>                         `;
 
-        grid.insertAdjacentHTML("beforeend", markup);
+          grid.insertAdjacentHTML("beforeend", markup);
+        }
       }
       const popSched = document.getElementById(`${this.channel}--popup`);
       for (var i = 0; i < todaySchedule.length; i++) {
@@ -212,10 +212,12 @@ export default class Schedule {
       //     console.log(el);
       //   }
       // );
-      primetime = document.getElementById(
+      const getPrime = await runLoop();
+      console.log(getPrime);
+      const primetime = document.getElementById(
         `${this.channel}--${checkDate}--07:00 PM` || `Loading...`
       );
-      topPos = primetime.offsetTop;
+      const topPos = primetime.offsetTop;
       console.log(primetime, topPos);
 
       todaySchedule.forEach(
