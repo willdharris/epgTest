@@ -1,8 +1,5 @@
 import getTok from "./tok.js";
-import waitForElm from "./waitForElm.js";
-// if (module.hot) {
-//   module.hot.accept();
-// }
+
 export default class Schedule {
   constructor(channel, stationID) {
     this.channel = channel;
@@ -180,45 +177,11 @@ export default class Schedule {
                         <p class="episode">${todaySchedule[i].episode}</p><p class="tmsid">${todaySchedule[i].ssn} ${todaySchedule[i].epNum} - ${todaySchedule[i].id}</p></div> `;
         popSched.insertAdjacentHTML("beforeend", detailMarkup);
       }
-
       // Make grids align to 7:00PM of current day (8:00PM visually)
-      // async function getPrime() {
-      //   await getMarkup();
-      //   let primetime = document.getElementById(
-      //     `${this.channel}--${checkDate}--07:00 PM`
-      //   );
-      //   let topPos = primetime.offsetTop;
-      //   console.log(primetime, topPos);
-
-      //   todaySchedule.forEach(
-      //     (document.getElementById(`${this.channel}--epg`).scrollTop =
-      //       topPos + 18)
-      //   );
-      // }
-      // getPrime();
-
-      // const waitUntilElementExists = (selector, callback) => {
-      //   const el = document.querySelector(selector);
-      //   if (el) {
-      //     return callback(el);
-      //   }
-      //   setTimeout(() => waitUntilElementExists(selector, callback), 500);
-      // };
-      // waitUntilElementExists(
-      //   `${this.channel}--${checkDate}--07:00 PM`,
-      //   (el) => {
-      //     el = primetime;
-      //     console.log(el);
-      //   }
-      // );
-
       const primetime = document.getElementById(
         `${this.channel}--${checkDate}--07:00 PM` || `Loading...`
       );
-      console.log(primetime);
       const topPos = primetime.offsetTop;
-      console.log(primetime.offsetTop);
-      console.log(primetime, topPos);
 
       todaySchedule.forEach(
         (document.getElementById(`${this.channel}--epg`).scrollTop =
@@ -288,7 +251,3 @@ let currToken = getTok
   .catch((err) => {
     console.log(err);
   });
-
-// Polyfilling async functions
-// import "core-js";
-// import "regenerator-runtime/runtime";
