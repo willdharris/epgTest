@@ -1,7 +1,5 @@
 import getTok from "./tok.js";
-if (module.hot) {
-  module.hot.accept();
-}
+
 export default class Schedule {
   constructor(channel, stationID) {
     this.channel = channel;
@@ -160,7 +158,6 @@ export default class Schedule {
         day: "2-digit",
         month: "2-digit",
       });
-
       for (var i = 0; i < todaySchedule.length; i++) {
         const markup = `  
                         <div class="cell time"><p>${todaySchedule[i].time}</p>
@@ -170,6 +167,7 @@ export default class Schedule {
 
         grid.insertAdjacentHTML("beforeend", markup);
       }
+
       const popSched = document.getElementById(`${this.channel}--popup`);
       for (var i = 0; i < todaySchedule.length; i++) {
         const detailMarkup = `
@@ -179,17 +177,15 @@ export default class Schedule {
                         <p class="episode">${todaySchedule[i].episode}</p><p class="tmsid">${todaySchedule[i].ssn} ${todaySchedule[i].epNum} - ${todaySchedule[i].id}</p></div> `;
         popSched.insertAdjacentHTML("beforeend", detailMarkup);
       }
-      let primetime = document.getElementById(
-        `${this.channel}--${checkDate}--07:00 PM`
-      );
       // Make grids align to 7:00PM of current day (8:00PM visually)
-      let topPos = primetime.offsetTop;
-      console.log(primetime, topPos);
+      const primetime = document.getElementById(
+        `${this.channel}--${checkDate}--07:00 PM` || `Loading...`
+      );
+      const topPos = primetime.offsetTop;
 
       todaySchedule.forEach(
-        (el) =>
-          (document.getElementById(`${this.channel}--epg`).scrollTop =
-            topPos + 18)
+        (document.getElementById(`${this.channel}--epg`).scrollTop =
+          topPos + 18)
       );
     } catch (error) {
       let alerted = localStorage.getItem("alerted") || "";
@@ -255,7 +251,3 @@ let currToken = getTok
   .catch((err) => {
     console.log(err);
   });
-
-// Polyfilling async functions
-import "core-js";
-import "regenerator-runtime/runtime";
