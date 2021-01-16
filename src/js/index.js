@@ -179,7 +179,7 @@ export default class Schedule {
       }
       // Make grids align to 7:00PM of current day (8:00PM visually)
       const primetime = document.getElementById(
-        `${this.channel}--${checkDate}--07:00 PM` || `Loading...`
+        `${this.channel}--${checkDate}--07:00 PM`
       );
       const topPos = primetime.offsetTop;
 
