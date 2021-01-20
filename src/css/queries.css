@@ -89,7 +89,7 @@
   .cell .time p {
     font-size: 75%;
   }
-  .date {
-    font-size: 0.7em;
+  .date p {
+    font-size: 60%;
   }
 }
