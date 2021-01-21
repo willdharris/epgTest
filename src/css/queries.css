@@ -77,6 +77,9 @@
   .time p {
     font-size: 80%;
   }
+  .title p {
+    font-size: 90%;
+  }
 }
 @media only screen and (max-width: 380px) {
   /* For mobile phones: */
@@ -84,7 +87,10 @@
     font-size: 55%;
   }
   .time p {
-    font-size: 75%;
+    font-size: 70%;
+  }
+  .title p {
+    font-size: 80%;
   }
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
