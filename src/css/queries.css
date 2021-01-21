@@ -87,9 +87,7 @@
     height: 80%;
   }
   .cell .time p {
-    font-size: 60%;
-  }
-  .date p {
     font-size: 50%;
+    color: orange;
   }
 }
