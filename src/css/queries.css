@@ -74,7 +74,7 @@
   .popup .contents p {
     font-size: 60%;
   }
-  .cell .time p {
+  .time p {
     font-size: 80%;
   }
 }
@@ -83,7 +83,7 @@
   .popup .contents p {
     font-size: 55%;
   }
-  .cell .time p {
+  .time p {
     font-size: 70%;
     color: orange;
   }
