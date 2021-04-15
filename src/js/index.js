@@ -57,7 +57,7 @@ export default class Schedule {
 
       //Schedule fetch
       const resSched = await fetch(
-        "https://cors-anywhere.herokuapp.com/https://json.schedulesdirect.org/20141201/schedules",
+        "https://cors-proxy.htmldriven.com/?url=https://json.schedulesdirect.org/20141201/schedules",
         scheduleOptions
       );
       const stationSchedule = await resSched.json();
@@ -102,7 +102,7 @@ export default class Schedule {
         redirect: "follow",
       };
       const res = await fetch(
-        "https://cors-anywhere.herokuapp.com/https://json.schedulesdirect.org/20141201/programs",
+        "https://cors-proxy.htmldriven.com/?url=https://json.schedulesdirect.org/20141201/programs",
         options
       );
 
