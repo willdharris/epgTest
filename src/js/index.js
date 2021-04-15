@@ -193,9 +193,7 @@ export default class Schedule {
           topPos + 18)
       );
     } catch (error) {
-      alert(
-        `We're having trouble retrieving schedules. If schedules fail to load, please try again later.`
-      );
+      console.log(error);
     }
   }
 }
