@@ -1387,6 +1387,1349 @@ const schedulesSD = [
       startDate: "2021-04-19",
     },
   },
+  {
+    stationID: "18284",
+    programs: [
+      {
+        programID: "EP021216170003",
+        airDateTime: "2021-04-16T00:00:00Z",
+        duration: 3600,
+        md5: "s1cFdFafESmokCdoDRzVgg",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP021216170004",
+        airDateTime: "2021-04-16T01:00:00Z",
+        duration: 3600,
+        md5: "3FfavS12prd/Kk25QV7XHQ",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP021216170006",
+        airDateTime: "2021-04-16T02:00:00Z",
+        duration: 3600,
+        md5: "HlyGCwD/OyUIiozSC9D5Tg",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP021216170005",
+        airDateTime: "2021-04-16T03:00:00Z",
+        duration: 3600,
+        md5: "rU7s1E3tQk2oi+LcSkjvfg",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP021216170004",
+        airDateTime: "2021-04-16T04:00:00Z",
+        duration: 3600,
+        md5: "3FfavS12prd/Kk25QV7XHQ",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP021216170006",
+        airDateTime: "2021-04-16T05:00:00Z",
+        duration: 3600,
+        md5: "HlyGCwD/OyUIiozSC9D5Tg",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP021216170005",
+        airDateTime: "2021-04-16T06:00:00Z",
+        duration: 3600,
+        md5: "rU7s1E3tQk2oi+LcSkjvfg",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP021216170003",
+        airDateTime: "2021-04-16T07:00:00Z",
+        duration: 3600,
+        md5: "s1cFdFafESmokCdoDRzVgg",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP027658130005",
+        airDateTime: "2021-04-16T08:00:00Z",
+        duration: 3600,
+        md5: "TCRVTjNyDrD8l8yUwJ0bbA",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP013378650001",
+        airDateTime: "2021-04-16T09:00:00Z",
+        duration: 3600,
+        md5: "MQy020gQx7CUMTfXHJwsiQ",
+        audioProperties: ["cc", "stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP008843020022",
+        airDateTime: "2021-04-16T10:00:00Z",
+        duration: 3600,
+        md5: "2vAzt/1j7dpX776Ve0Cd6g",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP008843020004",
+        airDateTime: "2021-04-16T11:00:00Z",
+        duration: 3600,
+        md5: "58N5Erdhg8kxhHD/Uju4iQ",
+        audioProperties: ["cc", "stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP008843020021",
+        airDateTime: "2021-04-16T12:00:00Z",
+        duration: 3600,
+        md5: "juMm948jfDoppusFaw+e+g",
+        audioProperties: ["cc", "stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP008843020025",
+        airDateTime: "2021-04-16T13:00:00Z",
+        duration: 3600,
+        md5: "62bP2RDVgYZZ87Z1y+iR5Q",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP008843020010",
+        airDateTime: "2021-04-16T14:00:00Z",
+        duration: 3600,
+        md5: "BNKYtHo95st+QiFghJYKoQ",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP027344690005",
+        airDateTime: "2021-04-16T15:00:00Z",
+        duration: 3600,
+        md5: "BQMUwlGogwou0FNzsgLlMw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP027344690006",
+        airDateTime: "2021-04-16T16:00:00Z",
+        duration: 3600,
+        md5: "uhAFtOfDAbDnc9Iu/wDhTw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP027344690004",
+        airDateTime: "2021-04-16T17:00:00Z",
+        duration: 3600,
+        md5: "yIidBWjWfLMCOd/+Z00NBg",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP018690940019",
+        airDateTime: "2021-04-16T18:00:00Z",
+        duration: 3600,
+        md5: "lo/GW/6Qi8vYdV7nF6CkoQ",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP018690940015",
+        airDateTime: "2021-04-16T19:00:00Z",
+        duration: 3600,
+        md5: "ucwKHVB+eaaA8Y22XEDd5A",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "SH027251870000",
+        airDateTime: "2021-04-16T20:00:00Z",
+        duration: 3600,
+        md5: "zzSB8SAEwfkWlHV6bRlijA",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "SH027487230000",
+        airDateTime: "2021-04-16T21:00:00Z",
+        duration: 3600,
+        md5: "MWgRT5Uwn/x8Wb/L21bXeA",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence|Language",
+          },
+        ],
+      },
+      {
+        programID: "SH026867800000",
+        airDateTime: "2021-04-16T22:00:00Z",
+        duration: 3600,
+        md5: "TA8rPUQmk7OxUfB47aNpKw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP012148720062",
+        airDateTime: "2021-04-16T23:00:00Z",
+        duration: 3600,
+        md5: "eCTY8vGeFypmcOzU7QBDig",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence|Sex|Language|Dialog",
+          },
+        ],
+      },
+    ],
+    metadata: {
+      modified: "2021-04-15T13:51:50Z",
+      md5: "w8iKd3T5eETu6d+O7tE4Kg",
+      startDate: "2021-04-16",
+    },
+  },
+  {
+    stationID: "18284",
+    programs: [
+      {
+        programID: "EP012148720091",
+        airDateTime: "2021-04-17T00:00:00Z",
+        duration: 3600,
+        md5: "CtDQNqYYOh6sN4NzFm8JrA",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP012148720026",
+        airDateTime: "2021-04-17T01:00:00Z",
+        duration: 3600,
+        md5: "YAgUClRTlfYYRLHtWNmq4g",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence|Sex|Language|Dialog",
+          },
+        ],
+      },
+      {
+        programID: "EP012148720080",
+        airDateTime: "2021-04-17T02:00:00Z",
+        duration: 3600,
+        md5: "N3CVyj74jDVNRb/vyXrgyg",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence|Language",
+          },
+        ],
+      },
+      {
+        programID: "EP012148720081",
+        airDateTime: "2021-04-17T03:00:00Z",
+        duration: 3600,
+        md5: "so6l82YnmFXS93+yfpEvVA",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP012148720026",
+        airDateTime: "2021-04-17T04:00:00Z",
+        duration: 3600,
+        md5: "YAgUClRTlfYYRLHtWNmq4g",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence|Sex|Language|Dialog",
+          },
+        ],
+      },
+      {
+        programID: "EP012148720080",
+        airDateTime: "2021-04-17T05:00:00Z",
+        duration: 3600,
+        md5: "N3CVyj74jDVNRb/vyXrgyg",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence|Language",
+          },
+        ],
+      },
+      {
+        programID: "EP012148720081",
+        airDateTime: "2021-04-17T06:00:00Z",
+        duration: 3600,
+        md5: "so6l82YnmFXS93+yfpEvVA",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP012148720091",
+        airDateTime: "2021-04-17T07:00:00Z",
+        duration: 3600,
+        md5: "CtDQNqYYOh6sN4NzFm8JrA",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP012148720062",
+        airDateTime: "2021-04-17T08:00:00Z",
+        duration: 3600,
+        md5: "eCTY8vGeFypmcOzU7QBDig",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence|Sex|Language|Dialog",
+          },
+        ],
+      },
+      {
+        programID: "SH026867800000",
+        airDateTime: "2021-04-17T09:00:00Z",
+        duration: 3600,
+        md5: "TA8rPUQmk7OxUfB47aNpKw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP022023450006",
+        airDateTime: "2021-04-17T10:00:00Z",
+        duration: 3600,
+        md5: "XUxQtdhzTWYgb0nodHQebQ",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP019320050001",
+        airDateTime: "2021-04-17T11:00:00Z",
+        duration: 3600,
+        md5: "JEMGcyhqchc1BtIFcdh89w",
+        audioProperties: ["cc", "stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP019320050002",
+        airDateTime: "2021-04-17T12:00:00Z",
+        duration: 3600,
+        md5: "gtnU96k4e0rzXIZOSkRUHw",
+        audioProperties: ["cc", "stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP019320050003",
+        airDateTime: "2021-04-17T13:00:00Z",
+        duration: 3600,
+        md5: "U3c77RRuM0yD6cmyTi+nPQ",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP019320050004",
+        airDateTime: "2021-04-17T14:00:00Z",
+        duration: 3600,
+        md5: "LZvuJFm9K4UXQrHLx26Aqw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP019320050005",
+        airDateTime: "2021-04-17T15:00:00Z",
+        duration: 3600,
+        md5: "KmMKqZPm/LkhWaCIHozA/A",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP026179100001",
+        airDateTime: "2021-04-17T16:00:00Z",
+        duration: 3600,
+        md5: "u0fIU9Rc/H7A0iGdZsOHCg",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence|Dialog",
+          },
+        ],
+      },
+      {
+        programID: "EP026179100003",
+        airDateTime: "2021-04-17T17:00:00Z",
+        duration: 3600,
+        md5: "YgQY1EvXkK83ptg1B4JqLA",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence|Dialog",
+          },
+        ],
+      },
+      {
+        programID: "EP026179100002",
+        airDateTime: "2021-04-17T18:00:00Z",
+        duration: 3600,
+        md5: "GnRAiZl2IwjwHm5RpBwl1A",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence|Dialog",
+          },
+        ],
+      },
+      {
+        programID: "EP026179100004",
+        airDateTime: "2021-04-17T19:00:00Z",
+        duration: 3600,
+        md5: "gmsM2pdO+N3usv2Uw7JOxQ",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence|Dialog",
+          },
+        ],
+      },
+      {
+        programID: "EP027915070008",
+        airDateTime: "2021-04-17T20:00:00Z",
+        duration: 3600,
+        md5: "vHLOfnVoU7Nla3WErwJ2eQ",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP027915070005",
+        airDateTime: "2021-04-17T21:00:00Z",
+        duration: 3600,
+        md5: "4ifM1ckcfF+/sYNgsV0g4g",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP018690940020",
+        airDateTime: "2021-04-17T22:00:00Z",
+        duration: 3600,
+        md5: "9t2r8fi3PtqNPquQFun63Q",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP018690940022",
+        airDateTime: "2021-04-17T23:00:00Z",
+        duration: 3600,
+        md5: "nbO8ORc2wL4PfC+LCmbEWA",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+    ],
+    metadata: {
+      modified: "2021-04-15T13:51:50Z",
+      md5: "NtKlF3SBjfvbbnrRNnCpuw",
+      startDate: "2021-04-17",
+    },
+  },
+  {
+    stationID: "18284",
+    programs: [
+      {
+        programID: "EP024299560011",
+        airDateTime: "2021-04-18T00:00:00Z",
+        duration: 3600,
+        md5: "IicPr13qrstADgaLbS1P+g",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP024299560001",
+        airDateTime: "2021-04-18T01:00:00Z",
+        duration: 3600,
+        md5: "WDO3fC4FJinnXvgriwIs8g",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP024299560002",
+        airDateTime: "2021-04-18T02:00:00Z",
+        duration: 3600,
+        md5: "GG1QB/cAe/qZG6s4R/tSSw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP024299560007",
+        airDateTime: "2021-04-18T03:00:00Z",
+        duration: 3600,
+        md5: "QQOUwYECI/aN+JucVWKjAw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP024299560001",
+        airDateTime: "2021-04-18T04:00:00Z",
+        duration: 3600,
+        md5: "WDO3fC4FJinnXvgriwIs8g",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP024299560002",
+        airDateTime: "2021-04-18T05:00:00Z",
+        duration: 3600,
+        md5: "GG1QB/cAe/qZG6s4R/tSSw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP024299560007",
+        airDateTime: "2021-04-18T06:00:00Z",
+        duration: 3600,
+        md5: "QQOUwYECI/aN+JucVWKjAw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP024299560011",
+        airDateTime: "2021-04-18T07:00:00Z",
+        duration: 3600,
+        md5: "IicPr13qrstADgaLbS1P+g",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP018690940022",
+        airDateTime: "2021-04-18T08:00:00Z",
+        duration: 3600,
+        md5: "nbO8ORc2wL4PfC+LCmbEWA",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP018690940020",
+        airDateTime: "2021-04-18T09:00:00Z",
+        duration: 3600,
+        md5: "9t2r8fi3PtqNPquQFun63Q",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP016427670001",
+        airDateTime: "2021-04-18T10:00:00Z",
+        duration: 3600,
+        md5: "SxG2ZiaKJ0XEzCaRKr5Z4A",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP016427670003",
+        airDateTime: "2021-04-18T11:00:00Z",
+        duration: 3600,
+        md5: "oWo0g1n046epmr3xN18SUg",
+        audioProperties: ["cc", "stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP016427670006",
+        airDateTime: "2021-04-18T12:00:00Z",
+        duration: 3600,
+        md5: "o5WMpSPhEscSj/y8GnhdOg",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP018690910004",
+        airDateTime: "2021-04-18T13:00:00Z",
+        duration: 3600,
+        md5: "S9LXY6WSYq1agLvsrrn15g",
+        audioProperties: ["cc", "stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP018690910006",
+        airDateTime: "2021-04-18T14:00:00Z",
+        duration: 3600,
+        md5: "ANuv0JWy3GuwZqFPAlYu5Q",
+        audioProperties: ["cc", "stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP027915070001",
+        airDateTime: "2021-04-18T15:00:00Z",
+        duration: 3600,
+        md5: "msBS8m2+mYdIU0zQKTA3mQ",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP027915070002",
+        airDateTime: "2021-04-18T16:00:00Z",
+        duration: 3600,
+        md5: "2X6XATNyLk/z/1poAuuUIA",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP025100420006",
+        airDateTime: "2021-04-18T17:00:00Z",
+        duration: 3600,
+        md5: "jJw4CY0igHasdCBc5fzxSw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP025100420005",
+        airDateTime: "2021-04-18T18:00:00Z",
+        duration: 3600,
+        md5: "S7I8pKK+wlTQI0YUSpSFAw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP025100420007",
+        airDateTime: "2021-04-18T19:00:00Z",
+        duration: 3600,
+        md5: "k1HwU8e40KPuILBCiZRyJA",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP018690910005",
+        airDateTime: "2021-04-18T20:00:00Z",
+        duration: 3600,
+        md5: "J33vaeoY3PvHbAWbcvAjGQ",
+        audioProperties: ["cc", "stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP019643630001",
+        airDateTime: "2021-04-18T21:00:00Z",
+        duration: 3600,
+        md5: "HMwnhDABWxHotI6EUSjAZg",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP027658130001",
+        airDateTime: "2021-04-18T22:00:00Z",
+        duration: 3600,
+        md5: "4cdzd7ZvXGlT21lpxQUu7Q",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP013378650011",
+        airDateTime: "2021-04-18T23:00:00Z",
+        duration: 3600,
+        md5: "2lMvi4qZe8oQrGI5N0142g",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+    ],
+    metadata: {
+      modified: "2021-04-15T13:51:51Z",
+      md5: "ta2Oy72htrgog7dDyFnTww",
+      startDate: "2021-04-18",
+    },
+  },
+  {
+    stationID: "18284",
+    programs: [
+      {
+        programID: "EP018690910012",
+        airDateTime: "2021-04-19T00:00:00Z",
+        duration: 3600,
+        md5: "rJ628fgcwFK7AUT+5tCQrw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP027658130004",
+        airDateTime: "2021-04-19T01:00:00Z",
+        duration: 3600,
+        md5: "T4Iy50qxBXyUp4qZwQyEnw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence|Dialog",
+          },
+        ],
+      },
+      {
+        programID: "EP013378650006",
+        airDateTime: "2021-04-19T02:00:00Z",
+        duration: 3600,
+        md5: "Y+5kvhy63Hh2UGkMWCySrg",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP013378650003",
+        airDateTime: "2021-04-19T03:00:00Z",
+        duration: 3600,
+        md5: "p5g2nbILOTwft77SbUVjuQ",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP027658130004",
+        airDateTime: "2021-04-19T04:00:00Z",
+        duration: 3600,
+        md5: "T4Iy50qxBXyUp4qZwQyEnw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence|Dialog",
+          },
+        ],
+      },
+      {
+        programID: "EP013378650006",
+        airDateTime: "2021-04-19T05:00:00Z",
+        duration: 3600,
+        md5: "Y+5kvhy63Hh2UGkMWCySrg",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP013378650003",
+        airDateTime: "2021-04-19T06:00:00Z",
+        duration: 3600,
+        md5: "p5g2nbILOTwft77SbUVjuQ",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP018690910012",
+        airDateTime: "2021-04-19T07:00:00Z",
+        duration: 3600,
+        md5: "rJ628fgcwFK7AUT+5tCQrw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP013378650011",
+        airDateTime: "2021-04-19T08:00:00Z",
+        duration: 3600,
+        md5: "2lMvi4qZe8oQrGI5N0142g",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP027658130001",
+        airDateTime: "2021-04-19T09:00:00Z",
+        duration: 3600,
+        md5: "4cdzd7ZvXGlT21lpxQUu7Q",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP027568070006",
+        airDateTime: "2021-04-19T10:00:00Z",
+        duration: 3600,
+        md5: "2tnbeQFLGjKfrRDdRv5N4Q",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP027568070005",
+        airDateTime: "2021-04-19T11:00:00Z",
+        duration: 3600,
+        md5: "WoY4ygsB6/cCo6VII4mpaQ",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence|Sex|Dialog",
+          },
+        ],
+      },
+      {
+        programID: "EP017533120061",
+        airDateTime: "2021-04-19T12:00:00Z",
+        duration: 3600,
+        md5: "qvh8TzM7aTmziy7rRaXvTw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP017533120066",
+        airDateTime: "2021-04-19T13:00:00Z",
+        duration: 3600,
+        md5: "9//FOv7bOh3omheX+DfNqg",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP008843020002",
+        airDateTime: "2021-04-19T14:00:00Z",
+        duration: 3600,
+        md5: "X1c2NyWZicUhbv3nM4ZEzw",
+        audioProperties: ["cc", "stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP008843020007",
+        airDateTime: "2021-04-19T15:00:00Z",
+        duration: 3600,
+        md5: "mbKkRJ0LGAsW086o9etfCQ",
+        audioProperties: ["cc", "stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP008843020004",
+        airDateTime: "2021-04-19T16:00:00Z",
+        duration: 3600,
+        md5: "58N5Erdhg8kxhHD/Uju4iQ",
+        audioProperties: ["cc", "stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP008843020001",
+        airDateTime: "2021-04-19T17:00:00Z",
+        duration: 3600,
+        md5: "fL11meMrXvWT78bg7HyG8g",
+        audioProperties: ["cc", "stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP008843020011",
+        airDateTime: "2021-04-19T18:00:00Z",
+        duration: 3600,
+        md5: "TbE1oEfc4ryxbD3IlflTXw",
+        audioProperties: ["cc", "stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP008843020008",
+        airDateTime: "2021-04-19T19:00:00Z",
+        duration: 3600,
+        md5: "l6woYGkhFxQuenwpqkNuFw",
+        audioProperties: ["cc", "stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP013378650003",
+        airDateTime: "2021-04-19T20:00:00Z",
+        duration: 3600,
+        md5: "p5g2nbILOTwft77SbUVjuQ",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+      {
+        programID: "EP018690910012",
+        airDateTime: "2021-04-19T21:00:00Z",
+        duration: 3600,
+        md5: "rJ628fgcwFK7AUT+5tCQrw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+            subRating: "Violence",
+          },
+        ],
+      },
+      {
+        programID: "EP027658130004",
+        airDateTime: "2021-04-19T22:00:00Z",
+        duration: 3600,
+        md5: "T4Iy50qxBXyUp4qZwQyEnw",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TV14",
+            subRating: "Violence|Dialog",
+          },
+        ],
+      },
+      {
+        programID: "EP013378650006",
+        airDateTime: "2021-04-19T23:00:00Z",
+        duration: 3600,
+        md5: "Y+5kvhy63Hh2UGkMWCySrg",
+        audioProperties: ["stereo"],
+        ratings: [
+          {
+            body: "USA Parental Rating",
+            code: "TVPG",
+          },
+        ],
+      },
+    ],
+    metadata: {
+      modified: "2021-04-15T13:51:51Z",
+      md5: "l++l9EQjWRL6+Ys+RsHsCw",
+      startDate: "2021-04-19",
+    },
+  },
 ];
 
 export default schedulesSD;

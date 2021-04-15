@@ -1283,7 +1283,8 @@ const programsSD = [
     showType: "Series",
     hasImageArtwork: true,
     hasSeriesArtwork: true,
-    md5: "NPzzr/+R0gD0SSLSRRfhfQ",
+    hasEpisodeArtwork: true,
+    md5: "MiG/ujRN4ASrG41JO6zGog",
   },
   {
     resourceID: "8378807",
@@ -7615,6 +7616,4645 @@ const programsSD = [
     hasImageArtwork: true,
     hasSeriesArtwork: true,
     md5: "rUeGpu42ps9ick3Ba1dyqQ",
+  },
+  {
+    resourceID: "11480676",
+    programID: "EP021216170003",
+    titles: [
+      {
+        title120: "FBI Takedowns",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The FBI races against time when an improvised explosive device is discovered along a parade route.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The discovery of an improvised explosive device along a parade route leads to a pursuit across the Pacific Northwest.",
+        },
+      ],
+    },
+    originalAirDate: "2015-03-25",
+    genres: ["Crime", "History"],
+    episodeTitle150: "Hunting a Lone Wolf",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 2,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Régie du cinéma",
+        code: "13+",
+        country: "CAN",
+      },
+    ],
+    duration: 2700,
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "s1cFdFafESmokCdoDRzVgg",
+  },
+  {
+    resourceID: "11480676",
+    programID: "EP021216170004",
+    titles: [
+      {
+        title120: "FBI Takedowns",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "A cruel criminal coerces his victims to rob a bank or watch family members die.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The FBI steps in to catch a sadistic criminal who coerces his victims to rob a bank, with the lives of their family members hanging in the balance.",
+        },
+      ],
+    },
+    originalAirDate: "2015-04-08",
+    genres: ["Crime", "History"],
+    episodeTitle150: "Sadistic Mastermind",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 4,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Régie du cinéma",
+        code: "13+",
+        country: "CAN",
+      },
+    ],
+    duration: 2700,
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "3FfavS12prd/Kk25QV7XHQ",
+  },
+  {
+    resourceID: "11480676",
+    programID: "EP021216170006",
+    titles: [
+      {
+        title120: "FBI Takedowns",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "A special FBI task force tracks a deadly crew of professional robbers in Boston.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "A special FBI task force meets with a code of silence in a tough Boston neighborhood as they track a deadly crew of professional robbers.",
+        },
+      ],
+    },
+    originalAirDate: "2015-04-22",
+    genres: ["Crime", "History"],
+    episodeTitle150: "The Boston Bandits",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 6,
+        },
+      },
+      {
+        TheTVDB: {
+          seriesID: 293393,
+          episodeID: 0,
+          season: 0,
+          episode: 0,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Régie du cinéma",
+        code: "13+",
+        country: "CAN",
+      },
+    ],
+    duration: 2700,
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "HlyGCwD/OyUIiozSC9D5Tg",
+  },
+  {
+    resourceID: "11480676",
+    programID: "EP021216170005",
+    titles: [
+      {
+        title120: "FBI Takedowns",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The FBI partners with a local detective and an ex-cop informant to nab a violent fugitive.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The FBI partners with a local detective and an ex-cop informant to apprehend a violent fugitive targeting banks in southern New Jersey.",
+        },
+      ],
+    },
+    originalAirDate: "2015-04-15",
+    genres: ["Crime", "History"],
+    episodeTitle150: "Catching Crazy",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 5,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Régie du cinéma",
+        code: "13+",
+        country: "CAN",
+      },
+    ],
+    duration: 2700,
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "rU7s1E3tQk2oi+LcSkjvfg",
+  },
+  {
+    resourceID: "14487471",
+    programID: "EP027658130005",
+    titles: [
+      {
+        title120: "World War II: Witness to War",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Devastation touches the civilians of Germany; the United States is a newly engaged Ally.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Devastation touches the civilians of Germany; with the US as a newly engaged Ally, western forces bring the war to the Axis front, but at extreme costs.",
+        },
+      ],
+    },
+    originalAirDate: "2017-10-31",
+    genres: ["Documentary", "History"],
+    episodeTitle150: "Bombing the Reich",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 5,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+        contentAdvisory: ["Violence"],
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "TCRVTjNyDrD8l8yUwJ0bbA",
+  },
+  {
+    resourceID: "8340030",
+    programID: "EP013378650001",
+    titles: [
+      {
+        title120: "World War II in Color",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The most destructive war begins as German troops invade Poland.",
+        },
+      ],
+    },
+    originalAirDate: "2010-11-12",
+    genres: ["Documentary", "Military", "War"],
+    episodeTitle150: "The Gathering Storm",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 1,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+      {
+        body: "Conseil Supérieur de l'Audiovisuel",
+        code: "-10",
+        country: "FRA",
+      },
+    ],
+    duration: 3120,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "80657",
+        personId: "80657",
+        name: "Robert Powell",
+      },
+    ],
+    crew: [
+      {
+        billingOrder: "01",
+        role: "Executive Producer",
+        nameId: "885436",
+        personId: "843114",
+        name: "Matthew Barrett",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "MQy020gQx7CUMTfXHJwsiQ",
+  },
+  {
+    resourceID: "312932",
+    programID: "EP008843020022",
+    titles: [
+      {
+        title120: "Weaponology",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description: "Tracing the history of the United States Marine Corps.",
+        },
+      ],
+    },
+    originalAirDate: "2007-11-27",
+    genres: ["History", "War"],
+    episodeTitle150: "USMC",
+    metadata: [
+      {
+        Gracenote: {
+          season: 2,
+          episode: 2,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    duration: 2700,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "653703",
+        personId: "631234",
+        name: "John Schwab",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "2vAzt/1j7dpX776Ve0Cd6g",
+  },
+  {
+    resourceID: "312932",
+    programID: "EP008843020004",
+    titles: [
+      {
+        title120: "Weaponology",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description: "The history of artillery, from catapults to cannons.",
+        },
+      ],
+    },
+    originalAirDate: "2007-03-05",
+    genres: ["History", "War"],
+    episodeTitle150: "Artillery",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 8,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    duration: 2700,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "653703",
+        personId: "631234",
+        name: "John Schwab",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "58N5Erdhg8kxhHD/Uju4iQ",
+  },
+  {
+    resourceID: "312932",
+    programID: "EP008843020021",
+    titles: [
+      {
+        title120: "Weaponology",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The U.S. Navy SEALs is the world's most versatile special operations force.",
+        },
+      ],
+    },
+    originalAirDate: "2007-11-20",
+    genres: ["History", "War"],
+    episodeTitle150: "Navy SEALs",
+    metadata: [
+      {
+        Gracenote: {
+          season: 2,
+          episode: 1,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+        contentAdvisory: ["Violence"],
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    duration: 2700,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "653703",
+        personId: "631234",
+        name: "John Schwab",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "juMm948jfDoppusFaw+e+g",
+  },
+  {
+    resourceID: "312932",
+    programID: "EP008843020025",
+    titles: [
+      {
+        title120: "Weaponology",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Members of the U.S. Army Rangers utilize cutting-edge military technology.",
+        },
+      ],
+    },
+    originalAirDate: "2007-12-18",
+    genres: ["History", "War"],
+    episodeTitle150: "Rangers",
+    metadata: [
+      {
+        Gracenote: {
+          season: 2,
+          episode: 5,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    duration: 2700,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "653703",
+        personId: "631234",
+        name: "John Schwab",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "62bP2RDVgYZZ87Z1y+iR5Q",
+  },
+  {
+    resourceID: "312932",
+    programID: "EP008843020010",
+    titles: [
+      {
+        title120: "Weaponology",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Battlefield traps cause both physical and psychological damage to the enemy.",
+        },
+      ],
+    },
+    originalAirDate: "2007-03-12",
+    genres: ["History", "War"],
+    episodeTitle150: "Booby Traps",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 9,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    duration: 2700,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "653703",
+        personId: "631234",
+        name: "John Schwab",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "BNKYtHo95st+QiFghJYKoQ",
+  },
+  {
+    resourceID: "14334044",
+    programID: "EP027344690005",
+    titles: [
+      {
+        title120: "The Civil War: Brothers Divided",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "December 1864: Confederate forces try to retake the city of Nashville.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "December 1864: In a futile attempt to regain the upper hand in the Civil War, Confederate forces try to retake the city of Nashville and sever Union supply lines.",
+        },
+      ],
+    },
+    originalAirDate: "2017-08-14",
+    genres: ["Documentary", "History"],
+    episodeTitle150: "Battle of Nashville",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 5,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "BQMUwlGogwou0FNzsgLlMw",
+  },
+  {
+    resourceID: "14334044",
+    programID: "EP027344690006",
+    titles: [
+      {
+        title120: "The Civil War: Brothers Divided",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "April 1865: After eight attempts to storm Petersburg fail, two Vermont officers lead a daring raid.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "April 1865: Union progress has ground to a halt at the seemingly impregnable ring of trenches built around Petersburg, Virginia. After eight attempts to storm Petersburg failed, two officers from Vermont lead a daring raid.",
+        },
+      ],
+    },
+    originalAirDate: "2017-08-14",
+    genres: ["Documentary", "History"],
+    episodeTitle150: "Battle of Petersburg",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 6,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "uhAFtOfDAbDnc9Iu/wDhTw",
+  },
+  {
+    resourceID: "14334044",
+    programID: "EP027344690004",
+    titles: [
+      {
+        title120: "The Civil War: Brothers Divided",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "July 1863: An elite band of Yankee Sharpshooters defeat Robert E. Lee's troops.",
+        },
+      ],
+    },
+    originalAirDate: "2017-08-07",
+    genres: ["Documentary", "History"],
+    episodeTitle150: "Battle of Gettysburg",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 4,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "yIidBWjWfLMCOd/+Z00NBg",
+  },
+  {
+    resourceID: "10513888",
+    programID: "EP018690940019",
+    titles: [
+      {
+        title120: "Codes and Conspiracies",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "A secret society plots the assassination of President Abraham Lincoln.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "A secret society gathers in the dead of night and plots the assassination of President Abraham Lincoln; U.S. spymaster Allan Pinkerton stops Confederate agents before they can topple the Union.",
+        },
+      ],
+    },
+    originalAirDate: "2016-10-18",
+    genres: ["History"],
+    episodeTitle150: "Civil War",
+    metadata: [
+      {
+        Gracenote: {
+          season: 3,
+          episode: 2,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "12",
+        country: "BRA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "PG",
+        country: "AUS",
+      },
+    ],
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "906208",
+        personId: "861766",
+        name: "Dan Nachtrab",
+      },
+    ],
+    crew: [
+      {
+        billingOrder: "01",
+        role: "Voice-Over",
+        nameId: "906208",
+        personId: "861766",
+        name: "Dan Nachtrab",
+      },
+      {
+        billingOrder: "02",
+        role: "Executive Producer",
+        nameId: "912319",
+        personId: "867520",
+        name: "Douglas Cohen",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "lo/GW/6Qi8vYdV7nF6CkoQ",
+  },
+  {
+    resourceID: "10513888",
+    programID: "EP018690940015",
+    titles: [
+      {
+        title120: "Codes and Conspiracies",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Infamous cults include fire-and-brimstone organizations and those worshipping visitors from space.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Investigating the United States' most infamous cults, from fire-and-brimstone organizations to those worshipping visitors from space.",
+        },
+      ],
+    },
+    originalAirDate: "2015-03-16",
+    genres: ["History"],
+    episodeTitle150: "Deadly Cults",
+    metadata: [
+      {
+        Gracenote: {
+          season: 2,
+          episode: 5,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "12",
+        country: "BRA",
+      },
+    ],
+    duration: 2700,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "906208",
+        personId: "861766",
+        name: "Dan Nachtrab",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "ucwKHVB+eaaA8Y22XEDd5A",
+  },
+  {
+    resourceID: "14288314",
+    programID: "SH027251870000",
+    titles: [
+      {
+        title120: "Unabomber: 20 Years of Terror",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Ted Kaczynski's brother David shares his story and retraces the Unabomber's steps.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Unabomber Ted Kaczynski terrorized the country with mail bombs but when his brother David realized, he made a hard decision to turn Ted over to authorities. David shares his dramatic story with us and retraces the Unabomber's steps.",
+        },
+      ],
+    },
+    originalAirDate: "2017-09-24",
+    genres: ["Documentary", "History", "Special"],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    entityType: "Show",
+    showType: "Special",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "zzSB8SAEwfkWlHV6bRlijA",
+  },
+  {
+    resourceID: "14402386",
+    programID: "SH027487230000",
+    titles: [
+      {
+        title120: "Manson: The Prison Tapes",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Archival news reports, photos and interviews paint a searing portrait of 1960s L.A.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The horrific Tate/LaBianca murders, and the media circus surrounding the trials of cult leader Charles Manson and his Family of misfit killers; Archival news reports, photos and interviews paint a searing portrait of 1960s L.A.",
+        },
+      ],
+    },
+    originalAirDate: "2017-08-06",
+    genres: ["Documentary", "Special"],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    entityType: "Show",
+    showType: "Special",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "MWgRT5Uwn/x8Wb/L21bXeA",
+  },
+  {
+    resourceID: "14113363",
+    programID: "SH026867800000",
+    titles: [
+      {
+        title120: "Waco Standoff: As We Watched",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "In 1993, FBI agents attack a cult compound in Waco, Texas. 76 people, including 26 children, died.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "On April 19, 1993, FBI agents attacked a religious compound in Waco, Texas, occupied by a small obscure religious cult. 76 people, including 26 children, died. The repercussions of Waco are still being felt.",
+        },
+      ],
+    },
+    originalAirDate: "2017-05-14",
+    genres: ["Documentary", "History", "Special"],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    entityType: "Show",
+    showType: "Special",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "TA8rPUQmk7OxUfB47aNpKw",
+  },
+  {
+    resourceID: "7946711",
+    programID: "EP012148720062",
+    titles: [
+      {
+        title120: "I (Almost) Got Away With It",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "A group of youths goes on a crime spree, sends a threatening tape to police, and goes on the run.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "A group of youths who break into cars and rob houses send a threatening tape to authorities and go on the run.",
+        },
+      ],
+    },
+    originalAirDate: "2012-05-09",
+    genres: ["Documentary", "Crime"],
+    episodeTitle150: "Got to Run With My Brother",
+    metadata: [
+      {
+        Gracenote: {
+          season: 5,
+          episode: 5,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Régie du cinéma",
+        code: "13+",
+        country: "CAN",
+      },
+      {
+        body: "Conseil Supérieur de l'Audiovisuel",
+        code: "-10",
+        country: "FRA",
+      },
+    ],
+    duration: 2640,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "654451",
+        personId: "631864",
+        name: "Bill Ratner",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "eCTY8vGeFypmcOzU7QBDig",
+  },
+  {
+    resourceID: "7946711",
+    programID: "EP012148720091",
+    titles: [
+      {
+        title120: "I (Almost) Got Away With It",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "A man convicted of murder, and his cell mate, escape through an air duct.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "A man convicted of murder, and his cell mate, escape through an air duct, but his freedom ends following a car crash.",
+        },
+      ],
+    },
+    originalAirDate: "2014-07-14",
+    genres: ["Documentary", "Crime"],
+    episodeTitle150: "Got to Escape Through an Air Duct",
+    metadata: [
+      {
+        Gracenote: {
+          season: 7,
+          episode: 6,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "14",
+        country: "BRA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+      {
+        body: "Régie du cinéma",
+        code: "13+",
+        country: "CAN",
+      },
+      {
+        body: "Conseil Supérieur de l'Audiovisuel",
+        code: "-10",
+        country: "FRA",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+    ],
+    duration: 2640,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "654451",
+        personId: "631864",
+        name: "Bill Ratner",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "CtDQNqYYOh6sN4NzFm8JrA",
+  },
+  {
+    resourceID: "7946711",
+    programID: "EP012148720026",
+    titles: [
+      {
+        title120: "I (Almost) Got Away With It",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "On a job to pick up a prostitute Lane Slettvet stabs a man and still goes to parties for drugs.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "On a job to pick up a prostitute Lane Slettvet stabs a man, while trying to stay under the radar he still goes to parties for the drugs.",
+        },
+      ],
+    },
+    originalAirDate: "2010-12-28",
+    genres: ["Documentary", "Crime"],
+    episodeTitle150: "Got to Fetch a Hooker",
+    metadata: [
+      {
+        Gracenote: {
+          season: 2,
+          episode: 10,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+      {
+        body: "Régie du cinéma",
+        code: "13+",
+        country: "CAN",
+      },
+    ],
+    duration: 2640,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "654451",
+        personId: "631864",
+        name: "Bill Ratner",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "YAgUClRTlfYYRLHtWNmq4g",
+  },
+  {
+    resourceID: "7946711",
+    programID: "EP012148720080",
+    titles: [
+      {
+        title120: "I (Almost) Got Away With It",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "A man is caught smuggling marijuana; a plane crash forces him to flee the country.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Even after getting caught, Tony Darwin continues working for a notorious smuggler until a deadly plane crash forces him to flee the country; the pressure mounts when his girlfriend threatens to rat him out.",
+        },
+      ],
+    },
+    originalAirDate: "2013-08-12",
+    genres: ["Documentary", "Crime"],
+    episodeTitle150: "Got to Be the Green Baron",
+    metadata: [
+      {
+        Gracenote: {
+          season: 6,
+          episode: 8,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Film & Publication Board",
+        code: "18",
+        country: "ZAF",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Régie du cinéma",
+        code: "13+",
+        country: "CAN",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+    ],
+    duration: 2640,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "654451",
+        personId: "631864",
+        name: "Bill Ratner",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "N3CVyj74jDVNRb/vyXrgyg",
+  },
+  {
+    resourceID: "7946711",
+    programID: "EP012148720081",
+    titles: [
+      {
+        title120: "I (Almost) Got Away With It",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "A stolen weapons dealer is caught, but later escapes from prison.",
+        },
+      ],
+    },
+    originalAirDate: "2013-07-29",
+    genres: ["Documentary", "Crime"],
+    episodeTitle150: "Got to Rob a Pawn Shop",
+    metadata: [
+      {
+        Gracenote: {
+          season: 6,
+          episode: 6,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Film & Publication Board",
+        code: "13",
+        country: "ZAF",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Régie du cinéma",
+        code: "13+",
+        country: "CAN",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+      {
+        body: "Conseil Supérieur de l'Audiovisuel",
+        code: "-10",
+        country: "FRA",
+      },
+    ],
+    duration: 2640,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "654451",
+        personId: "631864",
+        name: "Bill Ratner",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "so6l82YnmFXS93+yfpEvVA",
+  },
+  {
+    resourceID: "11850102",
+    programID: "EP022023450006",
+    titles: [
+      {
+        title120: "Evolution of Evil",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Josef Stalin leads the Soviet Union for 30 years, eliminating any opposition to his rule.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Iron-fisted ruler Josef Stalin leads the Soviet Union for 30 years, eliminating anyone who stands in his way.",
+        },
+      ],
+    },
+    originalAirDate: "2015-07-30",
+    genres: ["History"],
+    episodeTitle150: "Stalin: Russia's Steel Tyrant",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 3,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "12",
+        country: "BRA",
+      },
+    ],
+    duration: 2700,
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "XUxQtdhzTWYgb0nodHQebQ",
+  },
+  {
+    resourceID: "10817420",
+    programID: "EP019320050001",
+    titles: [
+      {
+        title120: "Apocalypse: WWI",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The assassination of Archduke Franz Ferdinand in 1914 leads to the beginning of World War I.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            'The beginnings of the conflict known as "The War to End All Wars," including the assassination of Archduke Franz Ferdinand of Austria in 1914.',
+        },
+      ],
+    },
+    originalAirDate: "2014-07-14",
+    genres: ["Documentary", "War", "History", "Military"],
+    episodeTitle150: "Fury",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 1,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "12",
+        country: "BRA",
+      },
+      {
+        body: "Film & Publication Board",
+        code: "16",
+        country: "ZAF",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+    ],
+    duration: 2700,
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "JEMGcyhqchc1BtIFcdh89w",
+  },
+  {
+    resourceID: "10817420",
+    programID: "EP019320050002",
+    titles: [
+      {
+        title120: "Apocalypse: WWI",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Russia and Germany clash in the Battle of Tannenberg; Germany loses the Battle of the Marne.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Russia and Germany clash in the Battle of Tannenberg in August 1914; France defeats the German army in the Battle of the Marne; colonial troops join the global conflict.",
+        },
+      ],
+    },
+    originalAirDate: "2014-08-04",
+    genres: ["Documentary", "War", "History", "Military"],
+    episodeTitle150: "Fear",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 2,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "12",
+        country: "BRA",
+      },
+      {
+        body: "Film & Publication Board",
+        code: "16",
+        country: "ZAF",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "G",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TVG",
+        country: "USA",
+      },
+      {
+        body: "Régie du cinéma",
+        code: "G",
+        country: "CAN",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+    ],
+    duration: 2700,
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "gtnU96k4e0rzXIZOSkRUHw",
+  },
+  {
+    resourceID: "10817420",
+    programID: "EP019320050003",
+    titles: [
+      {
+        title120: "Apocalypse: WWI",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "After 16 months of fighting, neither side has gained any ground until the tank is introduced.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "After 16 months of fighting, neither side has gained any ground until a new machine is introduced, the tank.",
+        },
+      ],
+    },
+    originalAirDate: "2014-08-03",
+    genres: ["Documentary", "War", "History", "Military"],
+    episodeTitle150: "Hell",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 3,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "12",
+        country: "BRA",
+      },
+      {
+        body: "Film & Publication Board",
+        code: "16",
+        country: "ZAF",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "G",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TVG",
+        country: "USA",
+      },
+      {
+        body: "Régie du cinéma",
+        code: "G",
+        country: "CAN",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+    ],
+    duration: 2700,
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "U3c77RRuM0yD6cmyTi+nPQ",
+  },
+  {
+    resourceID: "10817420",
+    programID: "EP019320050004",
+    titles: [
+      {
+        title120: "Apocalypse: WWI",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Tsar Nicholas II becomes the first emperor to fall in the conflict; the United States joins the war.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Tsar Nicholas II of Russia becomes the first emperor to fall in the conflict; the United States enters the war as mutinies break out on both sides.",
+        },
+      ],
+    },
+    originalAirDate: "2014-08-04",
+    genres: ["Documentary", "War", "History", "Military"],
+    episodeTitle150: "Rage",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 4,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "12",
+        country: "BRA",
+      },
+      {
+        body: "Film & Publication Board",
+        code: "16",
+        country: "ZAF",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+    ],
+    duration: 2700,
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "LZvuJFm9K4UXQrHLx26Aqw",
+  },
+  {
+    resourceID: "10817420",
+    programID: "EP019320050005",
+    titles: [
+      {
+        title120: "Apocalypse: WWI",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "American troops and their allies swing the conflict decisively away from Germany.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The end of the war draws near as the overwhelming number of American troops and their allies swing the conflict decisively away from Germany.",
+        },
+      ],
+    },
+    originalAirDate: "2014-08-11",
+    genres: ["Documentary", "War", "History", "Military"],
+    episodeTitle150: "Deliverance",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 5,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "12",
+        country: "BRA",
+      },
+      {
+        body: "Film & Publication Board",
+        code: "16",
+        country: "ZAF",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+    ],
+    duration: 2700,
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "KmMKqZPm/LkhWaCIHozA/A",
+  },
+  {
+    resourceID: "13795759",
+    programID: "EP026179100001",
+    titles: [
+      {
+        title120: "Nazi Death Squads",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The Third Reich invaded the USSR on June 22, 1941. The Einsatzgruppen followed their advance.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The armies of the Third Reich invaded the USSR on June 22, 1941. Mobile commandos, the Einsatzgruppen, were following their advance to Stalingrad with the mission of eliminating all Jews on the conquered territories.",
+        },
+      ],
+    },
+    originalAirDate: "2017-03-07",
+    genres: ["History"],
+    episodeTitle150: "Mass Graves",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 1,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+        contentAdvisory: ["Dialog", "Violence"],
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    crew: [
+      {
+        billingOrder: "01",
+        role: "Director",
+        nameId: "424638",
+        personId: "415763",
+        name: "Richard Rhodes",
+      },
+      {
+        billingOrder: "02",
+        role: "Writer",
+        nameId: "424638",
+        personId: "415763",
+        name: "Richard Rhodes",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "u0fIU9Rc/H7A0iGdZsOHCg",
+  },
+  {
+    resourceID: "13795759",
+    programID: "EP026179100003",
+    titles: [
+      {
+        title120: "Nazi Death Squads",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Facing advancing Soviet troops, Nazi Germany decides to burn the bodies of death camp victims.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Faced with the advancing Soviet troops, Nazi Germany decides to have the bodies of death camp victims dug up and burned in graves.",
+        },
+      ],
+    },
+    originalAirDate: "2017-03-21",
+    genres: ["History"],
+    episodeTitle150: "Funeral Pyres",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 3,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+        contentAdvisory: ["Dialog", "Violence"],
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    crew: [
+      {
+        billingOrder: "01",
+        role: "Director",
+        nameId: "424638",
+        personId: "415763",
+        name: "Richard Rhodes",
+      },
+      {
+        billingOrder: "02",
+        role: "Writer",
+        nameId: "424638",
+        personId: "415763",
+        name: "Richard Rhodes",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "YgQY1EvXkK83ptg1B4JqLA",
+  },
+  {
+    resourceID: "13795759",
+    programID: "EP026179100002",
+    titles: [
+      {
+        title120: "Nazi Death Squads",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Romania, Bulgaria, Hungary and the Baltic states are declared Judenfrei: free of Jews.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Carnage continues from September to December 1941; after the EZG's intervention, Romania, Bulgaria, Hungary, and the Baltic states are declared Judenfrei: free of Jews.",
+        },
+      ],
+    },
+    originalAirDate: "2017-03-14",
+    genres: ["History"],
+    episodeTitle150: "Judenfrei",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 2,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+        contentAdvisory: ["Dialog", "Violence"],
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    crew: [
+      {
+        billingOrder: "01",
+        role: "Director",
+        nameId: "424638",
+        personId: "415763",
+        name: "Richard Rhodes",
+      },
+      {
+        billingOrder: "02",
+        role: "Writer",
+        nameId: "424638",
+        personId: "415763",
+        name: "Richard Rhodes",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "GnRAiZl2IwjwHm5RpBwl1A",
+  },
+  {
+    resourceID: "13795759",
+    programID: "EP026179100004",
+    titles: [
+      {
+        title120: "Nazi Death Squads",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "After the Nuremberg trials, many of those responsible for the murder of 1.5 million Jews walk free.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "After being judged at the Nuremberg trials, the majority of those responsible for the murder of nearly 1.5 million Jews would walk free in the 1950s.",
+        },
+      ],
+    },
+    originalAirDate: "2017-03-28",
+    genres: ["History"],
+    episodeTitle150: "Time of Reckoning",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 4,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+        contentAdvisory: ["Dialog", "Violence"],
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    crew: [
+      {
+        billingOrder: "01",
+        role: "Director",
+        nameId: "424638",
+        personId: "415763",
+        name: "Richard Rhodes",
+      },
+      {
+        billingOrder: "02",
+        role: "Writer",
+        nameId: "424638",
+        personId: "415763",
+        name: "Richard Rhodes",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "gmsM2pdO+N3usv2Uw7JOxQ",
+  },
+  {
+    resourceID: "14625997",
+    programID: "EP027915070008",
+    titles: [
+      {
+        title120: "Hunting Nazi Treasure",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The team searches for $1.5 billion in gold stolen from the Bank of Italy, and missing art.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The team searches for $1.5 billion in gold stolen from the Bank of Italy, and missing art from the museums of Florence.",
+        },
+      ],
+    },
+    originalAirDate: "2017-12-12",
+    genres: ["History", "Art"],
+    episodeTitle150: "Stealing Italy",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 8,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "PG",
+        country: "AUS",
+      },
+    ],
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Actor",
+        nameId: "1176795",
+        personId: "1095668",
+        name: "Robert Edsel",
+      },
+      {
+        billingOrder: "02",
+        role: "Actor",
+        nameId: "686119",
+        personId: "659796",
+        name: "Conor Woodman",
+      },
+      {
+        billingOrder: "03",
+        role: "Actor",
+        nameId: "523122",
+        personId: "508354",
+        name: "James Holland",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "vHLOfnVoU7Nla3WErwJ2eQ",
+  },
+  {
+    resourceID: "14625997",
+    programID: "EP027915070005",
+    titles: [
+      {
+        title120: "Hunting Nazi Treasure",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "In 1943, the Nazis looted $50 million in gold from the Jewish community in Djerba, Tunisia.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "In 1943, the Nazis looted $50 million in gold from the Jewish community in Djerba, Tunisia; The team tracks the loot to a dive site off Corsica, a pawnshop in Germany to the family of an escaped Nazi in South America.",
+        },
+      ],
+    },
+    originalAirDate: "2017-11-21",
+    genres: ["History", "Art"],
+    episodeTitle150: "The Mystery of Rommel's Gold",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 5,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "PG",
+        country: "AUS",
+      },
+    ],
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Actor",
+        nameId: "1176795",
+        personId: "1095668",
+        name: "Robert Edsel",
+      },
+      {
+        billingOrder: "02",
+        role: "Actor",
+        nameId: "686119",
+        personId: "659796",
+        name: "Conor Woodman",
+      },
+      {
+        billingOrder: "03",
+        role: "Actor",
+        nameId: "523122",
+        personId: "508354",
+        name: "James Holland",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "4ifM1ckcfF+/sYNgsV0g4g",
+  },
+  {
+    resourceID: "10513888",
+    programID: "EP018690940020",
+    titles: [
+      {
+        title120: "Codes and Conspiracies",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The secrets and scandals surrounding the Vatican are some of the darkest in all of history.",
+        },
+      ],
+    },
+    originalAirDate: "2016-10-25",
+    genres: ["History"],
+    episodeTitle150: "The Vatican",
+    metadata: [
+      {
+        Gracenote: {
+          season: 3,
+          episode: 3,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "12",
+        country: "BRA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "PG",
+        country: "AUS",
+      },
+    ],
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "906208",
+        personId: "861766",
+        name: "Dan Nachtrab",
+      },
+    ],
+    crew: [
+      {
+        billingOrder: "01",
+        role: "Voice-Over",
+        nameId: "906208",
+        personId: "861766",
+        name: "Dan Nachtrab",
+      },
+      {
+        billingOrder: "02",
+        role: "Executive Producer",
+        nameId: "912319",
+        personId: "867520",
+        name: "Douglas Cohen",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "9t2r8fi3PtqNPquQFun63Q",
+  },
+  {
+    resourceID: "10513888",
+    programID: "EP018690940022",
+    titles: [
+      {
+        title120: "Codes and Conspiracies",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "History has been locked away for centuries in the hulls of ships and in the depths of a copper mine.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "A secret part of history has remained hidden, locked away for centuries in the hulls of ships in New York and in the depths of an abandoned copper mine.",
+        },
+      ],
+    },
+    originalAirDate: "2016-11-08",
+    genres: ["History"],
+    episodeTitle150: "Secret Prisons",
+    metadata: [
+      {
+        Gracenote: {
+          season: 3,
+          episode: 5,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "12",
+        country: "BRA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "PG",
+        country: "AUS",
+      },
+    ],
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "906208",
+        personId: "861766",
+        name: "Dan Nachtrab",
+      },
+    ],
+    crew: [
+      {
+        billingOrder: "01",
+        role: "Voice-Over",
+        nameId: "906208",
+        personId: "861766",
+        name: "Dan Nachtrab",
+      },
+      {
+        billingOrder: "02",
+        role: "Executive Producer",
+        nameId: "912319",
+        personId: "867520",
+        name: "Douglas Cohen",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "nbO8ORc2wL4PfC+LCmbEWA",
+  },
+  {
+    resourceID: "12891244",
+    programID: "EP024299560011",
+    titles: [
+      {
+        title120: "Chasing Conspiracies",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "They may be symbolic of Britishness, but the Royal Family were once half German.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Investigating whether the British Royal Family kept their allegiance to Germany, whether Edward VIII was a Nazi sympathizer, and if his brother tried to negotiate peace with Germany.",
+        },
+      ],
+    },
+    originalAirDate: "2016-09-21",
+    genres: ["Documentary"],
+    episodeTitle150: "The Nazi King",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 12,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "IicPr13qrstADgaLbS1P+g",
+  },
+  {
+    resourceID: "12891244",
+    programID: "EP024299560001",
+    titles: [
+      {
+        title120: "Chasing Conspiracies",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Exploring whether Hitler really committed suicide in his bunker in Berlin.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Exploring whether Hitler really committed suicide in his bunker in Berlin, what happened to gold hidden by the Nazis as they faced defeat, and if the EU is a form of German domination by other means.",
+        },
+      ],
+    },
+    originalAirDate: "2016-06-22",
+    genres: ["Documentary"],
+    episodeTitle150: "The Death of Hitler",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 1,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+        contentAdvisory: ["Violence"],
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "WDO3fC4FJinnXvgriwIs8g",
+  },
+  {
+    resourceID: "12891244",
+    programID: "EP024299560002",
+    titles: [
+      {
+        title120: "Chasing Conspiracies",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Nazi Germany's intelligence is invaluable to the West during the Cold War.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The head of Nazi Germany's intelligence operation against the Soviets, Reinhard Gehlen is invaluable to the West during the Cold War, but his intelligence may have fueled the arms race.",
+        },
+      ],
+    },
+    originalAirDate: "2016-06-29",
+    genres: ["Documentary"],
+    episodeTitle150: "The Cold War Files",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 2,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+    ],
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "159701",
+        personId: "159223",
+        name: "Mark Bazeley",
+      },
+    ],
+    crew: [
+      {
+        billingOrder: "01",
+        role: "Executive Producer",
+        nameId: "915702",
+        personId: "870699",
+        name: "Andra Heritage",
+      },
+      {
+        billingOrder: "02",
+        role: "Director",
+        nameId: "1013261",
+        personId: "951159",
+        name: "Kate Dooley",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "GG1QB/cAe/qZG6s4R/tSSw",
+  },
+  {
+    resourceID: "12891244",
+    programID: "EP024299560007",
+    titles: [
+      {
+        title120: "Chasing Conspiracies",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Exploring four conspiracy theories relating to the Catholic Church.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Four conspiracy theories relating to the Catholic Church, including whether or not Pope John Paul I was poisoned, or whether the church knew about Nazi war criminals fleeing to South America.",
+        },
+      ],
+    },
+    originalAirDate: "2016-08-03",
+    genres: ["Documentary"],
+    episodeTitle150: "Murder at The Vatican",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 7,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "QQOUwYECI/aN+JucVWKjAw",
+  },
+  {
+    resourceID: "9574687",
+    programID: "EP016427670001",
+    titles: [
+      {
+        title120: "Ultimate Warfare",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "U.S. forces face one of the toughest urban conflicts since Vietnam.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "U.S. forces face one of the toughest urban conflicts since Vietnam as they try to reclaim the city from insurgents.",
+        },
+      ],
+    },
+    originalAirDate: "2012-12-16",
+    genres: ["Military", "History"],
+    episodeTitle150: "Fallujah: The Taking of Terror Central",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 3,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "SxG2ZiaKJ0XEzCaRKr5Z4A",
+  },
+  {
+    resourceID: "9574687",
+    programID: "EP016427670003",
+    titles: [
+      {
+        title120: "Ultimate Warfare",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "U.S. special forces face off against a much larger Taliban insurgence to take control of Kandahar.",
+        },
+      ],
+    },
+    originalAirDate: "2012-02-05",
+    genres: ["Military", "History"],
+    episodeTitle150: "Kandahar: Against All Odds",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 1,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "oWo0g1n046epmr3xN18SUg",
+  },
+  {
+    resourceID: "9574687",
+    programID: "EP016427670006",
+    titles: [
+      {
+        title120: "Ultimate Warfare",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Surrounded and outnumbered, six thousand marines fend off the Communist army during the Vietnam War.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Surrounded and outnumbered, six thousand marines fend off the Communist army for 77 days during the Vietnam War.",
+        },
+      ],
+    },
+    originalAirDate: "2013-02-19",
+    genres: ["Military", "History"],
+    episodeTitle150: "Khe Sanh: Marines Under Siege",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 6,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "o5WMpSPhEscSj/y8GnhdOg",
+  },
+  {
+    resourceID: "10513883",
+    programID: "EP018690910004",
+    titles: [
+      {
+        title120: "Against the Odds",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "American forces launch an across-the-beach infantry attack on the Japanese-held atoll of Tarawa.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "American forces launch an across-the-beach infantry attack on the heavily fortified, Japanese-held atoll of Tarawa.",
+        },
+      ],
+    },
+    originalAirDate: "2014-03-17",
+    genres: ["Documentary", "Military", "History"],
+    episodeTitle150: "The Heroes of Tarawa",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 3,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "12",
+        country: "BRA",
+      },
+    ],
+    duration: 2700,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "54817",
+        personId: "54817",
+        name: "Rob Lowe",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "S9LXY6WSYq1agLvsrrn15g",
+  },
+  {
+    resourceID: "10513883",
+    programID: "EP018690910006",
+    titles: [
+      {
+        title120: "Against the Odds",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "A hastily assembled, undermanned Marine rifle company battles the odds during the Korean War.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            'A hastily assembled, undermanned Marine rifle company known as "Bloody George" battles the odds during the Korean War.',
+        },
+      ],
+    },
+    originalAirDate: "2014-03-31",
+    genres: ["Documentary", "Military", "History"],
+    episodeTitle150: "Bloody George at the Chosin Reservoir",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 5,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "12",
+        country: "BRA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+    ],
+    duration: 2700,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "54817",
+        personId: "54817",
+        name: "Rob Lowe",
+      },
+    ],
+    crew: [
+      {
+        billingOrder: "01",
+        role: "Executive Producer",
+        nameId: "800461",
+        personId: "764616",
+        name: "Tracey Connor",
+      },
+      {
+        billingOrder: "02",
+        role: "Executive Producer",
+        nameId: "800463",
+        personId: "764618",
+        name: "Sammy Jackson",
+      },
+      {
+        billingOrder: "03",
+        role: "Executive Producer",
+        nameId: "800462",
+        personId: "764617",
+        name: "Max Culhane",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "ANuv0JWy3GuwZqFPAlYu5Q",
+  },
+  {
+    resourceID: "14625997",
+    programID: "EP027915070001",
+    titles: [
+      {
+        title120: "Hunting Nazi Treasure",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Hitler oversaw the theft of thousands of pieces of art; the recovery of piece.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Investigating how Hitler oversaw the theft of thousands of pieces of art across Europe in his quest to collect the world's greatest art collection; the recovery of piece that hung on Hitler's dining room wall.",
+        },
+      ],
+    },
+    originalAirDate: "2017-10-24",
+    genres: ["History", "Art"],
+    episodeTitle150: "Hitler's Obsession",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 1,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "PG",
+        country: "AUS",
+      },
+    ],
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Actor",
+        nameId: "1176795",
+        personId: "1095668",
+        name: "Robert Edsel",
+      },
+      {
+        billingOrder: "02",
+        role: "Actor",
+        nameId: "686119",
+        personId: "659796",
+        name: "Conor Woodman",
+      },
+      {
+        billingOrder: "03",
+        role: "Actor",
+        nameId: "523122",
+        personId: "508354",
+        name: "James Holland",
+      },
+    ],
+    crew: [
+      {
+        billingOrder: "01",
+        role: "Producer",
+        nameId: "1271931",
+        personId: "1184731",
+        name: "Steve Gamester",
+      },
+      {
+        billingOrder: "02",
+        role: "Executive Producer",
+        nameId: "765019",
+        personId: "732487",
+        name: "Nick Godwin",
+      },
+      {
+        billingOrder: "03",
+        role: "Executive Producer",
+        nameId: "537332",
+        personId: "519673",
+        name: "Michael Kot",
+      },
+      {
+        billingOrder: "04",
+        role: "Director",
+        nameId: "626881",
+        personId: "603828",
+        name: "Wayne Derrick",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "msBS8m2+mYdIU0zQKTA3mQ",
+  },
+  {
+    resourceID: "14625997",
+    programID: "EP027915070002",
+    titles: [
+      {
+        title120: "Hunting Nazi Treasure",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The team searches for sunken gold and pieces stolen from Holland.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Hermann Goering, the second most powerful man in Nazi Germany, steals billions worth of art and treasure; the team travels to Germany, Holland, the United States, Spain, and Switzerland to recover his stolen treasures.",
+        },
+      ],
+    },
+    originalAirDate: "2017-10-31",
+    genres: ["History", "Art"],
+    episodeTitle150: "Goering's Greed",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 2,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "PG",
+        country: "AUS",
+      },
+    ],
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Actor",
+        nameId: "1176795",
+        personId: "1095668",
+        name: "Robert Edsel",
+      },
+      {
+        billingOrder: "02",
+        role: "Actor",
+        nameId: "686119",
+        personId: "659796",
+        name: "Conor Woodman",
+      },
+      {
+        billingOrder: "03",
+        role: "Actor",
+        nameId: "523122",
+        personId: "508354",
+        name: "James Holland",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "2X6XATNyLk/z/1poAuuUIA",
+  },
+  {
+    resourceID: "13276129",
+    programID: "EP025100420006",
+    titles: [
+      {
+        title120: "Cold War Armageddon",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "In the late 70s, countless proxy wars have proven how destructive the so-called Cold War can be.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "By the end of the 70s, war between East and West has been raging for decades. Countless proxy wars have proven how destructive this so-called Cold War can be. It's an arms race, a propaganda battle and at times a deadly game.",
+        },
+      ],
+    },
+    originalAirDate: "2016-11-16",
+    genres: ["History", "War"],
+    episodeTitle150: "Cold War II",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 6,
+        },
+      },
+      {
+        TheTVDB: {
+          seriesID: 321171,
+          episodeID: 0,
+          season: 0,
+          episode: 0,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "MA 15+",
+        country: "AUS",
+      },
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "14",
+        country: "BRA",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "jJw4CY0igHasdCBc5fzxSw",
+  },
+  {
+    resourceID: "13276129",
+    programID: "EP025100420005",
+    titles: [
+      {
+        title120: "Cold War Armageddon",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Russia's determination to win the nuclear arms race strengthens in the 1970s.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Joseph Stalin is long gone by the 1970s, but Russia's determination to win the nuclear arms race strengthens; advances in nuclear technology pours fuel on the fire in the international arms race.",
+        },
+      ],
+    },
+    originalAirDate: "2016-11-09",
+    genres: ["History", "War"],
+    episodeTitle150: "Peace and War",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 5,
+        },
+      },
+      {
+        TheTVDB: {
+          seriesID: 321171,
+          episodeID: 0,
+          season: 0,
+          episode: 0,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "MA 15+",
+        country: "AUS",
+      },
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "14",
+        country: "BRA",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "S7I8pKK+wlTQI0YUSpSFAw",
+  },
+  {
+    resourceID: "13276129",
+    programID: "EP025100420007",
+    titles: [
+      {
+        title120: "Cold War Armageddon",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "In the early 1980s, during the struggle between communism and democracy, the Cold War emerges.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "In the early 1980s the next battlefield in the struggle between communism and democracy, emerges in the United States' own backyard. The Cold War is an arms race, a propaganda battle and at times a deadly game.",
+        },
+      ],
+    },
+    originalAirDate: "2016-11-23",
+    genres: ["History", "War"],
+    episodeTitle150: "Warmonger",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 7,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+        contentAdvisory: ["Violence"],
+      },
+      {
+        body: "Australian Classification Board",
+        code: "MA 15+",
+        country: "AUS",
+      },
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "14",
+        country: "BRA",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "k1HwU8e40KPuILBCiZRyJA",
+  },
+  {
+    resourceID: "10513883",
+    programID: "EP018690910005",
+    titles: [
+      {
+        title120: "Against the Odds",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "U.S. Marines struggle to capture a hill on the island of Okinawa during World War II.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "U.S. Marines struggle to capture an elevated Japanese strongpoint on the island of Okinawa during World War II.",
+        },
+      ],
+    },
+    originalAirDate: "2014-03-24",
+    genres: ["Documentary", "Military", "History"],
+    episodeTitle150: "The Battle for Sugar Loaf Hill",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 4,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "12",
+        country: "BRA",
+      },
+    ],
+    duration: 2700,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "54817",
+        personId: "54817",
+        name: "Rob Lowe",
+      },
+    ],
+    crew: [
+      {
+        billingOrder: "01",
+        role: "Executive Producer",
+        nameId: "800461",
+        personId: "764616",
+        name: "Tracey Connor",
+      },
+      {
+        billingOrder: "02",
+        role: "Executive Producer",
+        nameId: "800463",
+        personId: "764618",
+        name: "Sammy Jackson",
+      },
+      {
+        billingOrder: "03",
+        role: "Executive Producer",
+        nameId: "800462",
+        personId: "764617",
+        name: "Max Culhane",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "J33vaeoY3PvHbAWbcvAjGQ",
+  },
+  {
+    resourceID: "10891770",
+    programID: "EP019643630001",
+    titles: [
+      {
+        title120: "WWII's Greatest Raids",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "U.S. Army Rangers take part in the Invasion of Normandy, the largest amphibious assault in history.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "U.S. Army Rangers play a crucial role in the Invasion of Normandy, the largest amphibious assault in history.",
+        },
+      ],
+    },
+    originalAirDate: "2014-08-03",
+    genres: ["Documentary", "History", "War", "Military"],
+    episodeTitle150: "Rangers Lead the Way",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 1,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Freiwillige Selbstkontrolle der Filmwirtschaft",
+        code: "16",
+        country: "DEU",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+    ],
+    duration: 2700,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Host",
+        nameId: "1101889",
+        personId: "1026457",
+        name: "Joseph Ballderama",
+        characterName: "Himself",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "HMwnhDABWxHotI6EUSjAZg",
+  },
+  {
+    resourceID: "14487471",
+    programID: "EP027658130001",
+    titles: [
+      {
+        title120: "World War II: Witness to War",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description: "First-hand accounts of the German capture of France.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "First-hand accounts of the incredible sacrifices endured by the Allies and the consequences of the German capture of France.",
+        },
+      ],
+    },
+    originalAirDate: "2017-10-03",
+    genres: ["Documentary", "History"],
+    episodeTitle150: "Fall of France",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 1,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+        contentAdvisory: ["Violence"],
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "PG",
+        country: "AUS",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "4cdzd7ZvXGlT21lpxQUu7Q",
+  },
+  {
+    resourceID: "8340030",
+    programID: "EP013378650011",
+    titles: [
+      {
+        title120: "World War II in Color",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "By the spring of 1943, the Pacific war had reached a turning point.",
+        },
+      ],
+    },
+    originalAirDate: "2011-01-21",
+    genres: ["Documentary", "Military", "War"],
+    episodeTitle150: "The Island War",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 11,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+    ],
+    duration: 3120,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "80657",
+        personId: "80657",
+        name: "Robert Powell",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "2lMvi4qZe8oQrGI5N0142g",
+  },
+  {
+    resourceID: "10513883",
+    programID: "EP018690910012",
+    titles: [
+      {
+        title120: "Against the Odds",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The First Marine Division battles Japanese at Peleliu for 74 days, costing 10,000 American lives.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The First Marine Division battles the Japanese at Peleliu for 74 days and loses 10,000 American lives, but the small band of heroes ultimately breaks the back of the enemy.",
+        },
+      ],
+    },
+    originalAirDate: "2016-02-20",
+    genres: ["Documentary", "Military", "History"],
+    episodeTitle150: "The Death Ridges of Peleliu",
+    metadata: [
+      {
+        Gracenote: {
+          season: 2,
+          episode: 2,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+        contentAdvisory: ["Violence"],
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "12",
+        country: "BRA",
+      },
+    ],
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "1828",
+        personId: "1828",
+        name: "Blair Underwood",
+      },
+    ],
+    crew: [
+      {
+        billingOrder: "01",
+        role: "Executive Producer",
+        nameId: "800461",
+        personId: "764616",
+        name: "Tracey Connor",
+      },
+      {
+        billingOrder: "02",
+        role: "Executive Producer",
+        nameId: "800463",
+        personId: "764618",
+        name: "Sammy Jackson",
+      },
+      {
+        billingOrder: "03",
+        role: "Executive Producer",
+        nameId: "800462",
+        personId: "764617",
+        name: "Max Culhane",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "rJ628fgcwFK7AUT+5tCQrw",
+  },
+  {
+    resourceID: "14487471",
+    programID: "EP027658130004",
+    titles: [
+      {
+        title120: "World War II: Witness to War",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The stories of the attack that provoked the world's greatest superpower to join the Allied forces.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The event that changed the war's course, the stories of those who were there, and the momentum behind the attack that provoked the world's greatest superpower to join the Allied forces.",
+        },
+      ],
+    },
+    originalAirDate: "2017-10-24",
+    genres: ["Documentary", "History"],
+    episodeTitle150: "Pearl Harbor",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 4,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "T4Iy50qxBXyUp4qZwQyEnw",
+  },
+  {
+    resourceID: "8340030",
+    programID: "EP013378650006",
+    titles: [
+      {
+        title120: "World War II in Color",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Benito Mussolini dreams of recreating the Roman Empire.",
+        },
+      ],
+    },
+    originalAirDate: "2010-12-17",
+    genres: ["Documentary", "Military", "War"],
+    episodeTitle150: "Mediterranean and North Africa",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 6,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+      {
+        body: "Freiwillige Selbstkontrolle der Filmwirtschaft",
+        code: "12",
+        country: "DEU",
+      },
+    ],
+    duration: 3120,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "80657",
+        personId: "80657",
+        name: "Robert Powell",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "Y+5kvhy63Hh2UGkMWCySrg",
+  },
+  {
+    resourceID: "8340030",
+    programID: "EP013378650003",
+    titles: [
+      {
+        title120: "World War II in Color",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Facing a new type of warfare, Poland was conquered in just four weeks by Hitler's army.",
+        },
+      ],
+    },
+    originalAirDate: "2010-11-19",
+    genres: ["Documentary", "Military", "War"],
+    episodeTitle150: "Lightning War",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 2,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+      {
+        body: "Australian Classification Board",
+        code: "M 15+",
+        country: "AUS",
+      },
+    ],
+    duration: 3120,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "80657",
+        personId: "80657",
+        name: "Robert Powell",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "p5g2nbILOTwft77SbUVjuQ",
+  },
+  {
+    resourceID: "14446160",
+    programID: "EP027568070006",
+    titles: [
+      {
+        title120: "Wartime Crime",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Mafiosi offer their support to American intelligence officers during World War II.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            'Incensed by their treatment under Mussolini\'s regime and anxious to re-establish their European criminal network, Mafiosi including incarcerated kingpin Charles "Lucky" Luciano offered their full support to American intelligence officers.',
+        },
+      ],
+    },
+    originalAirDate: "2017-11-22",
+    genres: ["Documentary", "History", "Military"],
+    episodeTitle150: "The Sicilian Connection",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 6,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+      {
+        body: "Freiwillige Selbstkontrolle der Filmwirtschaft",
+        code: "0",
+        country: "DEU",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "2tnbeQFLGjKfrRDdRv5N4Q",
+  },
+  {
+    resourceID: "14446160",
+    programID: "EP027568070005",
+    titles: [
+      {
+        title120: "Wartime Crime",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Blackouts allowed two serial killers who used the absolute darkness to prey upon victims.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "In Nazi Germany and Britain, the blackouts were a necessity for defending lives and property from enemy bombing but proved a useful tool for predatory criminals, allowing two serial killers who used the absolute darkness to prey upon victims.",
+        },
+      ],
+    },
+    originalAirDate: "2017-11-15",
+    genres: ["Documentary", "History", "Military"],
+    episodeTitle150: "The Blackout Killers",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 5,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+      {
+        body: "Freiwillige Selbstkontrolle der Filmwirtschaft",
+        code: "12",
+        country: "DEU",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "WoY4ygsB6/cCo6VII4mpaQ",
+  },
+  {
+    resourceID: "10029140",
+    programID: "EP017533120061",
+    titles: [
+      {
+        title120: "America: Facts vs. Fiction",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Amusement parks and world's fairs; the myths of Christmas and New Year's Eve.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The spotlight is on amusement parks and world's fairs to separate fiction from truth; explore the myths of two of our favorite holidays, Christmas and New Year's Eve.",
+        },
+      ],
+    },
+    originalAirDate: "2017-02-18",
+    genres: ["History"],
+    episodeTitle150: "Bonus Round: America Celebrates",
+    contentRating: [
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "12",
+        country: "BRA",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+    ],
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Host",
+        nameId: "259468",
+        personId: "255907",
+        name: "Jamie Kaler",
+      },
+    ],
+    crew: [
+      {
+        billingOrder: "01",
+        role: "Executive Producer",
+        nameId: "187131",
+        personId: "185530",
+        name: "Matt Hickey",
+      },
+      {
+        billingOrder: "02",
+        role: "Executive Producer",
+        nameId: "758482",
+        personId: "726859",
+        name: "Luke Ellis",
+      },
+      {
+        billingOrder: "03",
+        role: "Executive Producer",
+        nameId: "758483",
+        personId: "726860",
+        name: "Liz Massie",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "qvh8TzM7aTmziy7rRaXvTw",
+  },
+  {
+    resourceID: "10029140",
+    programID: "EP017533120066",
+    titles: [
+      {
+        title120: "America: Facts vs. Fiction",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The truth behind some of America's most powerful men and the birth of the country they governed.",
+        },
+      ],
+    },
+    originalAirDate: "2017-02-20",
+    genres: ["History"],
+    episodeTitle150: "Bonus Round: Patriots and Presidents",
+    contentRating: [
+      {
+        body: "Departamento de Justiça, Classificação, Títulos e Qualificação",
+        code: "12",
+        country: "BRA",
+      },
+      {
+        body: "USA Parental Rating",
+        code: "TVPG",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "PG",
+        country: "CAN",
+      },
+    ],
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Host",
+        nameId: "259468",
+        personId: "255907",
+        name: "Jamie Kaler",
+      },
+    ],
+    crew: [
+      {
+        billingOrder: "01",
+        role: "Executive Producer",
+        nameId: "187131",
+        personId: "185530",
+        name: "Matt Hickey",
+      },
+      {
+        billingOrder: "02",
+        role: "Executive Producer",
+        nameId: "758482",
+        personId: "726859",
+        name: "Luke Ellis",
+      },
+      {
+        billingOrder: "03",
+        role: "Executive Producer",
+        nameId: "758483",
+        personId: "726860",
+        name: "Liz Massie",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    hasEpisodeArtwork: true,
+    md5: "9//FOv7bOh3omheX+DfNqg",
+  },
+  {
+    resourceID: "312932",
+    programID: "EP008843020002",
+    titles: [
+      {
+        title120: "Weaponology",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description: "The history of armor protection.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "The history of armor protection, from the suits worn by medieval knights to the latest high-tech apparel.",
+        },
+      ],
+    },
+    originalAirDate: "2007-01-22",
+    genres: ["History", "War"],
+    episodeTitle150: "Body Armor",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 2,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    duration: 2700,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "653703",
+        personId: "631234",
+        name: "John Schwab",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "X1c2NyWZicUhbv3nM4ZEzw",
+  },
+  {
+    resourceID: "312932",
+    programID: "EP008843020007",
+    titles: [
+      {
+        title120: "Weaponology",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Tracing the history of bombers, from early aircraft to the bunker-busters of today.",
+        },
+      ],
+    },
+    originalAirDate: "2007-02-19",
+    genres: ["History", "War"],
+    episodeTitle150: "Bomber",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 6,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    duration: 2700,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "653703",
+        personId: "631234",
+        name: "John Schwab",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "mbKkRJ0LGAsW086o9etfCQ",
+  },
+  {
+    resourceID: "312932",
+    programID: "EP008843020001",
+    titles: [
+      {
+        title120: "Weaponology",
+      },
+    ],
+    descriptions: {
+      description100: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "A look at how centuries of technological innovation have resulted in the creation of rifles.",
+        },
+      ],
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Technological innovation has resulted in the production of rifles that can kill from a distance of 2,000 yards.",
+        },
+      ],
+    },
+    originalAirDate: "2007-01-15",
+    genres: ["History", "War"],
+    episodeTitle150: "Sniper Rifles",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 1,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    duration: 2700,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "653703",
+        personId: "631234",
+        name: "John Schwab",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "fL11meMrXvWT78bg7HyG8g",
+  },
+  {
+    resourceID: "312932",
+    programID: "EP008843020011",
+    titles: [
+      {
+        title120: "Weaponology",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Portable firepower helps small infantry units pack a powerful punch.",
+        },
+      ],
+    },
+    originalAirDate: "2007-03-19",
+    genres: ["History", "War"],
+    episodeTitle150: "Frags, Pineapples and RPGs",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 10,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    duration: 2700,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "653703",
+        personId: "631234",
+        name: "John Schwab",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "TbE1oEfc4ryxbD3IlflTXw",
+  },
+  {
+    resourceID: "312932",
+    programID: "EP008843020008",
+    titles: [
+      {
+        title120: "Weaponology",
+      },
+    ],
+    descriptions: {
+      description1000: [
+        {
+          descriptionLanguage: "en",
+          description:
+            "Tracing the improvements in engine power, maneuverability and weapons systems in fighter aircraft.",
+        },
+      ],
+    },
+    originalAirDate: "2007-02-26",
+    genres: ["History", "War"],
+    episodeTitle150: "Fighter",
+    metadata: [
+      {
+        Gracenote: {
+          season: 1,
+          episode: 7,
+        },
+      },
+    ],
+    contentRating: [
+      {
+        body: "USA Parental Rating",
+        code: "TV14",
+        country: "USA",
+      },
+      {
+        body: "Canadian Parental Rating",
+        code: "14+",
+        country: "CAN",
+      },
+    ],
+    duration: 2700,
+    cast: [
+      {
+        billingOrder: "01",
+        role: "Narrator",
+        nameId: "653703",
+        personId: "631234",
+        name: "John Schwab",
+      },
+    ],
+    entityType: "Episode",
+    showType: "Series",
+    hasImageArtwork: true,
+    hasSeriesArtwork: true,
+    md5: "l6woYGkhFxQuenwpqkNuFw",
   },
 ];
 
