@@ -254,3 +254,5 @@ let chanArr = [
 chanArr.forEach(function (e) {
   e.getSchedule();
 });
+
+//push
