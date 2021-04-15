@@ -1,4 +1,4 @@
-import getTok from "./tok.js";
+import token from "./tok.js";
 
 export default class Schedule {
   constructor(channel, stationID) {
@@ -50,7 +50,7 @@ export default class Schedule {
         body: JSON.stringify(stationData),
         headers: {
           "Content-Type": "application/json",
-          token: await currToken,
+          token: token,
         },
         redirect: "follow",
       };
@@ -97,7 +97,7 @@ export default class Schedule {
         body: JSON.stringify(data),
         headers: {
           "Content-Type": "application/json",
-          token: await currToken,
+          token: token,
         },
         redirect: "follow",
       };
@@ -237,17 +237,20 @@ let chanArr = [
 ];
 
 // Get token, test, fetch schedules
-let currToken = getTok
-  .then((result) => {
-    currToken = result;
-    if (currToken !== undefined) {
-      chanArr.forEach(function (e) {
-        e.getSchedule();
-      });
-    } else {
-      alert(`Unable to retrieve schedules. Please try again later.`);
-    }
-  })
-  .catch((err) => {
-    console.log(err);
-  });
+// let currToken = getTok
+//   .then((result) => {
+//     currToken = result;
+//     if (currToken !== undefined) {
+//       chanArr.forEach(function (e) {
+//         e.getSchedule();
+//       });
+//     } else {
+//       alert(`Unable to retrieve schedules. Please try again later.`);
+//     }
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
+chanArr.forEach(function (e) {
+  e.getSchedule();
+});
