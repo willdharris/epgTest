@@ -1,4 +1,4 @@
-import token from "./tok.js";
+// import token from "./tok.js";
 
 export default class Schedule {
   constructor(channel, stationID) {
@@ -43,7 +43,7 @@ export default class Schedule {
           date: [today, tomorrow, todayPlusTwo, todayPlusThree],
         },
       ];
-
+      const token = "c92be3d95ee4e87a29349ea6e77d5515";
       //options to include with API fetch
       const scheduleOptions = {
         method: "POST",
