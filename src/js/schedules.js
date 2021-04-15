@@ -1,4 +1,4 @@
-export const schedulesSD = [
+const schedulesSD = [
   {
     stationID: "56905",
     programs: [
@@ -1388,3 +1388,5 @@ export const schedulesSD = [
     },
   },
 ];
+
+export default schedulesSD;
