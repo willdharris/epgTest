@@ -39,12 +39,12 @@ export default class Schedule {
       todayPlusThree = todayPlusThree.substring(0, 10);
 
       //Station Data and Date to send to API
-      const stationData = [
-        {
-          stationID: `${this.stationID}`,
-          date: [today, tomorrow, todayPlusTwo, todayPlusThree],
-        },
-      ];
+      // const stationData = [
+      //   {
+      //     stationID: `${this.stationID}`,
+      //     date: [today, tomorrow, todayPlusTwo, todayPlusThree],
+      //   },
+      // ];
 
       //options to include with API fetch
       // const scheduleOptions = {
@@ -65,11 +65,11 @@ export default class Schedule {
       const stationSchedule = schedulesSD.filter((obj) => {
         return obj.stationID === `${this.stationID}`;
       });
-      console.log(stationSchedule);
-      const todayArr = await stationSchedule[0].programs;
-      const tmwArr = await stationSchedule[1].programs;
-      const plusTwoArr = await stationSchedule[2].programs;
-      const plusThreeArr = await stationSchedule[3].programs;
+      console.log(`stationSchedule`, stationSchedule);
+      const todayArr = stationSchedule[0].programs;
+      const tmwArr = stationSchedule[1].programs;
+      const plusTwoArr = stationSchedule[2].programs;
+      const plusThreeArr = stationSchedule[3].programs;
 
       //Combine each day to one array
       const fullArr = todayArr.concat(tmwArr, plusTwoArr, plusThreeArr);
@@ -93,28 +93,28 @@ export default class Schedule {
 
       /*** GET TITLES ***/
       // Get program IDs and pass to new fetch to get Title info (Series, Ep, Season, Ep Num)
-      let todayIDs = await todaySchedule.map(function (id) {
-        return id["id"];
-      });
-      let data = todayIDs;
-      const options = {
-        method: "POST",
-        body: JSON.stringify(data),
-        headers: {
-          "Content-Type": "application/json",
-          token: token,
-        },
-        redirect: "follow",
-      };
-      const res = await fetch(
-        "https://cors-proxy.htmldriven.com/?url=https://json.schedulesdirect.org/20141201/programs",
-        options
-      );
+      // let todayIDs = await todaySchedule.map(function (id) {
+      //   return id["id"];
+      // });
+      // let data = todayIDs;
+      // const options = {
+      //   method: "POST",
+      //   body: JSON.stringify(data),
+      //   headers: {
+      //     "Content-Type": "application/json",
+      //     token: token,
+      //   },
+      //   redirect: "follow",
+      // };
+      // const res = await fetch(
+      //   "https://cors-proxy.htmldriven.com/?url=https://json.schedulesdirect.org/20141201/programs",
+      //   options
+      // );
 
-      const jsonData = await res.json();
+      // const jsonData = await res.json();
 
       //Map Title to digestable array
-      const todayTitles = jsonData.map(function (elem) {
+      const todayTitles = programsSD.map(function (elem) {
         return {
           id: elem.programID,
           series: elem.titles[0].title120,
@@ -133,7 +133,7 @@ export default class Schedule {
               : `Ep N/A`,
         };
       });
-
+      console.log(`todayTitles`, todayTitles);
       /*** MATCH IDS ***/
 
       // Combine Schedules (ID, Times) with Corresponding Titles based on same ID
