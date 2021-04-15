@@ -65,7 +65,7 @@ export default class Schedule {
       const stationSchedule = schedulesSD.filter((obj) => {
         return obj.stationID === `${this.stationID}`;
       });
-      console.log(`stationSchedule`, stationSchedule);
+      // console.log(`stationSchedule`, stationSchedule);
       const todayArr = stationSchedule[0].programs;
       const tmwArr = stationSchedule[1].programs;
       const plusTwoArr = stationSchedule[2].programs;
@@ -133,7 +133,7 @@ export default class Schedule {
               : `Ep N/A`,
         };
       });
-      console.log(`todayTitles`, todayTitles);
+      // console.log(`todayTitles`, todayTitles);
       /*** MATCH IDS ***/
 
       // Combine Schedules (ID, Times) with Corresponding Titles based on same ID
@@ -193,13 +193,9 @@ export default class Schedule {
           topPos + 18)
       );
     } catch (error) {
-      let alerted = localStorage.getItem("alerted") || "";
-      if (alerted != "yes") {
-        alert(
-          `We're having trouble retrieving schedules. If schedules fail to load, please try again later.`
-        );
-        localStorage.setItem("alerted", "yes");
-      }
+      alert(
+        `We're having trouble retrieving schedules. If schedules fail to load, please try again later.`
+      );
     }
   }
 }
