@@ -1,4 +1,6 @@
 // import token from "./tok.js";
+import programsSD from "./programs.js";
+import schedulesSD from "./schedules.js";
 
 export default class Schedule {
   constructor(channel, stationID) {
@@ -43,24 +45,27 @@ export default class Schedule {
           date: [today, tomorrow, todayPlusTwo, todayPlusThree],
         },
       ];
-      const token = "c92be3d95ee4e87a29349ea6e77d5515";
+
       //options to include with API fetch
-      const scheduleOptions = {
-        method: "POST",
-        body: JSON.stringify(stationData),
-        headers: {
-          "Content-Type": "application/json",
-          token: token,
-        },
-        redirect: "follow",
-      };
+      // const scheduleOptions = {
+      //   method: "POST",
+      //   body: JSON.stringify(stationData),
+      //   headers: {
+      //     "Content-Type": "application/json",
+      //     token: token,
+      //   },
+      //   redirect: "follow",
+      // };
 
       //Schedule fetch
-      const resSched = await fetch(
-        "https://cors-proxy.htmldriven.com/?url=https://json.schedulesdirect.org/20141201/schedules",
-        scheduleOptions
-      );
-      const stationSchedule = await resSched.json();
+      // const resSched = await fetch(
+      //   "https://cors-proxy.htmldriven.com/?url=https://json.schedulesdirect.org/20141201/schedules",
+      //   scheduleOptions
+      // );
+      const stationSchedule = schedulesSD.filter((obj) => {
+        return obj.stationID === `${this.stationID}`;
+      });
+      console.log(stationSchedule);
       const todayArr = await stationSchedule[0].programs;
       const tmwArr = await stationSchedule[1].programs;
       const plusTwoArr = await stationSchedule[2].programs;
