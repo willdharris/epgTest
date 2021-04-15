@@ -183,15 +183,15 @@ export default class Schedule {
         popSched.insertAdjacentHTML("beforeend", detailMarkup);
       }
       // Make grids align to 7:00PM of current day (8:00PM visually)
-      const primetime = document.getElementById(
-        `${this.channel}--${checkDate}--07:00 PM`
-      );
-      const topPos = primetime.offsetTop;
+      // const primetime = document.getElementById(
+      //   `${this.channel}--${checkDate}--07:00 PM`
+      // );
+      // const topPos = primetime.offsetTop;
 
-      todaySchedule.forEach(
-        (document.getElementById(`${this.channel}--epg`).scrollTop =
-          topPos + 18)
-      );
+      // todaySchedule.forEach(
+      //   (document.getElementById(`${this.channel}--epg`).scrollTop =
+      //     topPos + 18)
+      // );
     } catch (error) {
       console.log(error);
     }
