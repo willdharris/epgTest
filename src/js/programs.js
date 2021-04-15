@@ -1,4 +1,4 @@
-export const programsSD = [
+const programsSD = [
   {
     resourceID: "11493292",
     programID: "EP021242550189",
@@ -7617,3 +7617,5 @@ export const programsSD = [
     md5: "rUeGpu42ps9ick3Ba1dyqQ",
   },
 ];
+
+export default programsSD;
